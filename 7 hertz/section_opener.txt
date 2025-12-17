@@ -1,0 +1,29 @@
+SECTION: THE LOST SCIENCE OF NEURAL RESONANCE
+
+Imagine holding a tuning fork next to a wine glass and watching it vibrate in perfect sympathy. Now imagine that your brain—with its 86 billion neurons firing in rhythmic waves—could be tuned just as precisely. You have probably never heard that for decades, scientists believed they could synchronize your brainwaves to external rhythms, shift your consciousness between states, and unlock specific mental abilities simply by playing certain sound frequencies through headphones.
+
+This wasn't fringe pseudoscience. It was called brainwave entrainment, and in the 1970s through the early 2000s, it was pursued by neuroscientists at major universities, funded by government research grants, and tested in clinical trials. The idea was seductively simple: if brain states correlate with specific frequency bands—theta waves (4-8 Hz) for memory and meditation, alpha for relaxation, beta for focus—then perhaps we could drive the brain into those states by presenting it with matching rhythmic stimuli.
+
+The most elegant version of this technology was the binaural beat: present a 200 Hz tone to one ear and 207 Hz to the other, and the brain would supposedly "hear" the 7 Hz difference, entraining its neural oscillations to match. It was brain hacking without drugs, without surgery, without any invasive technology at all. Just pure physics meeting neuroscience.
+
+What makes this lost science so fascinating—and so tragic—is that we still don't know if it actually works.
+
+By the early 2000s, the field had accumulated a body of contradictory research. Some studies showed clear evidence of entrainment: brain activity synchronized to the stimulus, power increased in the target frequency band. Others showed nothing—or worse, showed effects that contradicted the theory. The methodologies were inconsistent. The measurements were all over the place. The theoretical mechanisms remained murky.
+
+And then, quietly, mainstream neuroscience moved on. The research funding dried up. The scientists shifted to more tractable problems. The few remaining studies became increasingly marginalized, relegated to alternative medicine journals and criticized for poor methodology. The commercial market exploded with apps and audio programs making wild claims about brainwave entrainment, which only made serious scientists more reluctant to touch the field.
+
+Today, we're left with a peculiar form of lost knowledge: a technique that was never fully proven but also never fully disproven. Thousands of pages of research that contradict each other. A theoretical mechanism that makes intuitive sense but lacks empirical validation. And millions of people who swear by binaural beats while scientists remain deeply skeptical.
+
+The lost science of neural resonance is particularly important because it represents a different kind of erasure. This knowledge wasn't burned in a library fire or suppressed by an emperor. It was lost to methodological chaos, to the messiness of human biology, to the difficulty of measuring consciousness itself. It was lost because we couldn't agree on what "entrainment" even means, let alone how to measure it reliably.
+
+Theta frequency (7 Hz specifically) sits at the heart of this mystery. It's the rhythm of the hippocampus during memory formation, the signature of meditative states, the bridge between waking and sleeping. If we could reliably entrain theta oscillations, the implications would be profound: enhanced learning, deeper meditation, better memory consolidation, even therapeutic applications for ADHD, anxiety, and sleep disorders.
+
+But we can't. Or rather, we don't know if we can. The knowledge of how to reliably manipulate brain oscillations—if it ever existed—has been lost in a fog of contradictory data, abandoned research programs, and unresolved debates about what neural entrainment actually is.
+
+What follows is an attempt to reconstruct what was known, what was claimed, and what remains genuinely uncertain. These entries document both the promise and the failure of brainwave entrainment research. They include the technical specifications that would allow you to replicate the experiments, the mathematical frameworks that were supposed to explain the effects, and the critical analysis of why the field collapsed into confusion.
+
+This is lost knowledge of a peculiar kind: knowledge that was never fully found in the first place.
+
+How to use this section:
+The entries are organized alphabetically and cover the key concepts, mechanisms, and controversies of brainwave entrainment research. Each entry provides both the historical context (what was believed, who discovered it, when it was lost) and the technical depth needed to understand—or attempt to reconstruct—the claimed effects. Entries marked with * draw from restricted sources, primarily research archives and datasets that are no longer publicly accessible or were never fully published. Read these entries as both a map of what was discovered and a cautionary tale about knowledge that slipped away before we could fully grasp it.
+
