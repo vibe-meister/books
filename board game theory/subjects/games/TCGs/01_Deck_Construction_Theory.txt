@@ -1,0 +1,68 @@
+TCGs: DECK CONSTRUCTION THEORY
+
+DESCRIPTION:
+Trading Card Games (TCGs) like Magic: The Gathering, Pokémon, and Yu-Gi-Oh! require players to construct decks before playing. Deck construction theory involves understanding card evaluation, synergy identification, curve optimization, consistency engineering, and meta-game analysis. The theory encompasses mathematical principles (probability, hypergeometric distribution), strategic principles (win conditions, tempo, card advantage), and design principles (archetype construction, sideboard theory). Mastery of deck construction separates competitive players from casual players and determines tournament success.
+
+CAUSE:
+To create optimal decks that maximize win probability. Random deck construction performs poorly because it lacks focus, consistency, and synergy. Understanding deck construction theory enables players to build decks that execute strategies reliably, respond to the meta-game, and adapt to different opponents. The theory provides frameworks for evaluating cards, identifying synergies, and optimizing deck composition. It transforms deck building from art to science while maintaining creative elements.
+
+EFFECT:
+Enables creation of competitive decks. Maximizes consistency and reliability of strategy execution. Allows adaptation to meta-game and opponent strategies. Provides frameworks for card evaluation and synergy identification. Creates understanding of probability and resource management in deck context. Enables sideboard construction and meta-game play. Separates skilled players from unskilled players. Can lead to net-decking (copying successful decks) which some players dislike.
+
+PRACTICE NOTES:
+Study successful deck lists and understand why they work. Practice evaluating cards in context of deck strategy. Learn to identify synergies and build around them. Study probability calculations for card draw and consistency. Practice building decks for different strategies and meta-games. Notice how small changes affect deck performance. Study sideboard theory and meta-game adaptation.
+
+KEY THEORETICAL CONCEPTS:
+
+Card Evaluation:
+- Mana Cost vs. Effect: More expensive cards should have proportionally better effects
+- Card Advantage: Cards that generate more cards than they cost
+- Tempo: Cards that affect board state immediately vs. long-term value
+- Versatility: Cards that serve multiple functions
+- Meta-Game Position: Cards strong against current popular strategies
+
+Synergy Identification:
+- Combo Pieces: Cards that work together for powerful effects
+- Tribal Synergies: Cards that benefit from shared characteristics
+- Engine Components: Cards that enable other cards or strategies
+- Win Condition Support: Cards that enable or protect win conditions
+- Resource Synergies: Cards that generate or utilize resources together
+
+Curve Optimization:
+- Mana Curve: Distribution of cards by mana cost
+- Early Game: Low-cost cards for early board presence
+- Mid Game: Medium-cost cards for board control
+- Late Game: High-cost cards for game-ending effects
+- Optimal curves vary by strategy and format
+
+Consistency Engineering:
+- Card Draw: Increasing probability of drawing key cards
+- Tutors: Searching for specific cards
+- Redundancy: Multiple cards serving similar functions
+- Filtering: Discarding unwanted cards to improve draws
+- Deck Thinning: Reducing deck size to improve consistency
+
+HISTORY AND THEORETICAL DEVELOPMENT:
+Magic: The Gathering (1993, designed by Richard Garfield) created the TCG genre and established deck construction as a core skill. Early players discovered that certain card combinations were more powerful than others, leading to the development of deck construction theory.
+
+The "Type I" (now Vintage) and "Type II" (now Standard) formats were created to balance competitive play, leading to meta-game analysis. Players began sharing successful deck lists, creating the concept of "net-decking" and established archetypes.
+
+Key theoretical developments:
+- Card Advantage Theory (mid-1990s): Understanding that generating more cards than opponents wins games
+- Tempo Theory (late 1990s): Understanding the value of immediate board impact
+- Mana Curve Theory (early 2000s): Mathematical optimization of resource usage
+- Meta-Game Theory (ongoing): Understanding how deck choices interact in competitive environments
+- Sideboard Theory (ongoing): Optimizing 15-card sideboards for match-up adaptation
+
+Modern TCG theory incorporates:
+- Hypergeometric distribution for probability calculations
+- Game theory for optimal play
+- Statistical analysis of tournament results
+- Machine learning for deck optimization (in some games)
+
+RELATED:
+Foundation of TCG play. Connected to probability, game theory, and strategic analysis. Works with card evaluation, meta-game analysis, and competitive play. Part of understanding constructed formats and deck optimization.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

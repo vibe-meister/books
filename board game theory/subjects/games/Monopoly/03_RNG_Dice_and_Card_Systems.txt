@@ -1,0 +1,119 @@
+MONOPOLY: RNG DICE AND CARD SYSTEMS
+
+DESCRIPTION:
+Monopoly uses two RNG systems: dice for movement and Chance/Community Chest cards for random events. The dice system (2d6) creates movement randomness that affects landing probabilities and game flow. The card system creates random events that can dramatically affect game state (advance to Go, pay money, receive money, move to specific spaces, etc.). These RNG systems interact to create a game where luck significantly influences outcomes while still allowing for strategic play. Understanding how these systems work and their probabilities enables players to make informed decisions and manage risk.
+
+CAUSE:
+To create excitement, unpredictability, and dramatic moments. Pure strategy would make Monopoly solvable and less exciting. The RNG systems ensure that each game plays differently and that comebacks are always possible. The dice create movement uncertainty that affects property values and strategic planning. The cards create dramatic events that can change game state instantly. The combination creates a game that balances strategy and luck.
+
+EFFECT:
+Creates unpredictability and replayability. Enables dramatic comebacks and upsets. Makes property values probabilistic rather than deterministic. Creates excitement through random events. Can frustrate players who prefer pure strategy. The RNG systems ensure that skill alone cannot guarantee victory. Luck can determine outcomes despite strategic play. The systems create both exciting and frustrating moments.
+
+PRACTICE NOTES:
+Study dice probability distributions. Notice how random events affect game state. Observe how players adapt to lucky or unlucky outcomes. Practice calculating probabilities for different scenarios. Study how RNG creates both opportunities and threats. Notice when luck favors or works against you. Observe how skilled players manage RNG through strategic decisions.
+
+DICE RNG SYSTEM:
+
+Pure Randomness:
+- 2d6 creates bell curve distribution
+- No mitigation or manipulation possible
+- Each roll is independent
+- Creates movement uncertainty
+
+Variance Effects:
+- High variance in individual rolls
+- Lower variance over many turns (law of large numbers)
+- Early game: High variance affects property acquisition
+- Late game: Variance affects final outcomes
+
+Strategic Implications:
+- Cannot plan exact moves
+- Must plan probabilistically
+- Property values based on landing probabilities
+- Strategic decisions must account for variance
+
+CARD RNG SYSTEM:
+
+Chance Cards (16 cards):
+- Advance to Go: Collect $200
+- Advance to Illinois Avenue
+- Advance to St. Charles Place
+- Advance to nearest Utility
+- Advance to nearest Railroad
+- Bank pays you dividend: $50
+- Go Back 3 Spaces
+- Go to Jail
+- Make general repairs: Pay for houses/hotels
+- Pay poor tax: $15
+- Take a trip to Reading Railroad
+- Take a walk on the Boardwalk: Advance to Boardwalk
+- You have been elected Chairman: Pay each player $50
+- Your building loan matures: Collect $150
+- Advance to Go: Collect $200 (duplicate)
+- You have won a crossword competition: Collect $100
+
+Community Chest Cards (16 cards):
+- Advance to Go: Collect $200
+- Bank error in your favor: Collect $200
+- Doctor's fee: Pay $50
+- From sale of stock: Collect $50
+- Get Out of Jail Free
+- Go to Jail
+- Grand Opera Night: Collect $50 from each player
+- Holiday Fund matures: Collect $100
+- Income tax refund: Collect $20
+- It is your birthday: Collect $10 from each player
+- Life insurance matures: Collect $100
+- Pay hospital fees: $100
+- Pay school tax: $150
+- Receive for services: $25
+- Street repairs: Pay for houses/hotels
+- You have won second prize: Collect $10
+- You inherit $100
+
+Card Probability:
+- Drawing specific card: 1/16 = 6.25% per draw
+- Landing on Chance/Community Chest: ~10% per circuit (varies by position)
+- Expected card draws per game: Varies by game length
+
+RNG INTERACTION:
+
+Dice + Cards:
+- Dice determine landing positions
+- Landing on card spaces triggers card draws
+- Cards can affect movement (advance to spaces)
+- Creates compound randomness
+
+Strategic Implications:
+- Cannot predict card draws
+- Must plan for possible card effects
+- Cards can create opportunities or threats
+- Strategic play manages risk from RNG
+
+Variance Management:
+- Property diversification reduces variance
+- Cash reserves buffer against negative events
+- Property development increases income stability
+- Strategic decisions can mitigate RNG effects
+
+HISTORY AND RNG DESIGN:
+Monopoly's RNG systems were designed for accessibility and excitement. The dice system is simple and familiar. The card system adds dramatic events.
+
+The RNG systems have remained largely unchanged since 1935:
+- Dice system: Always 2d6
+- Card system: Minor changes over editions
+- RNG creates both excitement and frustration
+- Modern analysis reveals RNG's impact on strategy
+
+Notable aspects:
+- RNG ensures no two games are identical
+- Luck can overcome skill differences
+- RNG creates dramatic moments
+- Strategic play can influence but not eliminate RNG effects
+
+RELATED:
+Core Monopoly mechanics. Connected to probability, risk management, and strategic adaptation. Works with property acquisition, cash management, and game strategy. Part of understanding RNG systems in board games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

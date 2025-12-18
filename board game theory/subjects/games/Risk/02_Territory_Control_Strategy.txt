@@ -1,0 +1,39 @@
+RISK: TERRITORY CONTROL STRATEGY
+
+DESCRIPTION:
+Territory control in Risk involves claiming and holding territories to generate armies, control continents for bonuses, and position for victory. The strategic value of territories depends on their defensive properties, continent connections, army generation potential, and vulnerability to attack. Understanding territory control requires analyzing continent bonuses, border management, chokepoints, and the relationship between offense and defense. Different territories have different strategic values based on their position, connections, and defensive properties.
+
+CAUSE:
+To understand how to efficiently control territory and generate resources. Territory control directly determines army generation, which determines combat capability. Controlling continents provides bonus armies that compound over time. Strategic territory placement creates defensive advantages and offensive opportunities. Understanding territory value helps prioritize which areas to claim and defend. Territory control strategy determines the balance between expansion and consolidation.
+
+EFFECT:
+Determines army generation rate and long-term resource advantage. Creates defensive positions and offensive opportunities. Influences which continents players can realistically control. Affects vulnerability to attacks and ability to counter-attack. Shapes the overall strategic landscape of the game. Determines player positioning and alliance dynamics. Influences when players become targets versus when they can operate safely.
+
+PRACTICE NOTES:
+Study continent bonus values relative to their defensive requirements. Notice how chokepoints create defensive advantages. Observe how territory connections affect vulnerability. Practice evaluating territory value in different game states. Study how continent control affects army generation over time. Notice how border management affects defensive efficiency. Observe how territory control interacts with player count.
+
+HOW TO EVALUATE TERRITORIES:
+- Continent Bonuses: Calculate bonus armies per turn vs. defensive cost
+- Chokepoints: Identify territories that control access to continents
+- Border Count: Fewer borders = easier to defend
+- Central vs. Peripheral: Central territories are more vulnerable but more flexible
+- Army Generation: More territories = more armies, but more borders to defend
+- Strategic Position: Territories that enable attacks on multiple continents
+- Defensive Value: Territories with natural barriers (few borders, chokepoints)
+
+CONTINENT ANALYSIS:
+- Australia (2 bonus): Easiest to hold, 1 chokepoint, good for beginners
+- South America (2 bonus): 2 chokepoints, vulnerable to North America
+- Africa (3 bonus): 4 borders, vulnerable from multiple directions
+- North America (5 bonus): Strong but requires holding 2 chokepoints
+- Europe (5 bonus): Very vulnerable, 4 borders, difficult to hold
+- Asia (7 bonus): Largest bonus but extremely difficult to hold, many borders
+
+The key insight: Higher bonuses require more defensive investment. The optimal strategy balances bonus value with defensive cost.
+
+RELATED:
+Core Risk strategy. Connected to area control, resource management, and defensive positioning. Works with combat probability, alliance dynamics, and timing. Part of understanding spatial strategy and territory games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

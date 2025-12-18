@@ -1,0 +1,95 @@
+RISK: MECHANIC COMBINATIONS
+
+DESCRIPTION:
+Risk combines multiple game mechanics to create its unique gameplay experience. The core combination is area control (territory ownership) + dice-based combat (RNG resolution) + resource generation (army production) + set collection (continent bonuses) + player elimination (conquering opponents). These mechanics interact to create strategic depth, player interaction, and dramatic moments. Understanding how these mechanics combine reveals why Risk has remained popular for over 60 years and how its design influences modern games.
+
+CAUSE:
+To create a complete strategic experience that balances multiple gameplay elements. No single mechanic could create Risk's experience alone. Area control provides the spatial strategy, dice combat provides excitement and uncertainty, resource generation provides long-term planning, continent bonuses provide strategic goals, and player elimination provides high stakes. The combination creates a game that is simultaneously strategic and exciting, calculable and unpredictable.
+
+EFFECT:
+Creates a unique gameplay experience that balances strategy and luck. The combination of mechanics creates multiple decision points and strategic considerations. Area control and resource generation create long-term strategy, while dice combat creates short-term excitement. Continent bonuses create strategic goals and player interaction. Player elimination creates high stakes and dramatic moments. The combination appeals to both strategic and casual players, though it can frustrate players who prefer pure strategy.
+
+PRACTICE NOTES:
+Study how each mechanic supports the others. Notice how area control enables resource generation. Observe how dice combat creates interaction around territory control. Study how continent bonuses create strategic goals. Notice how player elimination affects game dynamics. Observe how the mechanics create both strategic depth and exciting moments.
+
+CORE MECHANIC COMBINATIONS:
+
+Area Control + Dice Combat:
+- Territory ownership determines combat opportunities
+- Combat success determines territory control
+- Creates a feedback loop: control → armies → combat → control
+- The combination makes every territory valuable and contested
+- Dice combat prevents area control from being purely mathematical
+
+Resource Generation + Area Control:
+- Territories generate armies (1 per 3 territories)
+- More territories = more armies = more combat power
+- Creates snowball effect: early advantage compounds
+- Continent bonuses accelerate resource generation
+- The combination rewards expansion and consolidation
+
+Dice Combat + Resource Generation:
+- Armies enable combat, combat consumes armies
+- Risk/reward: spend armies to gain territories (and more armies)
+- Expected value calculations determine optimal aggression
+- The combination creates strategic decisions about when to attack
+- Resource management determines combat capability
+
+Set Collection (Continents) + Area Control:
+- Continents provide bonus armies
+- Controlling continents requires holding multiple territories
+- Creates strategic goals beyond simple expansion
+- The combination creates interesting trade-offs: hold continent vs. flexibility
+- Continent bonuses are the primary strategic objectives
+
+Player Elimination + All Mechanics:
+- Eliminating players removes competition and gains their territories
+- Creates high stakes and dramatic moments
+- The combination makes the game zero-sum and competitive
+- Player elimination creates alliance dynamics and kingmaking
+- The combination can create long games if players are evenly matched
+
+SYNERGISTIC INTERACTIONS:
+- Early territory control → more armies → more combat power → more control
+- Continent bonuses → more armies → easier defense → easier to hold continent
+- Defensive positioning → fewer losses → more armies → stronger position
+- Strategic attacks → eliminate opponents → gain territories → more armies
+
+CONFLICTING INTERACTIONS:
+- Expansion vs. Consolidation: More territories = more armies but more borders to defend
+- Aggression vs. Defense: Attacking gains territory but loses armies, defending holds territory but doesn't gain
+- Continent Control vs. Flexibility: Holding continent provides bonuses but limits strategic options
+- Early Game vs. Late Game: Early expansion is risky but necessary, late game requires consolidation
+
+OPTIMAL COMBINATIONS FOR DIFFERENT STRATEGIES:
+
+Aggressive Strategy:
+- Focus: Area control + dice combat
+- Approach: Expand early, attack frequently, eliminate opponents
+- Mechanics: Prioritize combat, accept variance, use numerical advantages
+- Risk: High variance can backfire, vulnerable to counter-attacks
+
+Defensive Strategy:
+- Focus: Resource generation + area control
+- Approach: Consolidate position, hold continents, build armies
+- Mechanics: Prioritize defense, minimize combat, maximize resource generation
+- Risk: Can fall behind in expansion, vulnerable to coordinated attacks
+
+Continent Strategy:
+- Focus: Set collection + area control + resource generation
+- Approach: Claim and hold a continent, use bonus armies to expand
+- Mechanics: Prioritize continent completion, defend chokepoints, use bonuses
+- Risk: Continent holding can be predictable, vulnerable to focused attacks
+
+Balanced Strategy:
+- Focus: All mechanics in balance
+- Approach: Expand when safe, defend when necessary, claim continents opportunistically
+- Mechanics: Adapt to game state, balance offense and defense
+- Risk: May lack focus, can be outmaneuvered by specialized strategies
+
+RELATED:
+Synthesizes all Risk mechanics. Connected to area control games, dice combat systems, and strategic game design. Works with understanding how mechanics interact to create gameplay experiences. Part of comprehensive game analysis.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

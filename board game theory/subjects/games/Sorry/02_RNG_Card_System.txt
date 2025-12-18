@@ -1,0 +1,90 @@
+SORRY: RNG CARD SYSTEM
+
+DESCRIPTION:
+Sorry uses a shuffled card deck to determine movement, creating an RNG system that's different from dice. The card system provides more control and predictability than pure dice randomness, while still maintaining significant luck. Key aspects include: card draw randomness, card distribution probabilities, special card effects (Sorry, 7 split, 11 swap), and strategic card usage. Understanding the RNG system enables players to make informed decisions about when to use cards, how to plan moves, and when to take risks.
+
+CAUSE:
+To create movement randomness with more strategic control than dice. The card system provides players with cards they can use strategically, rather than pure random dice rolls. The shuffled deck ensures randomness while the card distribution and special effects create strategic decisions. The system balances luck and strategy, making the game more engaging than pure luck games while remaining accessible.
+
+EFFECT:
+Creates card-based RNG system with strategic elements. Provides more control than pure dice. Still maintains significant luck component. Enables strategic card usage decisions. Card system creates interesting gameplay interactions. Understanding RNG helps optimize decisions. The system balances luck and strategy effectively.
+
+PRACTICE NOTES:
+Study card probabilities and distributions. Notice how card draws affect options. Observe how special cards create strategic opportunities. Practice evaluating when to use cards. Study how card system interacts with game rules. Notice how RNG creates both opportunities and constraints.
+
+CARD RNG SYSTEM:
+
+Shuffled Deck:
+- Cards drawn from shuffled deck
+- Random card order creates movement uncertainty
+- But card distribution is known (probabilities calculable)
+- Creates balance between randomness and predictability
+
+Card Draw Randomness:
+- Cannot predict which card will be drawn
+- But can calculate probabilities of different cards
+- Strategic planning based on probabilities
+- RNG creates both opportunities and constraints
+
+Special Card Effects:
+- Sorry card: Can enter from start or send opponent home
+- 7 card: Can split movement between pieces
+- 11 card: Can swap with opponent piece
+- Special cards create strategic decisions
+- RNG determines when special cards are available
+
+STRATEGIC CARD USAGE:
+
+When to Use Cards:
+- Evaluate move options for each card
+- Consider probability of better cards coming
+- Plan card usage for optimal moves
+- Balance immediate needs vs. future possibilities
+
+Sorry Card Strategy:
+- Can enter from start (crucial for getting pieces in play)
+- Can send opponent home (tactical advantage)
+- Decision: Use for entry or for attack?
+- Strategic choice based on game state
+
+7 Card Strategy:
+- Can split movement between pieces
+- Enables multiple strategic options
+- Decision: How to split movement?
+- Creates interesting tactical choices
+
+11 Card Strategy:
+- Can swap with opponent piece
+- Tactical advantage when used well
+- Decision: When to use swap?
+- Can create significant positional advantage
+
+RNG INTERACTION WITH RULES:
+
+Card Draws + Movement Rules:
+- Cards determine movement options
+- Movement rules constrain card usage
+- The combination creates strategic decisions
+- RNG provides options, rules create constraints
+
+Card Draws + Special Effects:
+- Special cards create unique opportunities
+- RNG determines when special cards available
+- The combination creates tactical moments
+- Strategic players capitalize on special card opportunities
+
+HISTORY AND RNG DESIGN:
+Sorry's card system was designed to provide more strategic control than dice while maintaining luck. The system has proven effective for balancing accessibility and strategy.
+
+The card system creates:
+- More strategic depth than pure dice
+- Predictable probabilities for planning
+- Special card effects for tactical play
+- Balance between luck and strategy
+
+RELATED:
+Core Sorry mechanic. Connected to probability, strategic planning, and card-based games. Works with movement systems, tactical decisions, and game rules. Part of understanding RNG systems in board games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

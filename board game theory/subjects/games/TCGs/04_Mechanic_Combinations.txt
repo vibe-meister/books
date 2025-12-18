@@ -1,0 +1,139 @@
+TCGs: MECHANIC COMBINATIONS
+
+DESCRIPTION:
+TCGs combine multiple game mechanics to create complex, strategic gameplay. The core combination is shuffled deck RNG + resource management (mana/energy) + hand management + combat/conflict resolution + deck construction strategy. These mechanics interact to create games that reward both strategic planning and tactical execution. Understanding how these mechanics combine reveals why TCGs have remained popular for 30+ years and how different games emphasize different combinations. The interactions between mechanics create emergent gameplay that goes beyond any single mechanic.
+
+CAUSE:
+To create games with strategic depth, tactical decision-making, and exciting moments. No single mechanic could create the TCG experience. Shuffled decks provide randomness and replayability, resource management provides strategic planning, hand management provides tactical decisions, combat provides interaction, and deck construction provides pre-game strategy. The combination creates games that are simultaneously deep and accessible, strategic and exciting.
+
+EFFECT:
+Creates unique gameplay experiences that combine multiple skill types. The combination enables both strategic deck construction and tactical in-game play. Creates games with high replayability through random deck orders. Enables skill expression through optimal play with random resources. Creates dramatic moments through variance and comeback potential. The complexity can be overwhelming for new players. The combination of mechanics creates games that reward both casual and competitive play.
+
+PRACTICE NOTES:
+Study how each mechanic supports the others. Notice how resource management enables other mechanics. Observe how hand management creates tactical decisions. Study how combat creates player interaction. Notice how deck construction influences in-game play. Observe how mechanics create both strategic depth and exciting moments.
+
+CORE MECHANIC COMBINATIONS:
+
+Shuffled Deck RNG + Resource Management:
+- Random draws determine available options
+- Resources determine which options can be used
+- Creates tension: have card but no resources, or resources but wrong cards
+- The combination creates interesting decision points every turn
+- Resource management becomes more complex with random card access
+
+Resource Management + Hand Management:
+- Limited resources force choices about which cards to play
+- Hand size limits create decisions about when to play vs. hold cards
+- The combination creates opportunity cost decisions
+- Players must balance immediate needs vs. future options
+- Creates strategic depth through resource allocation
+
+Hand Management + Combat/Conflict:
+- Hand composition determines combat options
+- Combat outcomes affect hand management (card advantage)
+- The combination creates tactical combat decisions
+- Players must manage hand for both offense and defense
+- Creates interesting bluffing and reading opportunities
+
+Deck Construction + All In-Game Mechanics:
+- Deck composition determines available strategies
+- In-game mechanics determine which strategies are viable
+- The combination creates meta-game considerations
+- Players construct decks to maximize in-game mechanics
+- Creates strategic depth through pre-game planning
+
+SYNERGISTIC INTERACTIONS:
+
+Card Draw + Resource Generation:
+- Drawing cards provides options, resources enable using them
+- The combination creates engine-building opportunities
+- Enables strategies that generate both cards and resources
+- Creates powerful synergy that many decks build around
+
+Combat + Card Advantage:
+- Winning combat can generate card advantage
+- Card advantage enables better combat options
+- The combination creates snowball effects
+- Creates strategic importance of combat efficiency
+
+Hand Management + Deck Construction:
+- Deck construction determines hand composition probabilities
+- Hand management determines optimal deck construction
+- The combination creates consistency engineering
+- Enables players to optimize for reliable hands
+
+Resource Management + Deck Construction:
+- Deck construction determines resource needs
+- Resource management determines viable deck strategies
+- The combination creates curve optimization
+- Enables players to balance resources and threats
+
+CONFLICTING INTERACTIONS:
+
+Consistency vs. Power:
+- Consistency cards (draw, tutors) reduce deck power
+- Powerful cards reduce consistency
+- Players must balance reliability vs. maximum power
+- Creates interesting deck construction decisions
+
+Aggression vs. Defense:
+- Aggressive cards enable offense but reduce defense
+- Defensive cards enable survival but reduce offense
+- Players must balance threat and answer ratios
+- Creates strategic deck construction choices
+
+Early Game vs. Late Game:
+- Early game cards enable fast starts but weak late game
+- Late game cards enable powerful finishes but weak early game
+- Players must balance curve and game plan
+- Creates strategic timing considerations
+
+OPTIMAL COMBINATIONS FOR DIFFERENT STRATEGIES:
+
+Aggro Decks:
+- Core: Low-cost threats + efficient combat + fast resources
+- Mechanics: Prioritize early game, minimize late game, maximize tempo
+- Combination: Fast mana + cheap threats + combat efficiency
+- Goal: Win before opponents stabilize
+
+Control Decks:
+- Core: Card draw + answers + late game threats + resource generation
+- Mechanics: Prioritize card advantage, maximize answers, plan for late game
+- Combination: Draw engines + flexible answers + powerful finishers
+- Goal: Survive early game, dominate late game
+
+Combo Decks:
+- Core: Combo pieces + tutors + card draw + protection
+- Mechanics: Maximize consistency, find combo pieces, protect combo
+- Combination: Tutors + draw + combo enablers + disruption protection
+- Goal: Assemble and execute combo
+
+Midrange Decks:
+- Core: Flexible threats + flexible answers + efficient resources
+- Mechanics: Adapt to game state, balance offense and defense
+- Combination: Versatile cards + efficient curve + flexible game plan
+- Goal: Out-value opponents through flexibility
+
+FORMAT-SPECIFIC COMBINATIONS:
+
+Standard (Rotating):
+- Emphasizes: Current card pool, meta-game adaptation
+- Mechanics: Balance power level, adapt to bans/restrictions
+- Combination: Optimize for current meta, adapt to changes
+
+Modern (Non-Rotating):
+- Emphasizes: Large card pool, powerful interactions
+- Mechanics: Maximize power, optimize for speed
+- Combination: Powerful combos, efficient answers, fast mana
+
+Limited (Draft/Sealed):
+- Emphasizes: Card evaluation, flexibility, curve
+- Mechanics: Build with available cards, maximize value
+- Combination: Flexible curve + efficient cards + good mana
+
+RELATED:
+Synthesizes all TCG mechanics. Connected to deck construction, strategic analysis, and game design. Works with understanding how mechanics interact to create gameplay experiences. Part of comprehensive TCG theory.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

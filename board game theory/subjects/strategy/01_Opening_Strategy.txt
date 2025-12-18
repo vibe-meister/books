@@ -1,0 +1,31 @@
+OPENING STRATEGY
+
+DESCRIPTION:
+Opening strategy refers to the initial moves and plans players make at the beginning of a game. These early decisions set the foundation for the entire game and can significantly influence later outcomes. Opening strategy involves establishing initial positioning, claiming key resources or territories, setting up engine components, or committing to a particular path to victory. Different games require different opening approaches, from flexible exploratory moves to committed early specialization.
+
+CAUSE:
+To establish a strong position for the rest of the game. Early moves often have outsized impact because they occur when the board is most open and resources are most available. Opening strategy helps players avoid being locked out of key opportunities or falling behind early. Good openings set up future options and create momentum.
+
+EFFECT:
+Establishes foundation for mid and end game. Can create early advantages that compound over time. Sets up future options and flexibility. May commit player to a particular strategy path. Can influence opponent behavior and game dynamics. Early mistakes can be difficult to recover from. Good openings provide multiple paths to victory.
+
+PRACTICE NOTES:
+Study common opening patterns in games you play. Notice how opening choices affect later options. Practice identifying key opening moves that control important resources or positions. Observe how different opening strategies develop over the course of games. Learn when to commit early versus when to stay flexible. Notice how opening strategy varies with player count and opponent styles.
+
+HOW TO DEVELOP:
+- Study game-specific opening theory and common patterns
+- Identify key resources, positions, or opportunities available early
+- Practice multiple opening approaches to understand trade-offs
+- Learn to recognize when early commitment is required versus when flexibility is valuable
+- Observe how opening choices interact with opponent strategies
+- Balance aggressive early claims with maintaining options
+- Understand how player count affects opening strategy
+- Practice adapting openings based on what opponents do
+- Learn to recover from suboptimal openings
+
+RELATED:
+Foundation for mid-game and end-game strategy. Connected to resource management and positioning. Works with commitment and flexibility decisions. Part of understanding game flow and tempo. Related to adaptation and reading opponents.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

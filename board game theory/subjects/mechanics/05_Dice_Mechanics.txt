@@ -1,0 +1,87 @@
+DICE MECHANICS
+
+DESCRIPTION:
+Dice mechanics refer to the systems and rules governing how dice are used to introduce randomness, resolve actions, determine outcomes, and create strategic decisions in board games. This includes dice types, rolling methods, result interpretation, dice manipulation, and how dice interact with other game systems. Key dice mechanic types include: standard dice (fixed faces, random results), custom dice (game-specific faces), dice pools (multiple dice rolled together), dice drafting (selecting dice results), dice placement (placing dice as workers/resources), dice manipulation (rerolling, modifying results), dice mitigation (ways to reduce randomness), and dice as resources (dice representing actions or capabilities). Each creates different types of randomness and skill-testing environments.
+
+CAUSE:
+To introduce controlled randomness and create dramatic moments. Dice mechanics provide uncertainty that prevents games from being completely solvable while allowing players to calculate probabilities and make informed decisions. They create excitement through the physical act of rolling and the tension of awaiting results. Different dice systems serve different design goals: standard dice create pure randomness, custom dice create thematic outcomes, dice pools allow probability manipulation, dice drafting creates selection skills, dice placement combines randomness with resource management, and dice manipulation allows skill to influence luck.
+
+EFFECT:
+Introduces randomness and uncertainty. Creates dramatic moments and tension. Prevents games from being solvable. Allows for probability calculation and risk assessment. Different dice systems create different skill requirements: standard dice emphasize probability calculation, dice pools emphasize risk management, dice drafting emphasizes selection, dice placement emphasizes resource allocation. Physical dice rolling adds tactile and visual appeal. Can create frustration if randomness feels too high or outcomes too swingy. Affects game length and decision complexity. Influences how much players can plan ahead.
+
+PRACTICE NOTES:
+Study how different dice systems affect gameplay feel. Notice when dice randomness enhances versus detracts from the experience. Observe how players adapt to dice results. Practice calculating probabilities for different dice systems. Learn to evaluate risk in dice-based decisions. Practice using dice manipulation effectively. Notice how dice mitigation changes strategic depth. Study how dice interact with other mechanics.
+
+HOW TO WORK WITH:
+- Standard Dice: Calculate probabilities, manage risk, plan for variance, recognize when to take calculated risks
+- Custom Dice: Understand face distributions, calculate weighted probabilities, plan for different outcomes, adapt to results
+- Dice Pools: Calculate success probabilities, understand pool size effects, manage risk through pool manipulation, recognize optimal pool sizes
+- Dice Drafting: Evaluate dice values, read opponent needs, select optimal dice, adapt to available options
+- Dice Placement: Allocate dice as resources, balance dice values with actions, optimize dice usage, manage dice availability
+- Dice Manipulation: Use rerolls strategically, modify results when beneficial, recognize optimal manipulation timing, balance manipulation costs
+- Dice Mitigation: Reduce variance through mitigation, recognize when mitigation is worth the cost, plan for worst-case scenarios, use mitigation to enable risks
+- Probability Management: Understand expected values, calculate risk/reward ratios, plan for variance, recognize when variance is beneficial
+
+HISTORY, CREATORS, AND NOTABLE CHANGES:
+
+Dice have been used in games for over 5,000 years, with the oldest known dice found in archaeological sites in the Middle East dating to around 3000 BCE. However, modern board game dice mechanics have evolved far beyond simple random number generation.
+
+Traditional dice games used standard six-sided dice (d6) for pure randomness. Games like Backgammon (dating to ancient Mesopotamia, modern rules codified in the 17th century) established the paradigm of using dice to determine movement. This simple system became the foundation for countless games, but modern designers have developed sophisticated dice mechanics.
+
+The dice pool system, where players roll multiple dice and count successes or use the highest/lowest result, was popularized in role-playing games like Shadowrun (1989, designed by Bob Charrette, Paul Hume, and Tom Dowd) and later adapted to board games. The innovation was allowing players to influence outcomes through pool size manipulation - more dice meant better chances, but players had to decide when to commit dice pools. This system was refined in games like King of Tokyo (2011, designed by Richard Garfield), where players roll dice pools and choose which results to keep and reroll, creating a push-your-luck element.
+
+Custom dice with game-specific faces were developed to create thematic outcomes beyond simple numbers. The first major board game to use custom dice extensively was Risk (1957, designed by Albert Lamorisse and modified by Parker Brothers), which used dice for combat resolution. However, the modern custom dice revolution began with games like Roll for the Galaxy (2014, designed by Wei-Hwa Huang and Thomas Lehmann), where dice faces represent different actions players can take. This created a system where randomness determines available actions rather than just outcomes.
+
+Dice drafting was pioneered in games like Blueprints (2013, designed by Yves Tourigny), where players draft dice from a shared pool to build structures. This mechanic combines the randomness of dice with the skill of selection, creating interesting decisions about which dice to take and which to leave for opponents. The concept was expanded in games like Sagrada (2017, designed by Daryl Andrews and Adrian Adamescu), where players draft dice to fill a personal grid, creating both selection skill and spatial puzzle elements.
+
+Dice placement, where dice are used as workers or resources that players allocate, was revolutionary. The first major game to use this was The Castles of Burgundy (2011, designed by Stefan Feld), where players roll dice and use the results to take actions, with higher numbers typically allowing better actions. This created interesting tension between dice values and action desirability. The mechanic was refined in games like Alien Frontiers (2010, designed by Tory Niemann), where dice are placed on action spaces, with higher dice getting priority or better effects. This created competition for action spaces based on dice values.
+
+Dice manipulation mechanics, where players can reroll, modify, or otherwise influence dice results, became prominent as a way to reduce variance while maintaining randomness. Games like Stone Age (2008, designed by Michael Tummelhofer) introduced worker placement where dice results could be modified through tools, creating strategic investment in mitigation. This concept was expanded in games like Troyes (2010, designed by Sébastien Dujardin, Xavier Georges, and Alain Orban), where players can spend resources to manipulate dice, creating interesting risk/reward decisions.
+
+Notable evolutionary changes include: the shift from dice determining outcomes to dice determining options (action selection dice); the introduction of dice as persistent resources (dice that stay in play); the development of dice building (improving dice over time); the innovation of simultaneous dice rolling (all players roll at once for speed); the creation of dice sharing and trading mechanics; the development of dice elimination (removing dice from pools); and the introduction of asymmetric dice (different players having different dice).
+
+Modern innovations include: dice stacking (placing dice on top of each other for combined effects); dice upgrading (improving dice faces over time); dice conversion (changing dice into other resources); multi-use dice (dice serving multiple functions); dice as victory points (dice themselves are worth points); and hybrid systems combining multiple dice mechanics.
+
+COMBINATIONS AND GAME STYLE COMPATIBILITY:
+
+Standard Dice (d6, fixed faces) work best with: Simple games, games requiring pure randomness, games with probability calculation, and games where variance is acceptable. Pairs well with: Movement mechanics, combat resolution, and random events. Less suitable for: Games requiring thematic outcomes, games where standard dice feel too abstract, and games needing more player agency.
+
+Custom Dice (game-specific faces) excel with: Thematic games, games requiring specific outcomes, action selection games, and games where dice faces create interesting decisions. Combines excellently with: Worker placement concepts, action selection, and thematic integration. Challenges arise with: Games requiring simple probability calculation, games where custom faces become too complex, and games needing standard number results.
+
+Dice Pools shine in: Games requiring probability manipulation, push-your-luck games, games where pool size matters, and games needing success/failure resolution. Best combined with: Risk management, resource allocation, and probability calculation. Less effective with: Games requiring simple resolution, games where pools become too large, and games needing precise outcomes.
+
+Dice Drafting works well with: Games requiring selection skills, games with shared resources, games needing player interaction, and games combining randomness with choice. Pairs excellently with: Set collection, spatial puzzles, and reading opponents. Struggles with: Games requiring individual randomness, games where drafting dominates playtime, and games with too many players.
+
+Dice Placement excels in: Worker placement games, resource management games, games requiring action allocation, and games where dice values create interesting trade-offs. Best combined with: Action selection, resource management, and player interaction. Less suitable for: Games requiring pure randomness, games where placement feels too deterministic, and games needing simple dice resolution.
+
+Dice Manipulation (rerolling, modifying) works in: Games requiring reduced variance, games with risk management, games where manipulation is a strategic choice, and games needing skill to influence luck. Combines well with: Resource management, cost systems, and strategic planning. Challenges: Games requiring pure randomness, games where manipulation eliminates interesting decisions, and games with too many manipulation options.
+
+Dice Mitigation (ways to reduce randomness) excels in: Strategy games, games requiring planning, games where luck should be manageable, and games needing skill expression. Best combined with: Resource management, strategic planning, and risk assessment. Less suitable for: Push-your-luck games, games requiring high variance, and games where mitigation eliminates excitement.
+
+Optimal combinations for different game styles:
+- Euro Games: Dice placement + manipulation + mitigation (controlled randomness with strategy)
+- Ameritrash/Thematic: Custom dice + dice pools + dramatic moments (thematic randomness)
+- Push-Your-Luck: Dice pools + manipulation + risk/reward (deciding when to stop)
+- Worker Placement: Dice placement + values matter + action competition (dice as workers)
+- Engine Building: Dice building + upgrading + manipulation (improving dice over time)
+- Combat Games: Dice pools + custom faces + manipulation (thematic combat resolution)
+- Economic: Dice as resources + allocation + conversion (dice management)
+
+Dice randomness levels:
+- High randomness (few mitigation options): Creates excitement and drama, but can frustrate strategic players
+- Medium randomness (some mitigation): Balances luck and skill, standard for most games
+- Low randomness (extensive mitigation): Emphasizes skill, but may lack excitement
+- Variable randomness (randomness changes): Maximum strategic depth, but increased complexity
+
+Dice interaction patterns:
+- Competitive dice: Players roll against each other, direct competition
+- Parallel dice: Players roll separately, indirect competition through results
+- Shared dice: Players use same dice pool, competition for results
+- Cooperative dice: Players roll together, collaborative use of results
+
+RELATED:
+Fundamental randomness mechanic in many games. Connected to probability, risk management, and push-your-luck mechanics. Works with action selection, resource management, and combat resolution. Part of understanding luck vs. skill balance. Related to mitigation and manipulation systems.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

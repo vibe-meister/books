@@ -1,0 +1,26 @@
+
+quirks
+(interesting observations and patterns)
+
+
+
+players often overvalue what they have and undervalue what they don't
+
+the threat of an action can be more powerful than the action itself
+
+early game mistakes compound, late game mistakes are often recoverable
+
+players tend to optimize locally rather than globally
+
+the "obvious" play is often not the best play
+
+resource hoarding is usually suboptimal
+
+players underestimate the value of flexibility
+
+the player in last place has the most information about what's working
+
+every game has a "critical turn" where the outcome is decided
+
+players often play to not lose rather than to win
+

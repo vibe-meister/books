@@ -1,0 +1,80 @@
+SORRY: DICE PROBABILITY AND MOVEMENT
+
+DESCRIPTION:
+Sorry uses a deck of cards (numbered 1-12, with specific distributions) instead of dice to determine movement, creating a unique probability system. The card deck creates different probabilities than dice, with some numbers more common than others. Understanding card probabilities is crucial for evaluating move options, planning ahead, and making strategic decisions. The card system, combined with Sorry's unique movement rules (entering from start, sliding, bumping, safety zones), creates interesting strategic considerations despite the game's luck-based nature.
+
+CAUSE:
+To create movement with different probability characteristics than dice. The card system provides more control and predictability than pure dice randomness, while still maintaining luck. Understanding probabilities enables players to evaluate move options, plan sequences, and make informed decisions. The card probabilities interact with Sorry's unique rules to create strategic depth beyond simple luck. The system creates interesting decisions about when to use cards.
+
+EFFECT:
+Creates card-based probability system (different from dice). Enables some strategic planning based on probabilities. Card system provides more control than pure dice. Still maintains significant luck component. Understanding probabilities improves decision-making. The system creates interesting interactions with Sorry's unique rules.
+
+PRACTICE NOTES:
+Study card probability distributions. Notice how card probabilities differ from dice. Observe how card draws affect move options. Practice calculating probabilities for different scenarios. Study how cards interact with Sorry's rules. Notice how probability affects strategic decisions.
+
+SORRY CARD DECK:
+
+Card Distribution:
+- 1: 5 cards
+- 2: 4 cards
+- 3: 4 cards
+- 4: 4 cards
+- 5: 4 cards
+- 7: 4 cards
+- 8: 4 cards
+- 10: 4 cards
+- 11: 4 cards
+- 12: 4 cards
+- Sorry: 4 cards (special card)
+
+Total: 45 cards
+
+Probability Distribution:
+- 1: 11.1% (most common)
+- 2-5, 7-8, 10-12: 8.9% each
+- Sorry: 8.9%
+
+This creates different probabilities than dice, with 1 being most common.
+
+MOVEMENT PROBABILITIES:
+
+Entering from Start:
+- Need 1 or 2 to enter (or Sorry card)
+- Probability: ~20% per draw (1 card + 2 cards)
+- Can also use Sorry card to enter
+- Entering is crucial for getting pieces in play
+
+Movement Values:
+- Different cards enable different strategic moves
+- 7 can be split between pieces (strategic option)
+- 11 can swap with opponent (tactical option)
+- 12 moves forward 12 (long movement)
+- Understanding card values enables better decisions
+
+Safety Zone Probabilities:
+- Safety zones require exact movement to enter
+- Probability of exact numbers affects safety zone strategy
+- Some safety zones easier to reach than others
+- Understanding probabilities helps plan safety zone entries
+
+HISTORY AND CARD SYSTEM DESIGN:
+Sorry was created in 1929 by William Henry Storey. The card system was designed to provide more strategic control than pure dice while maintaining luck.
+
+The card system creates:
+- More predictable probabilities than dice
+- Strategic card usage decisions
+- Interesting interactions with game rules
+- Balance between luck and strategy
+
+The card system has remained largely unchanged:
+- Always 45-card deck
+- Same distribution
+- Same special card effects
+- Proven effective for game balance
+
+RELATED:
+Core Sorry mechanic. Connected to probability, movement systems, and card-based games. Works with strategic planning, tactical decisions, and game rules. Part of understanding probability systems in board games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

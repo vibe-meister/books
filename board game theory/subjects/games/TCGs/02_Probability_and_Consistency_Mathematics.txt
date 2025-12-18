@@ -1,0 +1,116 @@
+TCGs: PROBABILITY AND CONSISTENCY MATHEMATICS
+
+DESCRIPTION:
+TCGs are fundamentally probabilistic games where players draw cards from shuffled decks. Understanding probability mathematics is essential for deck construction, play decisions, and strategic planning. Key mathematical concepts include: hypergeometric distribution (probability of drawing specific cards), expected value (average outcomes), variance (outcome spread), and consistency calculations (probability of executing strategies). These calculations enable players to optimize deck construction for reliability, evaluate card choices, and make informed play decisions based on probability rather than hope.
+
+CAUSE:
+To make optimal decisions based on mathematical analysis rather than intuition or hope. Probability calculations reveal the true reliability of strategies, the value of consistency cards, and the optimal number of copies to include. Understanding mathematics enables players to build decks that execute strategies reliably, evaluate risky plays, and understand when variance favors or works against them. The mathematics separate optimal play from suboptimal play.
+
+EFFECT:
+Enables optimal deck construction and play decisions. Reveals true probability of strategy execution. Allows evaluation of consistency improvements. Helps identify when plays are mathematically sound versus gambles. Enables calculation of expected value for complex scenarios. Provides framework for understanding variance and its effects. Can make games feel more calculable and less exciting for some players. Separates mathematically-inclined players from intuitive players.
+
+PRACTICE NOTES:
+Memorize key probability formulas. Practice calculating draw probabilities for common scenarios. Study hypergeometric distribution and its applications. Learn to calculate expected value for card effects. Practice evaluating consistency improvements. Notice when mathematical analysis conflicts with intuitive play. Study how variance affects different strategies.
+
+HYPERGEOMETRIC DISTRIBUTION:
+The fundamental formula for drawing specific cards from a deck:
+
+P(X = k) = (C(K,k) × C(N-K,n-k)) / C(N,n)
+
+Where:
+- N = deck size
+- K = number of copies of target card
+- n = number of cards drawn
+- k = number of target cards drawn
+
+This formula calculates the probability of drawing exactly k copies of a card when drawing n cards from a deck containing K copies.
+
+KEY PROBABILITY CALCULATIONS:
+
+Probability of Drawing at Least One Copy:
+For a 60-card deck with 4 copies, probability of drawing at least 1 in opening 7:
+P = 1 - (56/60 × 55/59 × 54/58 × 53/57 × 52/56 × 51/55 × 50/54) ≈ 39.95%
+
+Probability of Drawing by Turn X:
+Using cumulative probability calculations, players can determine likelihood of having key cards by specific turns. This informs mulligan decisions and game planning.
+
+Expected Number of Copies Drawn:
+E[X] = n × (K/N)
+For 4 copies in 60-card deck, drawing 7 cards: E[X] = 7 × (4/60) = 0.467 copies on average
+
+CONSISTENCY CALCULATIONS:
+
+Mulligan Theory:
+Probability of keeping vs. mulliganing depends on:
+- Probability of drawing playable hand
+- Expected value of mulliganed hand
+- Cost of mulliganing (card disadvantage)
+
+Optimal Number of Copies:
+- 4 copies: Maximum consistency, ~40% chance in opening hand
+- 3 copies: Good consistency, ~32% chance in opening hand
+- 2 copies: Moderate consistency, ~22% chance in opening hand
+- 1 copy: Low consistency, ~12% chance in opening hand
+
+The optimal number balances consistency needs with deck space and flexibility.
+
+Tutor and Card Draw Value:
+Cards that search or draw increase consistency. The value depends on:
+- Probability improvement they provide
+- Cost (mana, card disadvantage)
+- Flexibility vs. redundancy
+
+EXPECTED VALUE CALCULATIONS:
+
+Card Advantage:
+Expected card advantage = Cards drawn - Cards spent
+Example: Draw 2, discard 1 = +1 card advantage on average
+
+Damage Calculations:
+Expected damage = Sum of (Damage × Probability)
+For variable damage effects, calculate weighted average.
+
+Resource Generation:
+Expected resources = Base resources + (Bonus × Probability)
+For conditional resource generation, calculate expected value.
+
+VARIANCE ANALYSIS:
+
+High Variance Strategies:
+- Combo decks requiring specific cards
+- Low-consistency win conditions
+- Strategies dependent on drawing key pieces
+
+Low Variance Strategies:
+- Aggro decks with many redundant threats
+- Midrange decks with flexible card choices
+- Control decks with many answers
+
+Understanding variance helps players:
+- Evaluate risk of strategies
+- Plan for worst-case scenarios
+- Recognize when variance favors them
+- Decide when to take calculated risks
+
+HISTORY AND MATHEMATICAL DEVELOPMENT:
+Early TCG players used intuition and experience rather than mathematics. As competitive play developed, players began calculating probabilities to optimize decks. The hypergeometric distribution became the standard tool for probability calculations.
+
+Key developments:
+- Early 2000s: Widespread use of hypergeometric calculators
+- Mid-2000s: Statistical analysis of tournament results
+- Late 2000s: Expected value calculations for complex effects
+- 2010s: Variance analysis and consistency optimization
+- 2020s: Machine learning applications for deck optimization
+
+Modern tools include:
+- Online hypergeometric calculators
+- Deck building apps with probability analysis
+- Statistical databases of tournament results
+- AI analysis of optimal play
+
+RELATED:
+Mathematical foundation of TCG play. Connected to deck construction, strategic analysis, and optimal play. Works with card evaluation, consistency engineering, and game theory. Part of understanding probability in games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

@@ -1,0 +1,84 @@
+MONOPOLY: DICE PROBABILITY AND MOVEMENT
+
+DESCRIPTION:
+Monopoly uses two six-sided dice (2d6) to determine movement, creating a probability distribution that affects landing probabilities on different spaces. Understanding dice probability is crucial for evaluating property values, planning moves, and making strategic decisions. The 2d6 distribution creates a bell curve with 7 as the most likely result (16.67% probability) and 2 and 12 as least likely (2.78% each). This probability distribution, combined with board layout and special spaces (Jail, Go to Jail, Chance, Community Chest), creates non-uniform landing probabilities that favor certain property groups.
+
+CAUSE:
+To understand how movement probability affects property values and strategic decisions. Different spaces have different landing probabilities based on dice distribution and board layout. Properties with higher landing probabilities are more valuable. Understanding probability enables players to evaluate properties accurately, plan moves strategically, and make informed decisions about property development. The mathematics reveal why certain property groups are superior to others.
+
+EFFECT:
+Reveals true landing probabilities for all spaces. Enables accurate property valuation. Helps plan moves and anticipate landing positions. Allows calculation of expected rent income. Shows why certain property groups are mathematically superior. Can make the game feel more calculable. The probability distribution creates strategic depth through non-uniform space values.
+
+PRACTICE NOTES:
+Memorize the 2d6 probability distribution. Study how board layout affects landing probabilities. Practice calculating expected landing positions. Notice how Jail affects probabilities. Study how Chance/Community Chest cards affect movement. Practice evaluating properties based on landing probability.
+
+2D6 PROBABILITY DISTRIBUTION:
+
+Roll Probability:
+- 2: 2.78% (1/36)
+- 3: 5.56% (2/36)
+- 4: 8.33% (3/36)
+- 5: 11.11% (4/36)
+- 6: 13.89% (5/36)
+- 7: 16.67% (6/36) - Most likely
+- 8: 13.89% (5/36)
+- 9: 11.11% (4/36)
+- 10: 8.33% (3/36)
+- 11: 5.56% (2/36)
+- 12: 2.78% (1/36)
+
+This creates a bell curve distribution centered on 7.
+
+LANDING PROBABILITY ANALYSIS:
+
+Starting from Go (Space 0):
+- Most likely landing: Spaces 6-8 (Jail area, Orange properties)
+- High probability: Spaces 5-9
+- Medium probability: Spaces 3-11
+- Low probability: Spaces 2, 12 (extreme rolls)
+
+Jail Effect:
+- Landing in Jail increases probability of landing on Orange properties (St. James, Tennessee, New York)
+- Exiting Jail often lands on Orange/Red properties
+- This makes Orange properties more valuable than their position suggests
+
+Board Layout Effects:
+- Properties 6-8 spaces from Jail have high landing probability
+- Properties requiring exact rolls (like Boardwalk) have low probability
+- Corner spaces (Go, Jail, Free Parking, Go to Jail) have special effects
+- Chance/Community Chest spaces can redirect movement
+
+EXPECTED MOVEMENT:
+
+Average Roll: 7 (theoretical average of 2d6)
+- Over many turns, average movement is 7 spaces
+- But individual turns vary significantly
+- Planning based on average is useful but imprecise
+
+Movement Planning:
+- Calculate probability of reaching target spaces
+- Consider multiple turn sequences
+- Account for special spaces (Jail, cards)
+- Plan property development based on likely landing positions
+
+HISTORY AND PROBABILITY ANALYSIS:
+Monopoly's dice system was designed for simplicity and accessibility. The 2d6 system creates movement that is easy to understand but has complex probability implications.
+
+Mathematical analysis of Monopoly probabilities began in the 1970s:
+- Early analysis calculated basic landing probabilities
+- Computer simulations in 1990s revealed detailed probabilities
+- Modern analysis uses Monte Carlo methods for accuracy
+- Probability analysis revealed optimal property groups
+
+Key discoveries:
+- Orange properties (6-8 spaces from Jail) have highest landing probability
+- Red properties also benefit from Jail proximity
+- Properties requiring exact rolls (like Boardwalk) are overvalued
+- Probability distribution creates strategic property value differences
+
+RELATED:
+Foundation for property valuation. Connected to probability theory, expected value, and strategic planning. Works with property acquisition, development decisions, and game strategy. Part of understanding dice mechanics and movement systems.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

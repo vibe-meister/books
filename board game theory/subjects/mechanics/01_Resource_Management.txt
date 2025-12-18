@@ -1,0 +1,31 @@
+RESOURCE MANAGEMENT
+
+DESCRIPTION:
+Resource management is a core game mechanic where players must acquire, allocate, and utilize limited resources (such as money, materials, actions, or time) to achieve their objectives. This mechanic creates meaningful choices as players must decide how to best use their finite resources across competing priorities. Resource management adds strategic depth by forcing players to balance immediate needs against long-term goals, and often creates tension between efficiency and flexibility.
+
+CAUSE:
+To create meaningful decision-making and strategic depth. Resource scarcity forces players to make trade-offs and prioritize their actions. This mechanic prevents players from doing everything they want, creating interesting constraints that drive gameplay. Limited resources make each decision consequential and prevent games from becoming trivial or solvable.
+
+EFFECT:
+Creates strategic depth through meaningful choices and trade-offs. Forces players to prioritize and plan ahead. Adds tension and urgency to decision-making. Prevents players from pursuing all strategies simultaneously. Makes each resource expenditure feel significant. Can create interesting dilemmas when resources are needed for multiple purposes. Encourages efficiency and optimization. Can lead to player frustration if resources feel too scarce or too abundant.
+
+PRACTICE NOTES:
+Pay attention to how resource scarcity affects decision-making. Notice when resource constraints create interesting choices versus when they feel arbitrary or frustrating. Observe how different resource types (renewable vs. non-renewable, shared vs. individual) create different dynamics. Practice identifying the optimal resource allocation in different game states. Notice how resource management interacts with other mechanics.
+
+HOW TO WORK WITH:
+- Identify all resource types in the game (money, actions, cards, time, etc.)
+- Track resource generation and consumption rates
+- Plan resource allocation several turns ahead
+- Balance immediate needs with long-term investments
+- Identify resource conversion opportunities (trading one resource for another)
+- Recognize when to hoard resources versus when to spend them
+- Calculate opportunity costs of resource expenditures
+- Adapt resource strategy based on game state and opponent actions
+- Use resource scarcity to force opponents into difficult choices
+
+RELATED:
+Connected to action economy, worker placement, engine building, and economic systems. Works with optimization and efficiency calculations. Related to planning and long-term strategy. Part of understanding game balance and player agency.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

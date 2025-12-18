@@ -1,0 +1,84 @@
+TILE SPACING
+
+DESCRIPTION:
+Tile spacing refers to the rules, patterns, and strategic considerations governing how tiles are placed relative to each other on a game board or play area. This includes adjacency rules, connection requirements, spacing constraints, pattern formation, and spatial relationships between tiles. Tile spacing mechanics determine how players build structures, create connections, control territory, and interact with the game space. Key spacing types include: adjacency-based (tiles must touch), grid-based (specific placement rules), connection-based (tiles must connect to existing structures), pattern-based (tiles form specific shapes), distance-based (tiles have spacing requirements), and area-based (tiles create or occupy areas). Each creates different spatial puzzles and strategic considerations.
+
+CAUSE:
+To create spatial strategy and puzzle-solving elements. Tile spacing mechanics force players to think in multiple dimensions and plan ahead spatially. They create interesting constraints that prevent trivial solutions and require optimization of limited space. Spacing rules create player interaction through competition for prime locations and blocking opportunities. They add visual and tactile appeal to games. Different spacing systems serve different design goals: adjacency creates connection puzzles, grids create placement optimization, patterns create shape recognition, and distance rules create area control.
+
+EFFECT:
+Creates spatial strategy and puzzle-solving. Forces multi-dimensional thinking and planning. Creates competition for space and locations. Enables blocking and interference between players. Adds visual and tactile appeal. Different spacing rules create different skill requirements: adjacency emphasizes connection planning, grids emphasize optimization, patterns emphasize shape recognition. Affects game length and complexity. Influences how much players can plan ahead. Creates interesting constraints and trade-offs. Can lead to analysis paralysis in complex spacing situations.
+
+PRACTICE NOTES:
+Study how different spacing rules affect gameplay feel. Notice when spacing constraints create interesting puzzles versus when they feel arbitrary. Observe how players compete for space and locations. Practice visualizing tile placements and their consequences. Notice how spacing rules interact with other mechanics. Study how spacing affects player interaction and blocking. Observe how pattern recognition skills apply to different spacing systems.
+
+HOW TO WORK WITH:
+- Adjacency Rules: Plan connection paths, identify key connection points, block opponent connections, create efficient networks
+- Grid Systems: Optimize grid placement, identify high-value grid positions, plan grid expansion, manage grid constraints
+- Connection Requirements: Build connection networks, identify critical connection points, maintain connection flexibility, block opponent networks
+- Pattern Formation: Recognize pattern opportunities, plan pattern completion, identify pattern blocking moves, optimize pattern scoring
+- Distance Rules: Control area through spacing, identify optimal distances, plan area expansion, manage distance constraints
+- Area Control: Claim and defend areas, identify area boundaries, optimize area coverage, compete for contested areas
+- Spatial Planning: Visualize future placements, plan multi-turn spatial strategies, adapt to opponent placements, optimize space usage
+
+HISTORY, CREATORS, AND NOTABLE CHANGES:
+
+Tile spacing mechanics have ancient origins in games like Mahjong (developed in China during the Qing dynasty, 1644-1912) and dominoes (originated in China around 1120 CE), but modern board game tile spacing has evolved into sophisticated spatial puzzle systems.
+
+The modern era of tile-laying games began with Carcassonne (2000, designed by Klaus-Jürgen Wrede), which introduced the concept of drawing and placing tiles to build a shared landscape. Carcassonne's innovation was making tile placement a core mechanic where tiles must connect to existing tiles (adjacency requirement) and create features (cities, roads, monasteries) that players compete to complete. This created a new genre of spatial puzzle games where players build a shared board.
+
+The grid-based tile placement system was refined in games like Alhambra (2003, designed by Dirk Henn), where tiles are placed on a personal grid with specific placement rules. This created individual spatial puzzles while maintaining shared competition for tiles. The grid system has been adapted in countless games since, including Patchwork (2014, designed by Uwe Rosenberg), which uses polyomino tiles (shapes made of squares) that must fit on a personal grid, creating a Tetris-like spatial puzzle.
+
+Pattern-based tile spacing was developed in games like Azul (2017, designed by Michael Kiesling), where tiles are placed in specific patterns on personal boards to score points. Azul's innovation was combining tile drafting (selecting tiles from a shared pool) with pattern completion, creating both tactical selection and spatial planning challenges. This pattern system has influenced many modern abstract games.
+
+Connection-based tile spacing, where tiles must connect to existing structures, was popularized by Carcassonne but refined in games like Kingdomino (2016, designed by Bruno Cathala), where tiles must connect matching terrain types. This created interesting constraints where players must balance immediate scoring with future connection possibilities.
+
+Area control through tile spacing was developed in games like Tigris & Euphrates (1997, designed by Reiner Knizia), where tiles are placed to control areas on the board. This mechanic combines tile placement with area majority scoring, creating spatial competition. The concept was expanded in games like Through the Desert (1998, designed by Reiner Knizia), where players place camels to claim routes and areas.
+
+Distance-based spacing rules were introduced in games like Hive (2001, designed by John Yianni), where pieces (functioning like tiles) must maintain connection to the hive while having specific movement rules. This created unique spatial constraints where placement affects future mobility.
+
+Notable evolutionary changes include: the shift from shared boards to personal boards (giving players individual spatial puzzles); the introduction of polyomino tiles (irregular shapes creating more complex spatial challenges); the development of 3D tile placement (stacking tiles vertically); the innovation of tile rotation and flipping (adding orientation decisions); the creation of tile drafting combined with placement (selection plus spatial puzzle); the development of modular boards (tiles create the board itself); and the introduction of tile removal mechanics (removing tiles as well as placing them).
+
+Modern innovations include: asymmetric tile sets (different players have different tiles); tile upgrading (improving placed tiles); tile movement (moving tiles after placement); multi-layer tile placement (tiles on different levels); and tile interaction effects (tiles affecting adjacent tiles when placed).
+
+COMBINATIONS AND GAME STYLE COMPATIBILITY:
+
+Adjacency-Based Spacing works best with: Connection games, network building, shared board construction, and games requiring spatial planning. Pairs excellently with: Area control, route building, and feature completion. Less suitable for: Games requiring distance between elements, games where adjacency feels too restrictive, and games needing more spatial freedom.
+
+Grid-Based Spacing excels with: Personal board games, optimization puzzles, polyomino placement, and games requiring spatial efficiency. Combines excellently with: Pattern completion, resource management, and individual player goals. Challenges arise with: Games requiring shared interaction, games where grids feel too rigid, and games with too many grid constraints causing analysis paralysis.
+
+Connection Requirements shine in: Network building games, route creation, shared construction, and games where connections create value. Best combined with: Area control, feature completion, and majority scoring. Less effective with: Solitaire-style games, games where connections become automatic, and games requiring distance between elements.
+
+Pattern-Based Spacing works well with: Abstract strategy games, set collection mechanics, personal optimization, and games requiring shape recognition. Pairs excellently with: Drafting mechanics, scoring systems, and individual player boards. Struggles with: Games requiring high player interaction, games where patterns become too obvious, and games needing more spatial freedom.
+
+Distance-Based Spacing excels in: Area control games, territory claiming, games requiring spacing constraints, and games where distance creates value. Best combined with: Majority scoring, area control, and placement competition. Less suitable for: Connection games, games where distance feels arbitrary, and games requiring tight spatial puzzles.
+
+Area-Based Spacing (tiles create/occupy areas) works in: Area control games, territory games, games where tile placement claims space, and games requiring area majority. Combines well with: Scoring systems, majority mechanics, and player interaction. Challenges: Games where area boundaries are unclear, games requiring precise placement, and games where area control becomes too dominant.
+
+Optimal combinations for different game styles:
+- Abstract Strategy: Grid-based + pattern completion + personal boards (spatial optimization puzzles)
+- Euro Games: Adjacency + connection + shared board (spatial planning with interaction)
+- Area Control: Distance-based + area creation + majority scoring (territory competition)
+- Puzzle Games: Grid-based + polyomino + personal optimization (spatial efficiency challenges)
+- Network Building: Adjacency + connection + route scoring (connection optimization)
+- Thematic: Adjacency + shared board + feature building (cooperative or competitive construction)
+- Engine Building: Grid-based + tile upgrading + pattern bonuses (spatial engine construction)
+
+Spatial complexity considerations:
+- Simple spacing (adjacency only): Accessible, fast gameplay, but limited strategic depth
+- Medium complexity (grids with rules): Good balance of strategy and accessibility, manageable decisions
+- High complexity (multiple spacing rules, patterns, distances): Deep strategy, but risk of analysis paralysis
+- Variable complexity (spacing rules change): Maximum strategic depth, but increased cognitive load
+
+Tile interaction patterns:
+- Competitive spacing: Players compete for same locations, blocking is key strategy
+- Cooperative spacing: Players build together, spacing enables collaboration
+- Parallel spacing: Players build separately, spacing creates individual puzzles
+- Interactive spacing: Spacing rules create indirect interaction through board state
+
+RELATED:
+Fundamental to all tile-laying games. Connected to spatial reasoning, pattern recognition, and area control. Works with drafting, set collection, and majority scoring. Part of understanding spatial strategy and puzzle-solving. Related to player interaction and blocking mechanics.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

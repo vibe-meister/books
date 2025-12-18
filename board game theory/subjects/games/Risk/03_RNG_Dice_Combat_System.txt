@@ -1,0 +1,50 @@
+RISK: RNG DICE COMBAT SYSTEM
+
+DESCRIPTION:
+Risk's combat system is entirely dice-based, making it one of the purest RNG combat systems in board gaming. Every battle outcome is determined by dice rolls, with no mitigation or manipulation mechanics. The system uses standard six-sided dice (d6) with specific rules: attackers roll 1-3 dice (based on unit count), defenders roll 1-2 dice (based on unit count), highest dice are compared with ties favoring the defender. This creates a system where probability and luck interact, where numerical superiority provides advantage but never guarantees victory, and where dramatic comebacks are always possible.
+
+CAUSE:
+To create exciting, unpredictable combat that rewards numerical advantage while maintaining uncertainty. The pure RNG system ensures that no battle is ever completely certain, creating dramatic moments and preventing the game from being solvable. The defender advantage (ties go to defender) creates a defensive bias that makes holding territory easier than taking it, which is crucial for game balance. The system is simple enough to be accessible while complex enough in probability to reward skilled play.
+
+EFFECT:
+Creates high variance in combat outcomes. Rewards numerical advantage probabilistically but never guarantees victory. Enables dramatic comebacks and upsets. Creates tension and excitement in every battle. Makes the game unpredictable and replayable. The defender advantage makes holding territory easier than taking it, creating strategic balance. High variance can frustrate players who prefer skill-based outcomes. The system rewards understanding probability and making calculated risks.
+
+PRACTICE NOTES:
+Study probability tables for different combat scenarios. Notice how variance affects multi-battle campaigns. Observe when luck favors or works against you. Practice calculating expected losses before attacking. Notice how the defender advantage affects strategy. Study how RNG creates both frustration and excitement. Observe how players adapt to lucky or unlucky streaks.
+
+HOW THE RNG SYSTEM WORKS:
+- Pure Randomness: No mitigation, no manipulation, pure dice rolls
+- Defender Advantage: Ties favor defender, creating defensive bias
+- Dice Limits: Attackers max 3 dice, defenders max 2 dice
+- Sequential Comparison: Highest vs highest, then second-highest if applicable
+- Unit Losses: Loser loses units equal to defender's dice count
+- No Rerolls: Each roll is final, no manipulation possible
+
+VARIANCE ANALYSIS:
+The high variance means that:
+- Small armies can defeat large armies (rare but possible)
+- "Safe" attacks can fail unexpectedly
+- Multi-battle campaigns have compounding variance
+- Players must plan for worst-case scenarios
+- Luck can determine game outcomes despite skill
+
+This high variance is both a feature (excitement, unpredictability) and a bug (frustration, perceived lack of skill).
+
+HISTORY AND DESIGN PHILOSOPHY:
+Risk's dice combat system was revolutionary for its time (1957). Most strategy games before Risk either had no combat (abstract games) or used deterministic combat (chess). Risk introduced the concept of probabilistic combat resolution, where skill (positioning, numbers) interacts with luck (dice) to determine outcomes.
+
+The system was designed to be simple and accessible while creating exciting moments. The defender advantage was likely included to prevent the game from becoming too aggressive and to reward defensive play. The dice limits (3 for attacker, 2 for defender) were chosen to create interesting probability distributions while keeping the system manageable.
+
+Notable aspects:
+- One of the first major games to use pure RNG combat
+- Established the paradigm of dice-based area control games
+- Created the "Risk-style combat" that influenced countless games
+- The system has remained unchanged for over 60 years
+- Modern games often add mitigation to reduce variance
+
+RELATED:
+Pure RNG combat system. Connected to dice mechanics, probability, and variance. Works with area control, territory management, and strategic planning. Part of understanding luck vs. skill balance in games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

@@ -1,0 +1,31 @@
+EXPECTED VALUE
+
+DESCRIPTION:
+Expected value (EV) is a mathematical concept representing the average outcome of a probabilistic event when repeated many times. In board games, expected value helps players evaluate risky decisions by calculating the weighted average of all possible outcomes, where each outcome is multiplied by its probability of occurring. Understanding expected value allows players to make more informed decisions when dealing with randomness, dice rolls, card draws, or other uncertain events.
+
+CAUSE:
+To make better decisions in situations involving randomness and uncertainty. Expected value provides a framework for comparing different risky options objectively. It helps players avoid being overly influenced by worst-case or best-case scenarios and instead focus on the average long-term outcome. Understanding EV enables players to identify when taking risks is mathematically sound versus when it's not.
+
+EFFECT:
+Enables objective evaluation of risky decisions. Helps identify when risks are worth taking. Prevents overvaluing or undervaluing uncertain outcomes. Provides framework for comparing different probabilistic options. Can guide resource allocation in uncertain situations. Helps players make decisions that are optimal in the long run. May not account for game-specific context (like being behind and needing to take risks).
+
+PRACTICE NOTES:
+Practice calculating expected value for dice rolls, card draws, and other random events. Notice when expected value calculations align with intuitive decisions versus when they conflict. Learn to identify situations where EV is the right metric versus when other factors (like variance or game state) matter more. Practice estimating probabilities quickly during gameplay. Notice how expected value changes based on game state and opponent actions.
+
+HOW TO WORK WITH:
+- Calculate EV = (Outcome 1 × Probability 1) + (Outcome 2 × Probability 2) + ...
+- Identify all possible outcomes and their probabilities
+- Consider the value of each outcome in the current game context
+- Compare expected values of different options
+- Recognize when variance matters more than expected value (e.g., when behind and need high variance)
+- Practice quick mental calculations for common probability scenarios
+- Understand when to deviate from EV (e.g., when behind, when ahead, when variance is important)
+- Consider opponent reactions when calculating expected value of actions
+- Factor in game state and position when evaluating EV
+
+RELATED:
+Foundation for probability and risk assessment. Connected to decision-making under uncertainty. Works with variance and risk management. Part of mathematical game analysis. Related to optimization and efficiency calculations.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

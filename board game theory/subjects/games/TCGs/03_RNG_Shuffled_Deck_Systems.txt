@@ -1,0 +1,107 @@
+TCGs: RNG SHUFFLED DECK SYSTEMS
+
+DESCRIPTION:
+TCGs use shuffled deck systems where players construct decks before play, then shuffle them to create randomness during gameplay. This creates a unique RNG system where players control the composition (strategic element) but not the order (random element). The system combines pre-game strategy (deck construction) with in-game adaptation (playing with random draws). This dual-layer RNG system is fundamental to TCGs and creates the tension between consistency (reducing randomness) and flexibility (adapting to randomness). Understanding this system is crucial for both deck construction and in-game play.
+
+CAUSE:
+To create games that combine strategic deck construction with tactical in-game play. Pure strategy (no randomness) would make games solvable and reduce replayability. Pure randomness (no deck construction) would eliminate strategic depth. The shuffled deck system creates the perfect balance: players strategically construct decks to maximize consistency and power, then tactically play with whatever they draw. This creates games that reward both strategic planning and tactical adaptation.
+
+EFFECT:
+Creates games that reward both strategy and tactics. The system enables dramatic moments (drawing the perfect card) and frustrating moments (not drawing needed cards). Players can influence randomness through deck construction (consistency) and card effects (draw, search, filtering), but never eliminate it completely. The system creates replayability through varied game states. It enables skill expression through optimal play with random resources. The system can frustrate players who prefer deterministic outcomes.
+
+PRACTICE NOTES:
+Study how deck construction affects in-game randomness. Notice how consistency cards reduce variance. Observe how players adapt to random draws. Practice playing optimally with suboptimal draws. Study how RNG creates both exciting and frustrating moments. Notice how skill can influence outcomes despite randomness. Observe how different strategies handle variance differently.
+
+HOW THE SHUFFLED DECK SYSTEM WORKS:
+
+Pre-Game (Strategic Layer):
+- Players construct decks with chosen cards
+- Deck composition determines strategy and consistency
+- Players can include cards to reduce variance (draw, search, filtering)
+- Deck construction is pure strategy with no randomness
+
+In-Game (Random Layer):
+- Decks are shuffled, creating random card order
+- Players draw cards in random order
+- Randomness determines available options each turn
+- Players must adapt to random draws
+
+The Interaction:
+- Strategic deck construction influences in-game randomness
+- Consistency cards reduce variance but cost deck space
+- Players balance consistency vs. power vs. flexibility
+- Optimal play maximizes value from random draws
+
+RNG MITIGATION MECHANICS:
+
+Card Draw:
+- Drawing additional cards increases options and reduces variance
+- Cost: Usually requires mana and/or card disadvantage
+- Value: Increases probability of drawing needed cards
+- Examples: "Draw a card" effects, card advantage engines
+
+Tutoring (Searching):
+- Searching for specific cards eliminates variance for those cards
+- Cost: Usually requires mana and may have restrictions
+- Value: Guarantees access to key cards
+- Examples: "Search your library for [card type]" effects
+
+Filtering:
+- Discarding unwanted cards to draw new ones
+- Cost: Card disadvantage (discard to draw)
+- Value: Improves hand quality and reduces dead draws
+- Examples: "Discard a card, then draw a card" effects
+
+Scrying (Looking at Top Cards):
+- Viewing and potentially rearranging top cards of library
+- Cost: Usually minimal (mana or free)
+- Value: Improves next draws and enables planning
+- Examples: "Look at the top X cards, put any number on bottom" effects
+
+Deck Thinning:
+- Reducing deck size to improve draw probabilities
+- Cost: Usually requires specific effects or strategies
+- Value: Increases probability of drawing remaining cards
+- Examples: Effects that remove cards from deck
+
+VARIANCE IN DIFFERENT STRATEGIES:
+
+Aggro Decks:
+- Low variance: Many redundant threats, consistent early game
+- Strategy: Overwhelm opponents before variance matters
+- RNG Impact: Lower, games end quickly before variance accumulates
+
+Combo Decks:
+- High variance: Require specific card combinations
+- Strategy: Maximize consistency through tutors and draw
+- RNG Impact: High, games determined by drawing combo pieces
+
+Control Decks:
+- Medium variance: Flexible answers, but need them at right time
+- Strategy: Maximize options through card draw and filtering
+- RNG Impact: Medium, mitigated through draw engines
+
+Midrange Decks:
+- Low-medium variance: Flexible threats and answers
+- Strategy: Adapt to game state with versatile cards
+- RNG Impact: Lower, flexible cards reduce variance impact
+
+HISTORY AND SYSTEM EVOLUTION:
+Magic: The Gathering (1993) established the shuffled deck system. The system was revolutionary: players had never before constructed decks that were then shuffled for play. This created an entirely new game structure.
+
+Key evolutionary developments:
+- Early formats: Pure shuffled decks, minimal mitigation
+- Mid-1990s: Introduction of tutors and card draw effects
+- Late 1990s: Development of filtering and scrying effects
+- 2000s: Optimization of consistency mechanics
+- 2010s: Introduction of deck manipulation in some games
+- 2020s: Continued refinement of RNG mitigation
+
+The system has remained fundamentally unchanged because it works so well. Modern games add new mitigation mechanics but maintain the core shuffled deck structure.
+
+RELATED:
+Core TCG mechanic. Connected to deck construction, probability, and consistency. Works with card evaluation, strategic planning, and tactical adaptation. Part of understanding RNG systems in card games.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

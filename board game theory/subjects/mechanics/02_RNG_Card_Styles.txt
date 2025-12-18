@@ -1,0 +1,62 @@
+RNG CARD STYLES
+
+DESCRIPTION:
+RNG (Random Number Generation) card styles refer to the various methods by which randomness is introduced into card-based games through the card deck itself. This includes deck construction methods, card distribution systems, and how randomness is controlled or mitigated. Different RNG card styles create different types of uncertainty and skill-testing environments. The main styles include: shuffled decks (pure randomness), draft systems (controlled randomness), deck building (constructed randomness), hand management (limited randomness), and card drafting (shared randomness). Each style creates different decision spaces and skill requirements, balancing luck and strategy in unique ways.
+
+CAUSE:
+To introduce uncertainty and prevent games from being completely solvable. Randomness creates replayability by ensuring each game plays differently. RNG card styles allow for dramatic moments, comebacks, and varied strategic paths. They prevent players from memorizing optimal play patterns and force adaptation. Different RNG styles serve different design goals: shuffled decks create pure unpredictability, drafts create skill-testing selection, deck building creates strategic construction, and hand management creates tactical resource allocation.
+
+EFFECT:
+Creates uncertainty and replayability. Prevents games from being solvable. Allows for dramatic moments and comebacks. Forces players to adapt to changing situations. Different styles create different skill-testing environments. Shuffled decks emphasize probability calculation and risk management. Draft systems emphasize evaluation and selection skills. Deck building emphasizes strategic construction and optimization. Hand management emphasizes tactical resource allocation. Can create frustration if randomness feels too high or too low. Affects game length and complexity. Influences how much players can plan ahead.
+
+PRACTICE NOTES:
+Study how different RNG card styles feel during gameplay. Notice when randomness enhances versus detracts from the experience. Observe how players adapt to different randomness levels. Practice calculating probabilities in shuffled deck systems. Learn to evaluate cards in draft systems. Practice constructing decks in deck building games. Notice how hand management creates interesting constraints. Study how different styles combine with other mechanics.
+
+HOW TO WORK WITH:
+- Shuffled Decks: Calculate probabilities, manage risk, plan for variance, use card counting when legal
+- Draft Systems: Evaluate cards in context, read the draft, identify synergies, adapt to what's available
+- Deck Building: Construct efficient engines, balance consistency and power, adapt to game state
+- Hand Management: Plan hand composition, manage resources, sequence plays optimally, balance immediate needs with future turns
+- Card Drafting: Read opponent needs, hate draft when appropriate, identify open strategies, adapt to draft flow
+- Probability Management: Understand variance, plan for worst cases, recognize when to take risks
+- Adaptation: Adjust strategy based on card draws, recognize when luck is against you, pivot when necessary
+
+HISTORY, CREATORS, AND NOTABLE CHANGES:
+
+The use of cards as randomizers dates back to playing cards in 9th century China, but modern RNG card styles in board games have evolved significantly. The shuffled deck mechanic, where cards are randomly shuffled and drawn, became standard in card games like Poker (developed in early 19th century America, with roots in Persian As Nas) and Bridge (evolved from Whist in the 19th century). However, the modern board game revolution began with Magic: The Gathering (1993, designed by Richard Garfield), which introduced the concept of constructed decks with shuffled randomness - players build their own decks but then shuffle them for random draws. This created a new paradigm where strategic deck construction met tactical card play.
+
+The deck building mechanic was revolutionary, pioneered by Dominion (2008, designed by Donald X. Vaccarino). This introduced the concept of starting with a weak deck and improving it during play by purchasing cards from a shared market. Dominion's innovation was making deck construction part of gameplay rather than pre-game preparation. This mechanic exploded in popularity and spawned hundreds of variations, including Ascension (2010, designed by Justin Gary, John Fiorillo, and Brian Kibler) which introduced a rotating market, and Star Realms (2014, designed by Robert Dougherty and Darwin Kastle) which added direct player interaction.
+
+Card drafting mechanics have ancient roots in card games, but modern drafting in board games was popularized by 7 Wonders (2010, designed by Antoine Bauza), which adapted the Magic: The Gathering draft format into a simultaneous selection mechanism. This created a new form of player interaction where players must read what others need while securing their own cards. Sushi Go! (2013, designed by Phil Walker-Harding) simplified this into a more accessible format, while Terraforming Mars (2016, designed by Jacob Fryxelius) combined drafting with engine building.
+
+Hand management as a core mechanic was refined in games like Race for the Galaxy (2007, designed by Thomas Lehmann), where players must carefully manage limited hand sizes and action selection. This created tension between holding cards for future turns versus playing them immediately. Glory to Rome (2005, designed by Carl Chudyk and Ed Carter) pushed hand management further by making cards serve multiple functions.
+
+Notable evolutionary changes include: the introduction of market rows (Ascension) to reduce analysis paralysis compared to full markets; the addition of trashing/removal mechanics to reduce deck bloat; the innovation of multi-use cards (Glory to Rome, Innovation) where cards serve multiple functions; the development of asymmetric card pools (Android: Netrunner, 2012, designed by Richard Garfield and Lukas Litzsinger); and the creation of card-driven games (Twilight Struggle, 2005, designed by Ananda Gupta and Jason Matthews) where cards represent historical events with dual functions.
+
+COMBINATIONS AND GAME STYLE COMPATIBILITY:
+
+Shuffled Decks work best with: Strategy games requiring adaptation (Twilight Struggle), games with mitigation mechanics (deck thinning, card draw), games where variance creates drama (Poker variants), and games with multiple paths to victory. They pair poorly with: Pure strategy games requiring perfect information, games where luck determines winners too often, and games requiring long-term planning without mitigation.
+
+Deck Building excels with: Engine building games (Dominion, Star Realms), games with market mechanics, games requiring optimization over multiple turns, and games where deck composition matters more than individual draws. Works well with: Resource management, point systems, and variable player powers. Struggles with: Games requiring immediate tactical responses, games where deck bloat becomes frustrating, and games without sufficient deck manipulation options.
+
+Draft Systems shine in: Games with simultaneous action selection (7 Wonders), games requiring reading opponents (Sushi Go!), games with multiple card types and synergies (Terraforming Mars), and games where selection skill matters. Combine excellently with: Engine building, tableau building, and set collection. Less effective with: Games requiring perfect information, games where drafting takes too long relative to play time, and games with too many cards to evaluate.
+
+Hand Management pairs perfectly with: Action selection games (Race for the Galaxy), games with limited actions per turn, games requiring sequencing (Glory to Rome), and games with multi-use cards. Works well with: Resource management, worker placement concepts, and tactical combat. Challenges arise with: Games where hand size becomes too restrictive, games without sufficient card draw, and games where hand management feels like busywork.
+
+Card Drafting (shared pool) excels in: Games with player interaction (Magic: The Gathering drafts), games requiring evaluation skills, games with hidden information, and games where hate drafting matters. Best combined with: Deck construction, strategic planning, and reading opponents. Less suitable for: Solitaire-style games, games where drafting dominates playtime, and games with too many players (drafting scales poorly beyond 8).
+
+Optimal combinations for different game styles:
+- Euro Games: Draft systems + hand management + resource management (Terraforming Mars style)
+- Ameritrash/Thematic: Shuffled decks + dice + hand management (Arkham Horror style)
+- Engine Building: Deck building + market mechanics + resource conversion
+- Tactical Combat: Shuffled decks + hand management + action selection
+- Social/Deduction: Draft systems + hidden information + player interaction
+- Economic: Hand management + resource management + market mechanics
+- Area Control: Card-driven events + shuffled decks + hand management
+
+RELATED:
+Foundation for all card-based mechanics. Connected to probability, hand management, and deck construction. Works with action selection, resource management, and player interaction. Part of understanding randomness in games. Related to skill vs. luck balance and game design philosophy.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

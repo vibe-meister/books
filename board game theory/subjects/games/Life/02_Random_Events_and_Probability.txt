@@ -1,0 +1,78 @@
+THE GAME OF LIFE: RANDOM EVENTS AND PROBABILITY
+
+DESCRIPTION:
+The Game of Life uses extensive random events through Life Tiles, Career/Salary cards, House cards, and Action spaces. These random events create significant variance in outcomes, making the game heavily luck-based. Understanding the probability and impact of these events helps players make informed decisions when choices are available. Key concepts include: event probability, event impact on final score, expected value of different paths, and risk management. While Life is primarily luck-based, understanding probabilities can help optimize the limited strategic decisions available.
+
+CAUSE:
+To create dramatic life events and ensure each game plays differently. Random events simulate the unpredictability of life and create exciting moments. The events ensure that outcomes are largely determined by luck, making the game accessible and family-friendly. Understanding probabilities helps players make better decisions when strategic choices are available (like career selection, house purchases, etc.). The random events create the game's thematic appeal.
+
+EFFECT:
+Creates high variance in game outcomes. Makes the game heavily luck-based. Creates exciting and dramatic moments. Ensures each game plays differently. Can frustrate players who prefer skill-based games. The random events are the primary determinant of victory. Understanding probabilities helps optimize limited strategic decisions.
+
+PRACTICE NOTES:
+Study event probabilities and impacts. Notice how random events affect final scores. Observe which events are most impactful. Practice evaluating choices when available. Study how different life paths compare probabilistically. Notice how luck determines outcomes.
+
+RANDOM EVENT TYPES:
+
+Life Tiles:
+- Collected when landing on Life spaces
+- Random events affecting money, family, or life events
+- Can be positive (collect money) or negative (pay money)
+- Final value varies significantly
+- Major source of variance in final scores
+
+Career and Salary Cards:
+- Randomly drawn at start
+- Determine income per payday
+- Different careers have different salaries
+- Career selection (when available) is key strategic decision
+- Income affects long-term wealth accumulation
+
+House Cards:
+- Randomly drawn when purchasing house
+- House values vary significantly
+- Final house value affects total score
+- House purchase timing affects value
+- Major component of final wealth
+
+Action Spaces:
+- Random board spaces with various effects
+- Can collect money, pay money, or trigger events
+- Landing probability determined by spinner
+- Creates additional variance
+
+PROBABILITY ANALYSIS:
+
+Landing Probabilities:
+- Spinner creates uniform distribution (10% per number)
+- But board layout affects which spaces are reached
+- Some spaces more likely than others
+- Action space landing probability varies
+
+Event Impact:
+- Some events have large impact (major money changes)
+- Some events have small impact (minor money changes)
+- Understanding expected impact helps decisions
+- But high variance makes precise calculation difficult
+
+Expected Value Calculations:
+- Calculate expected value of different paths
+- Consider probability and impact of events
+- But high variance makes expected value less reliable
+- Strategic decisions have limited impact due to randomness
+
+HISTORY AND EVENT DESIGN:
+The Game of Life's random events were designed to simulate life's unpredictability. Events have evolved over editions but maintain the core concept of random life events.
+
+Key aspects:
+- Events create thematic appeal
+- Randomness ensures accessibility
+- High variance creates excitement
+- But limits strategic depth
+
+RELATED:
+Core Life mechanics. Connected to probability, random events, and luck-based gameplay. Works with economic mechanics, movement systems, and family game design. Part of understanding games with high luck components.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+

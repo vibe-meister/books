@@ -1,0 +1,50 @@
+RISK: COMBAT PROBABILITY MATHEMATICS
+
+DESCRIPTION:
+Risk uses a dice-based combat system where attackers and defenders roll dice to determine battle outcomes. The mathematical foundation determines the probability of success in any given battle, which is crucial for strategic decision-making. Risk uses a system where attackers can roll up to 3 dice (with at least one more unit than defender) and defenders roll up to 2 dice. The highest dice are compared, with ties going to the defender. Understanding these probabilities allows players to make informed decisions about when to attack, how many units to commit, and when to retreat.
+
+CAUSE:
+To provide a mathematical framework for evaluating attack decisions. Without understanding probabilities, players make attacks based on intuition or hope rather than calculated risk. The mathematics reveal when attacks are favorable, neutral, or unfavorable, enabling strategic planning. Probability calculations help players optimize their unit allocation and timing of attacks. They reveal the true cost-benefit of aggressive versus defensive play.
+
+EFFECT:
+Enables calculated risk-taking and strategic planning. Reveals when attacks are mathematically favorable or unfavorable. Helps optimize unit allocation and attack timing. Allows players to make informed decisions rather than gambling. Can be used to calculate expected losses and plan resource management. Reveals the true power of numerical advantages. Shows why certain territories are strategically valuable. Enables players to evaluate complex multi-battle scenarios.
+
+PRACTICE NOTES:
+Memorize key probability tables for common scenarios. Practice calculating probabilities for different unit ratios. Study how probabilities change with different dice combinations. Notice how small numerical advantages create significant probability shifts. Practice evaluating multi-battle scenarios. Study how probabilities affect optimal strategy. Notice when mathematical advantage doesn't translate to practical advantage due to game state.
+
+HOW TO CALCULATE:
+- 1 Attacker vs 1 Defender: Attacker wins 41.67%, Defender wins 58.33%
+- 2 Attackers vs 1 Defender: Attacker wins 57.87%, Defender wins 42.13%
+- 3 Attackers vs 1 Defender: Attacker wins 65.97%, Defender wins 34.03%
+- 1 Attacker vs 2 Defenders: Attacker wins 25.46%, Defender wins 74.54%
+- 2 Attackers vs 2 Defenders: Attacker wins 22.76%, Defender wins 77.24%
+- 3 Attackers vs 2 Defenders: Attacker wins 37.17%, Defender wins 62.83%
+
+The key formula: Compare highest dice, then second-highest if applicable. Defender wins ties.
+
+EXPECTED VALUE CALCULATIONS:
+Expected losses per battle can be calculated using probability distributions:
+- 3v2: Attacker loses ~0.92 units per battle on average, Defender loses ~1.08 units
+- 2v1: Attacker loses ~0.42 units per battle, Defender loses ~0.58 units
+- 1v1: Attacker loses ~0.58 units per battle, Defender loses ~0.42 units
+
+These expected values help plan multi-battle campaigns and resource allocation.
+
+HISTORY AND MATHEMATICAL DEVELOPMENT:
+Risk was originally created in 1957 by French filmmaker Albert Lamorisse as "La Conquête du Monde" (The Conquest of the World). The game was later published by Parker Brothers in 1959. The combat system was designed to create exciting, unpredictable battles while still rewarding numerical superiority.
+
+The mathematical analysis of Risk combat probabilities has been extensively studied. The probabilities were calculated through exhaustive enumeration of all possible dice combinations. For 3 attackers vs 2 defenders, there are 6^5 = 7,776 possible outcomes, each with equal probability. Modern computer analysis has confirmed and refined these calculations.
+
+Notable mathematical insights:
+- The defender advantage in ties creates a significant defensive bias
+- Small numerical advantages (like 2v1) create substantial probability advantages
+- The 3v2 scenario is the most common and most studied
+- Expected value calculations reveal that even "favorable" attacks have expected losses
+- Multi-battle campaigns require compound probability calculations
+
+RELATED:
+Foundation for all Risk strategy. Connected to probability theory, expected value, and decision-making under uncertainty. Works with area control, resource management, and strategic planning. Part of understanding dice mechanics and combat resolution systems.
+
+PERSONAL OBSERVATIONS:
+[Your own experiences, insights, variations]
+
