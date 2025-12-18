@@ -1,0 +1,77 @@
+INDEX
+
+A
+- Alpha particles, 2, 3, 4, 5, 7
+- Aneutronic fusion, definition, 2
+- Atomic number (Z), 4, 5
+
+B
+- Beta (plasma parameter), 4
+- Boron-11, 3, 5, 7
+- Bremsstrahlung radiation, 2, 4, 5, 6
+
+C
+- Charged particles, 2, 3, 4, 5, 7
+- Confinement time, 4, 5
+- Coulomb barrier, 4
+- Cross-section, 3, 4
+
+D
+- Deuterium, 1, 3, 5, 7
+- Deuterium-helium-3 fusion, 2, 3, 5, 6, 7
+- Direct energy conversion, 2, 5, 6, 7
+
+E
+- Electron temperature, 4, 5
+- Energy conversion efficiency, 2, 5, 7
+
+F
+- Field-reversed configuration (FRC), 6
+- Fusion power density, 4
+- Fusion rocket, 7
+
+H
+- Helium-3, 3, 5, 7
+- Helium-3-helium-3 fusion, 2, 3
+
+I
+- Inertial confinement fusion (ICF), 6
+- Ion temperature, 4, 5
+
+L
+- Larmor radius, 4
+- Lawson criterion, 3, 4, 5
+- Laser-driven fusion, 6
+
+M
+- Magnetic confinement, 4, 6
+- Maxwell-Boltzmann distribution, 4
+- Maxwellian distribution, 4
+
+N
+- Neutron activation, 2, 5
+- Neutron production, 2, 3, 5
+- Non-Maxwellian distribution, 5, 6
+
+P
+- Plasma, 4, 6
+- Plasma density, 3, 4, 5
+- Plasma focus, 6
+- Plasma instabilities, 4
+- Proton-boron-11 fusion, 2, 3, 4, 5, 6, 7
+
+R
+- Reaction rate, 4
+- Reaction rate parameter (⟨σv⟩), 4
+
+S
+- Specific impulse, 7
+- Stellarator, 6
+
+T
+- Temperature requirements, 2, 3, 4, 5
+- Tokamak, 6
+
+V
+- Velocity distribution, 4
+
