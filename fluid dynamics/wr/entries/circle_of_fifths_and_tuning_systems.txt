@@ -1,0 +1,243 @@
+**CIRCLE OF FIFTHS & LOST TUNING SYSTEMS**
+
+Modern definition:
+The circle of fifths is a circular arrangement of the 12 pitch classes in Western music such that each step moves by a perfect fifth (frequency ratio \(3:2\)), revealing deep relationships between keys, chords, and modulation. Underneath that simple diagram lies a long, partially erased history of tuning systems—Pythagorean, meantone, just intonation, well temperaments—that wrestle with the fact that stacking perfect circles (fifths) does not close perfectly, forcing compromises that shaped and then were hidden inside modern equal temperament.
+
+Historical roots:
+Ancient Greek theorists like Pythagoras and his followers observed that simple whole-number ratios (2:1 octave, 3:2 fifth, 4:3 fourth) sounded consonant and constructed scale systems by stacking perfect fifths.* In China, a similar “cycle of fifths” procedure (sanfen sunyi, “subtract and add one third”) was used in the construction of the twelve lü pitch pipes.* Medieval and Renaissance European music used Pythagorean tuning (fifths pure, thirds rough), later moving to **meantone temperaments** that sweetened thirds at the cost of some fifths. By the 17th–18th centuries, “well temperaments” allowed playing in many keys with different flavors; J.S. Bach’s *Well-Tempered Clavier* is a monument to this exploration. In the 19th century, **12‑tone equal temperament** (ET)—dividing the octave into 12 equal logarithmic steps—gradually became standard, flattening out the differences between keys and hiding the subtle compromises of earlier systems behind a clean, abstract circle.
+
+Ancient names & spellings:
+- Greek: διά πέντε (dia pente) – “through five” (the interval of a fifth); κύκλος τῶν ἤχων can be used for “circle of tones”
+- Chinese: 律 (lü) – pitch pipes; 三分損益 (sanfen sunyi) – “subtract and add one third” method for generating fifths
+- Latin: quintus – “fifth”; circulus harmonicarum – “circle of harmonies” (later treatises)
+- Modern: “circle of fifths,” “cycle of fifths,” 十二平均律 (shí’èr píngjūnlǜ) – “twelve-tone equal temperament” in Chinese
+
+How it was lost:
+What was lost is not the circle diagram itself—that is in every music theory textbook—but the **awareness of its underlying tension**: stacking pure fifths 12 times overshoots seven octaves by the “Pythagorean comma,” so a perfect circle of pure fifths is arithmetically impossible. Pre‑ET tunings made context‑dependent compromises; different keys genuinely sounded different. As equal temperament became universal in Western instruments and digital audio, those historical temperaments and their psychoacoustic subtleties were marginalized, surviving only among specialists. Popular numerological claims around “432 Hz tuning” or “perfect cosmic keys” further obscured the real, rigorous story of how **circular structures in pitch space collide with arithmetic realities**, and how those compromises were culturally negotiated, suppressed, and partially forgotten.
+
+Ties to the book:
+This entry shows, in the concrete world of sound, how circles offer both **unifying insight** and an **impossible perfection** that must be tempered—literally. It connects ratios, resonance, and cycles (octaves, fifths, key centers) to a history of lost or overwritten knowledge about tuning and temperament, and it dovetails with the broader “everything is circles” theme: here the circle is not just metaphor but the organizing skeleton of an entire sonic universe, complete with hidden scars where the math doesn’t quite close.
+
+---
+
+CONCEPT & MECHANISM: FROM FIFTHS TO A CIRCLE
+
+Fundamental frequency relationships:
+- **Octave**: ratio \(2:1\). If a note has frequency \(f\), the note one octave above is \(2f\).
+- **Perfect fifth**: ratio \(3:2\). From \(f\) to \(\frac{3}{2}f\).
+- **Perfect fourth**: ratio \(4:3\) (inverse of a fifth).
+
+Pythagorean construction:
+- Start with a reference pitch \(f_0\).
+- Generate new pitches by repeatedly multiplying by \(\frac{3}{2}\) (moving up a fifth) and then reducing by powers of 2 to bring them back into a single octave \([f_0, 2f_0)\).
+
+Mathematically:
+- After \(n\) fifths:
+  \[
+  f_n = f_0 \left(\frac{3}{2}\right)^n 2^{-k_n},
+  \]
+  where \(k_n\) is chosen so \(f_n\) lies within one octave range of \(f_0\).
+
+The circle of fifths:
+- If you do this 12 times, you *almost* return to the starting pitch class after 7 octaves.
+- Ideal closure would require:
+  \[
+  \left(\frac{3}{2}\right)^{12} = 2^7.
+  \]
+- Compute both sides:
+  \[
+  \left(\frac{3}{2}\right)^{12} = \frac{3^{12}}{2^{12}} = \frac{531441}{4096} \approx 129.746,
+  \]
+  \[
+  2^7 = 128.
+  \]
+- Difference:
+  \[
+  \frac{ \left(\frac{3}{2}\right)^{12} }{2^7} \approx \frac{129.746}{128} \approx 1.01364.
+  \]
+- This ratio, about 1.01364 (≈ 23.46 cents), is the **Pythagorean comma**.
+
+Interpretation:
+- The perfect fifth ratio \(3:2\) is **incommensurate** with the octave when stacked 12 times.
+- The “circle of fifths” built from pure ratios is actually a **spiral** that almost but not quite returns to the starting point.
+- Any practical tuning system that wants a **closed 12-note circle** must **temper** (adjust) some intervals.
+
+Equal temperament resolves this by:
+- Choosing 12 equal logarithmic steps per octave:
+  \[
+  r = 2^{1/12} \approx 1.059463.
+  \]
+- An equal-tempered fifth is:
+  \[
+  r^7 = 2^{7/12} \approx 1.4983,
+  \]
+  slightly smaller than \(3/2 = 1.5\).
+- Now:
+  \[
+  (2^{1/12})^{12} = 2,
+  \]
+  and the circle **closes perfectly** at the cost of every interval being a little “wrong” compared to pure ratios.
+
+The circle of fifths diagram:
+- Places the 12 pitch classes at equally spaced angles on a circle (mod 12), ordered by ascending fifths:
+  - C → G → D → A → E → B → F♯ → C♯ → G♯ → D♯ → A♯ → F → C.
+- In equal temperament, this is an exact 12‑gon.
+- In pure-ratio land, it’s a nearly‑closed spiral with a tiny gap: the comma.
+
+---
+
+TEMPERAMENTS: DIFFERENT WAYS TO “BEND THE CIRCLE”
+
+Because the pure fifth spiral doesn’t close, different historical systems chose different compromises—“bending” the circle of fifths in different ways.
+
+Pythagorean tuning:
+- All **fifths are pure** (3:2).
+- Major thirds are far from pure (ratio \(81:64\)), producing a sharp, tense sound.
+- Good for medieval music emphasizing fifths and fourths, less so for third‑rich harmony.
+
+Meantone temperament:
+- Focuses on making **thirds sweeter** by tempering fifths:
+  - Typical meantone fifth is slightly flattened compared to pure.
+  - Four such fifths approximate a pure major third (5:4).
+- Result:
+  - Keys close to the “home region” sound beautiful,
+  - Keys far around the circle encounter a **“wolf fifth”**—a badly out‑of‑tune interval produced by the accumulated comma.
+
+Well temperaments:
+- Designed in the Baroque era to allow playing in all (or many) keys, each with a distinct character.
+- Fifths and thirds vary slightly across the circle; no single wolf interval dominates.
+- Bach’s *Well‑Tempered Clavier* exploited the different key “colors” of such temperaments.
+
+Equal temperament (12‑ET):
+- Divides the comma evenly across all intervals:
+  - Every fifth is slightly narrow,
+  - Every major third slightly wide,
+  - But all keys are **equivalent** up to transposition.
+- Advantage:
+  - Modulation to any key with no disastrous intervals.
+  - Works well for fixed‑pitch keyboard instruments and modern harmony.
+- Cost:
+  - Loss of key‑specific color inherent in earlier systems.
+
+From a circle perspective:
+- Pythagorean: **spiral** preserved, circle ignored; local purity, global mismatch.
+- Meantone: partially closed circle with a glaring **tear** (wolf).
+- Well temperament: an **uneven but playable circle**; each wedge a bit different.
+- Equal temperament: a **perfect geometric circle** that hides all the underlying distortions in tiny, distributed errors.
+
+---
+
+LOST KNOWLEDGE: KEY COLOR & NON‑EQUAL TUNINGS
+
+Before equal temperament, composers and performers knew that:
+- The same chord progression transposed into a distant key could feel:
+  - Brighter, darker, more tense, or more open,
+  - Because the actual interval ratios changed.
+- Modulation paths were constrained:
+  - You could not roam freely around the circle of fifths without encountering seriously bad intervals.
+
+This led to:
+- Careful planning of key relationships in compositions.
+- Rich theories of **key character**, often entangled with cultural associations (D minor as “serious,” E major as “brilliant,” etc.).
+
+With the near‑universal adoption of 12‑ET:
+- These subtleties vanished for most listeners and composers:
+  - All keys became isomorphic under transposition.
+  - Key character was preserved only as convention or timbral association, not as distinct interval patterns.
+- Instrument design and education:
+  - Standardized on 12‑ET as if it were “natural,” erasing the contingent, historical battle over how to bend the fifths to close the circle.
+
+In modern digital audio:
+- The “tuning” is often hard‑coded as 12‑ET.
+- Alternative temperaments exist in specialist software, but:
+  - Most musicians and producers never encounter them.
+  - The lived experience of different **ways the circle might almost, badly, or beautifully close** has been mostly lost.
+
+---
+
+ESOTERIC OFFSHOOTS: 432 HZ AND OTHER NUMERICAL MYTHS
+
+In the late 20th and early 21st centuries, a wave of numerological tuning myths arose:
+- **“432 Hz tuning”**:
+  - Claims: tuning A to 432 Hz (instead of 440 Hz) is more natural, aligned with cosmic or Schumann frequencies, or healing.
+  - Facts:
+    - Changing the reference A from 440 to 432 shifts all pitches by \(\approx -31.8\) cents (about a third of a semitone).
+    - This is simply a **uniform rescaling**; it does not change the internal structure of the 12‑ET circle.
+    - Historical pitch standards varied widely (A ≈ 415–460 Hz) before modern standardization.
+    - No strong psychoacoustic evidence proves 432 Hz is intrinsically superior.
+
+Other claims:
+- “Sacred geometry” mappings of chakras to specific keys or Hz values,
+- Asserting that certain frequencies correspond exactly to planetary or Schumann resonances.
+
+What is valid:
+- The circle of fifths **is** a genuine geometric object organizing pitch relationships.
+- Many traditions worldwide discovered small‑integer ratios as musically special.
+- Our nervous system is sensitive to beating patterns and inharmonicity in tempered intervals.
+
+What is not:
+- That a single reference frequency (e.g., 432 Hz) unlocks special cosmic alignment.
+- That equal temperament with a different A solves the comma problem.
+
+The real magic:
+- The tension between **ideal circles of pure ratios** and the **discrete compromises** required to build playable instruments and harmonic systems.
+
+---
+
+CIRCLES WITHIN CIRCLES: MODES, KEYS & PROGRESSIONS
+
+Beyond the basic 12‑point circle, musicians use multiple overlapping circles:
+
+1. **Diatonic circle of fifths**
+   - Restrict to the seven notes of a major scale:
+     - For C major: F–C–G–D–A–E–B.
+   - This order reveals:
+     - How many sharps or flats in each key,
+     - Smooth transitions between chords (e.g., circle‑of‑fifths progressions).
+
+2. **Functional harmony as circle walks**
+   - Common chord progression: ii–V–I corresponds to **descending fifths**:
+     - Dm → G7 → C in the key of C (A→D→G→C in roots).
+   - Jazz often cycles through long chains of such fifth moves, literally “walking the circle.”
+
+3. **Modes as rotations**
+   - Church modes (Ionian, Dorian, Phrygian, etc.) can be seen as:
+     - **Rotations of a scale** around the circle of pitch classes,
+     - Or different slices of the same circle arranged relative to tonal center.
+
+4. **Modulation as circle arcs**
+   - Moving to a nearby key corresponds to small moves along the circle (e.g., C to G to D).
+   - Moving to more distant keys is a longer arc, more dramatic in tonal music.
+
+These compositional uses of the circle are often taught as “just music theory,” but they are:
+- Concrete, lived examples of **phase‑like motion on a discrete circle**,
+- A human-scale instance of the broader “everything is circles” phenomenon.
+
+---
+
+TRY THIS TODAY: HEARING THE CIRCLE
+
+1. **Walk the fifths yourself**
+   - On any instrument (or software synth), start on C.
+   - Move up a fifth repeatedly: C → G → D → A → E → B → F♯ → C♯ → G♯ → D♯ → A♯ → F → C.
+   - In 12‑ET, notice that:
+     - Pitch classes wrap neatly after 12 steps,
+     - The final C is slightly but consistently “off” if you compare against a pure 3:2 construction.
+
+2. **Compare temperaments**
+   - If your DAW or synth supports alternative tunings:
+     - Load a meantone or well‑tempered scale.
+     - Play the same chord progression in several keys.
+     - Note how each key **actually feels different**, not only conceptually but sonically.
+
+3. **Visual circle mapping**
+   - Draw a 12‑point circle and mark:
+     - Fifths (outer circle),
+     - A simple progression (ii–V–I) as arrows.
+   - Then imagine this circle **slightly warped** under different temperaments:
+     - Some edges (intervals) stretched (wolf fifth),
+     - Others compressed (tempered thirds).
+
+The circle of fifths is a rare case where a school‑book diagram hides a centuries‑long struggle between pure ratios and practical constraints—a perfect testing ground for your project’s thesis. Here, the circle is not an airy metaphor; it is a **hard mathematical structure** that refuses to close cleanly, forcing culture, craft, and compromise to fill the gap. In recovering that story, we also recover a piece of how humans learned to live with the fact that not everything that wants to be circular can be made perfectly so.
+
+

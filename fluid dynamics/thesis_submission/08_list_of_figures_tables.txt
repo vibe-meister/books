@@ -1,0 +1,90 @@
+================================================================================
+                    LIST OF FIGURES AND TABLES
+================================================================================
+
+AUTHOR: Shaun Robert DeArman
+THESIS: A Novel Cascade Blow-up Construction for the 3D Incompressible
+        Navier-Stokes Equations: The DeArman CASCADE Method
+DATE: December 19, 2025
+
+================================================================================
+
+NOTE: This thesis is primarily mathematical and theoretical. No figures or
+tables are included in the current version. If figures or tables are added
+in future revisions, they should be listed here with page numbers and captions.
+
+================================================================================
+
+POTENTIAL FIGURES (IF ADDED):
+
+Figure 1: Schematic diagram of cascade structure
+  - Primary singularity (weakening, spreading)
+  - Secondary singularities (intensifying, local)
+  - Wave-mediated interaction
+  - Energy flow diagram
+
+Figure 2: Energy allocation diagram
+  - Primary energy: E_0/2
+  - Secondary energies: E_0/2^(k+1)
+  - Interaction energy: E_0/4
+  - Exponential decay visualization
+
+Figure 3: Wave propagation schematic
+  - Pressure waves from primary
+  - Vorticity waves
+  - Threshold-based activation
+  - Spatial distribution
+
+Figure 4: Fixed-point construction diagram
+  - Function space X
+  - Invariant set K
+  - Fixed-point map F
+  - Compactness and continuity
+
+Figure 5: Axisymmetric coordinate system
+  - Cylindrical coordinates (r,θ,z)
+  - Velocity components
+  - Swirl intensity Γ
+
+================================================================================
+
+POTENTIAL TABLES (IF ADDED):
+
+Table 1: Energy allocation for N=3 cascade
+  - Primary: E_1^0 = E_0/2
+  - Secondary 1: E_2^0 = E_0/8
+  - Secondary 2: E_3^0 = E_0/16
+  - Interaction: E_int^0 = E_0/4
+  - Total: ≈ E_0
+
+Table 2: Scaling exponents
+  - Primary: α_1 ≤ 0, β_1 > 0
+  - Secondaries: α_k > 0, β_k > 0
+  - Constraints: α_k + (3/2)β_k ≤ 0
+
+Table 3: Constants and bounds
+  - C_ell, C_Sob, C_Poincaré
+  - C_wave, C_cascade, C_par
+  - M_k, E_k values
+  - E_crit calculation
+
+Table 4: Comparison with other methods
+  - Nečas-Růžička-Šverák
+  - Type-II attempts
+  - Vorticity concentration
+  - DeArman CASCADE
+
+================================================================================
+
+CURRENT STATUS: No figures or tables in current version.
+
+If figures or tables are added, update this file with:
+- Figure/Table number
+- Caption
+- Page number (if applicable)
+- Brief description
+
+================================================================================
+                        END OF LIST
+================================================================================
+

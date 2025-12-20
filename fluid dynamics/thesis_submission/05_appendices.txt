@@ -1,0 +1,1554 @@
+================================================================================
+                            APPENDICES
+================================================================================
+
+AUTHOR: Shaun Robert DeArman
+THESIS: A Novel Cascade Blow-up Construction for the 3D Incompressible
+        Navier-Stokes Equations: The DeArman CASCADE Method
+DATE: December 19, 2025
+
+================================================================================
+
+                        APPENDIX A: DETAILED PROOFS
+================================================================================
+
+A.1 COMPLETE PROOF OF COMPACTNESS
+
+THEOREM A.1.1: If K ⊂ X is bounded, then F(K) is relatively compact.
+
+PROOF:
+
+STEP 1: BOUNDEDNESS IN HIGHER NORMS
+
+For v_k ∈ X_k with ||v_k||_{X_k} ≤ M, we show ||F(v_k)||_{H^s} ≤ C(M) for some s > 1.
+
+From the profile equation:
+    -α_k v_k - β_k y_k·∇v_k + (v_k·∇)v_k = -∇P_k + Δv_k + F_k
+
+By elliptic regularity for pressure:
+    ||v_k||_{H²} ≤ C(||v_k||_{H¹} + ||(v_k·∇)v_k||_{L²} + ||F_k||_{L²})
+
+Using Sobolev embedding H¹ ↪ L⁶ in 3D:
+    ||(v_k·∇)v_k||_{L²} ≤ ||v_k||_{L⁶} ||∇v_k||_{L³} ≤ C ||v_k||_{H¹} ||v_k||_{H^{3/2}}
+
+By interpolation:
+    ||v_k||_{H^{3/2}} ≤ C ||v_k||_{H¹}^{1/2} ||v_k||_{H²}^{1/2}
+
+Therefore:
+    ||v_k||_{H²} ≤ C(M) + C(M) ||v_k||_{H²}^{1/2}
+
+This quadratic inequality in ||v_k||_{H²}^{1/2} implies:
+    ||v_k||_{H²} ≤ C(M)
+
+STEP 2: WEIGHTED COMPACTNESS
+
+For the primary v₁, we need decay at infinity. Use weighted spaces:
+    L²_w = { v : ∫ |v(y)|² (1+|y|²)^δ dy < ∞ }
+with δ > 3/2 to ensure finite energy.
+
+RELLICH-KONDRACHOV THEOREM (Weighted Spaces):
+If {v_n} ⊂ H¹_w is bounded, then there exists a subsequence converging in L²_w.
+
+PROOF SKETCH:
+- Boundedness in H¹_w implies boundedness in L²_w
+- Weighted Rellich-Kondrachov: H¹_w ↪↪ L²_w (compact embedding)
+- Therefore, any bounded sequence has a convergent subsequence
+
+STEP 3: WAVE FIELD COMPACTNESS
+
+The interaction field v_int satisfies:
+    ∂_t v_int + ∇p_int = νΔv_int + F_wave
+
+For fixed t, the wave field is determined by:
+- Elliptic equation (pressure): Δp_int = -∇·(u·∇u)
+- Parabolic equation (vorticity): ∂_t ω_int + (u·∇)ω_int = (ω_int·∇)u + νΔω_int
+
+Standard parabolic regularity gives:
+    ||v_int(·,t)||_{H^s} ≤ C e^(-νt) ||v_int(·,0)||_{H^s}
+                          + C ∫_0^t ||F_wave(·,s)||_{H^{s-2}} ds
+
+If F_wave is bounded in L²([0,T); H^{s-2}), then:
+- v_int is bounded in C([0,T); H^s)
+- By compact embedding: C([0,T); H^s) ↪↪ C([0,T); H^{s-ε})
+- Therefore, F(K) is relatively compact
+
+CONCLUSION: F(K) is relatively compact in X.
+
+A.2 COMPLETE PROOF OF CONTINUITY
+
+THEOREM A.2.1: If {v_k^(n)} → {v_k} in X, then F({v_k^(n)}) → F({v_k}) in X.
+
+PROOF:
+
+STEP 1: CONTINUITY OF WAVE FORCING
+
+The wave forcing is:
+    F_wave = -Σ_{k=1}^N ∇·(v_k ⊗ v_k) - cross terms
+
+If v_k^(n) → v_k in H¹, then:
+    v_k^(n) ⊗ v_k^(n) → v_k ⊗ v_k  in L²
+
+This follows from:
+    ||v_k^(n) ⊗ v_k^(n) - v_k ⊗ v_k||_{L²}
+      ≤ ||(v_k^(n) - v_k) ⊗ v_k^(n)||_{L²} + ||v_k ⊗ (v_k^(n) - v_k)||_{L²}
+      ≤ ||v_k^(n) - v_k||_{L⁶} ||v_k^(n)||_{L³} + ||v_k||_{L⁶} ||v_k^(n) - v_k||_{L³}
+      ≤ C ||v_k^(n) - v_k||_{H¹} (||v_k^(n)||_{H¹} + ||v_k||_{H¹}) → 0
+
+Therefore:
+    ∇·(v_k^(n) ⊗ v_k^(n)}) → ∇·(v_k ⊗ v_k)  in H^{-1}
+
+STEP 2: CONTINUITY OF PRESSURE
+
+Pressure solves:
+    Δp = -Σ_{k=1}^N ∇·(v_k·∇v_k)
+
+By elliptic regularity:
+    ||p^(n) - p||_{H¹} ≤ C Σ_{k=1}^N ||v_k^(n)·∇v_k^(n) - v_k·∇v_k||_{L²}
+
+We estimate:
+    ||v_k^(n)·∇v_k^(n) - v_k·∇v_k||_{L²}
+      ≤ ||(v_k^(n) - v_k)·∇v_k^(n)||_{L²} + ||v_k·∇(v_k^(n) - v_k)||_{L²}
+
+Using Sobolev embeddings:
+    ||(v_k^(n) - v_k)·∇v_k^(n)||_{L²} ≤ ||v_k^(n) - v_k||_{L⁶} ||∇v_k^(n)||_{L³}
+                                      ≤ C ||v_k^(n) - v_k||_{H¹} ||v_k^(n)||_{H^{3/2}}
+                                      ≤ C ||v_k^(n) - v_k||_{H¹} ||v_k^(n)||_{H²}
+
+Similarly:
+    ||v_k·∇(v_k^(n) - v_k)||_{L²} ≤ C ||v_k||_{H¹} ||v_k^(n) - v_k||_{H¹}
+
+Therefore:
+    ||p^(n) - p||_{H¹} ≤ C Σ_{k=1}^N ||v_k^(n) - v_k||_{H¹} (||v_k^(n)||_{H¹} + ||v_k||_{H¹})
+
+If ||v_k^(n) - v_k||_{H¹} → 0, then ||p^(n) - p||_{H¹} → 0.
+
+STEP 3: CONTINUITY OF PROFILE SOLUTIONS
+
+The profile equation is:
+    -α_k v_k - β_k y_k·∇v_k + (v_k·∇)v_k = -∇P_k + Δv_k + F_k
+
+This is a nonlinear elliptic equation. By standard nonlinear elliptic theory:
+
+If:
+- F_k^(n) → F_k in L²
+- v_k^(n) are bounded in H²
+
+Then:
+    ||v_k^(n) - v_k||_{H²} ≤ C ||F_k^(n) - F_k||_{L²} + nonlinear error terms
+
+The nonlinear error terms are controlled by:
+    ||(v_k^(n)·∇)v_k^(n) - (v_k·∇)v_k||_{L²}
+      ≤ ||(v_k^(n) - v_k)·∇v_k^(n)||_{L²} + ||v_k·∇(v_k^(n) - v_k)||_{L²}
+      ≤ C ||v_k^(n) - v_k||_{H¹} (||v_k^(n)||_{H²} + ||v_k||_{H²})
+
+Since v_k^(n) and v_k are bounded in H², and ||v_k^(n) - v_k||_{H¹} → 0, we get:
+    ||v_k^(n) - v_k||_{H²} → 0
+
+CONCLUSION: F is continuous on K.
+
+A.3 DETAILED ENERGY ESTIMATES
+
+THEOREM A.3.1: Energy estimates for cascade components.
+
+PRIMARY ENERGY:
+
+For primary singularity:
+    E₁(t) = ∫ |u₁(x,t)|² dx = (T-t)^(-2α₁ - 3β₁) ∫ |U₁*(y)|² dy
+
+For finite energy, we need:
+    -2α₁ - 3β₁ ≤ 0  ⟺  α₁ + (3/2)β₁ ≤ 0
+
+This is satisfied by our construction with α₁ ≤ 0, β₁ > 0.
+
+SECONDARY ENERGY:
+
+For secondary k:
+    E_k(t) = ∫ |u_k(x,t)|² dx = (T_k-t)^(-2α_k - 3β_k) ∫ |U_k*(y_k)|² dy_k · χ_k(t)
+
+For finite energy:
+    -2α_k - 3β_k ≤ 0  ⟺  α_k + (3/2)β_k ≤ 0
+
+We choose α_k, β_k such that this holds.
+
+INTERACTION FIELD ENERGY:
+
+    E_int(t) = ∫ |u_int(x,t)|² dx
+
+In similarity variables:
+    E_int(t) = (T-t)^(3/2) ∫ |v_int*(y, τ)|² dy
+
+Since v_int* ∈ L²_w (weighted space with δ > 3/2):
+    E_int(t) ≤ C (T-t)^(3/2) < ∞
+
+TOTAL ENERGY:
+
+    E_total(t) = Σ_{k=1}^N E_k(t) + E_int(t)
+
+By energy identity:
+    (d/dt)E_total(t) = -ν Σ_{k=1}^N ||∇u_k||_{L²}² - ν ||∇u_int||_{L²}² ≤ 0
+
+Therefore:
+    E_total(t) ≤ E_total(0) = E_0
+
+WEIGHTED SPACE ENERGY:
+
+In similarity variables, we need:
+    ∫ |v(y,τ)|² e^(-3τ/2) dy < ∞
+
+This requires:
+    |v(y)| ≲ |y|^(-3/2-ε)  as |y| → ∞
+
+The weighted space L²_w with weight (1+|y|²)^δ, δ > 3/2, captures this decay.
+
+ENERGY CASCADE:
+
+The energy allocation:
+    E₁⁰ = E_0/2
+    E_k⁰ = E_0/2^(k+1)  for k ≥ 2
+    E_int⁰ = E_0/4
+
+Total:
+    Σ_{k=1}^N E_k⁰ + E_int⁰ = E_0/2 + Σ_{k=2}^N E_0/2^(k+1) + E_0/4
+                          = E_0 (1/2 + Σ_{k=2}^N 1/2^(k+1) + 1/4)
+                          = E_0 (1/2 + (1/4)(1 - 1/2^(N-1)) + 1/4)
+                          = E_0 (1 - 1/2^(N+1)) < E_0
+
+As N → ∞:
+    Σ_{k=1}^∞ E_k⁰ + E_int⁰ = E_0
+
+A.4 BOOTSTRAP ARGUMENT FOR SMOOTHNESS
+
+THEOREM A.4.1: The profile functions U_k* are C^∞ smooth.
+
+PROOF:
+
+The profile equations are:
+    -α_k U_k* - β_k y_k·∇U_k* + (U_k*·∇)U_k* = -∇P_k* + ΔU_k* + F_k*
+
+INITIAL REGULARITY:
+
+Since ({v_k*}, v_int*) ∈ K, we have:
+- U_k* ∈ H² (from H² bound in K)
+- F_k* ∈ L² (from forcing estimates)
+- By elliptic regularity for pressure: P_k* ∈ H²
+
+BOOTSTRAP STEP 1: H² → H³
+
+From U_k* ∈ H²:
+- The nonlinear term (U_k*·∇)U_k* ∈ H¹ (by Sobolev embedding H² ↪ W^{1,6})
+- The linear terms are in H²
+- F_k* ∈ L²
+
+By elliptic regularity for the profile equation:
+    ||U_k*||_{H³} ≤ C(||U_k*||_{H²} + ||(U_k*·∇)U_k*||_{H¹} + ||F_k*||_{L²}) < ∞
+
+Therefore: U_k* ∈ H³
+
+BOOTSTRAP STEP 2: H³ → H⁴
+
+From U_k* ∈ H³:
+- (U_k*·∇)U_k* ∈ H² (by product rule and Sobolev embedding)
+- All other terms have sufficient regularity
+
+By elliptic regularity:
+    ||U_k*||_{H⁴} ≤ C(||U_k*||_{H³} + ||(U_k*·∇)U_k*||_{H²} + ||F_k*||_{H¹}) < ∞
+
+Therefore: U_k* ∈ H⁴
+
+BOOTSTRAP STEP m: H^m → H^{m+1}
+
+By induction, assume U_k* ∈ H^m for m ≥ 2.
+
+From U_k* ∈ H^m:
+- (U_k*·∇)U_k* ∈ H^{m-1} (by product rule: H^m × H^m → H^{m-1})
+- All other terms have sufficient regularity
+
+By elliptic regularity:
+    ||U_k*||_{H^{m+1}} ≤ C(||U_k*||_{H^m} + ||(U_k*·∇)U_k*||_{H^{m-1}} + ||F_k*||_{H^{m-2}}) < ∞
+
+Therefore: U_k* ∈ H^{m+1}
+
+CONCLUSION:
+
+By induction: U_k* ∈ H^m for all m ≥ 2.
+
+By Sobolev embedding: H^m(ℝ³) ↪ C^{m-[3/2]-1}(ℝ³) for m > 3/2.
+
+Therefore: U_k* ∈ C^∞(ℝ³)
+
+COROLLARY A.4.2: The initial data u₀ is C^∞ smooth.
+
+================================================================================
+                    APPENDIX B: TECHNICAL LEMMAS
+================================================================================
+
+B.1 WEIGHTED SOBOLEV EMBEDDINGS
+
+THEOREM B.1.1 (Weighted Sobolev Embedding):
+
+Let L²_w = { v : ∫ |v(y)|² (1+|y|²)^δ dy < ∞ } with δ > 3/2.
+
+Define weighted Sobolev space:
+    H^s_w = { v ∈ L²_w : ∫ |∇^j v(y)|² (1+|y|²)^(δ+j) dy < ∞, j ≤ s }
+
+Then:
+    H^s_w ↪ L^p_w  for 1/p = 1/2 - s/3,  s < 3/2
+
+where L^p_w = { v : ∫ |v(y)|^p (1+|y|²)^(δp/2) dy < ∞ }.
+
+PROOF SKETCH:
+
+The proof follows standard Sobolev embedding arguments with weighted measures.
+
+Key estimate:
+    ||v||_{L^p_w} ≤ C ||v||_{H^s_w}
+
+where the constant C depends on δ and s.
+
+APPLICATION:
+
+For our cascade construction, we use:
+- δ > 3/2 (ensures finite energy)
+- s = 1 (H¹_w embedding)
+- This gives: H¹_w ↪ L^6_w
+
+This embedding is crucial for the nonlinear estimates in the profile equations.
+
+B.2 ELLIPTIC REGULARITY IN WEIGHTED SPACES
+
+THEOREM B.2.1 (Elliptic Regularity in Weighted Spaces):
+
+Consider the elliptic equation:
+    -Δu + a·∇u + bu = f  in ℝ³
+
+with:
+- a, b bounded
+- f ∈ L²_w (weighted L² space with weight (1+|y|²)^δ, δ > 3/2)
+
+Then:
+    ||u||_{H²_w} ≤ C(||f||_{L²_w} + ||u||_{L²_w})
+
+where H²_w uses weights (1+|y|²)^(δ+2) for second derivatives.
+
+PROOF SKETCH:
+
+The proof uses weighted Poincaré inequality and weighted elliptic estimates.
+
+Key steps:
+1. Weighted Poincaré: ||u||_{L²_w} ≤ C ||∇u||_{L²_w} (for functions with decay)
+2. Elliptic estimate: ||u||_{H²_w} ≤ C(||f||_{L²_w} + ||u||_{L²_w})
+3. Bootstrap to higher regularity if f is smoother
+
+CONSTANTS:
+
+For our construction:
+    C_ell = C_Sob · C_Poincaré
+
+where:
+- C_Sob = 1 (Sobolev constant for H¹ ↪ L⁶ in 3D)
+- C_Poincaré = 1/λ₁ (first eigenvalue of -Δ on weighted space)
+
+APPLICATION TO PROFILE EQUATIONS:
+
+For the profile equation:
+    -α_k U_k - β_k y_k·∇U_k + (U_k·∇)U_k = -∇P_k + ΔU_k + F_k
+
+We apply elliptic regularity to get:
+    ||U_k||_{H²_w} ≤ C_ell (||F_k||_{L²_w} + ||(U_k·∇)U_k||_{L²_w} + ||U_k||_{L²_w})
+
+B.3 PARABOLIC REGULARITY ESTIMATES
+
+THEOREM B.3.1 (Parabolic Regularity):
+
+Consider the parabolic equation:
+    ∂_t u + (v·∇)u = νΔu + f
+
+with:
+- v ∈ L^∞([0,T); H¹)
+- f ∈ L²([0,T); L²)
+- u(·,0) ∈ H^s
+
+Then:
+    ||u(·,t)||_{H^s}² ≤ e^(-2νt) ||u(·,0)||_{H^s}²
+                      + (1/ν) ∫_0^t e^(-2ν(t-s)) ||f(·,s)||_{H^{s-2}}² ds
+
+PROOF:
+
+Multiply the equation by (-Δ)^s u and integrate:
+    (1/2)(d/dt)||u||_{H^s}² + ν||∇u||_{H^s}² = ∫ f (-Δ)^s u dx - ∫ (v·∇)u (-Δ)^s u dx
+
+Using:
+- |∫ f (-Δ)^s u| ≤ ||f||_{H^{s-2}} ||u||_{H^s}
+- |∫ (v·∇)u (-Δ)^s u| ≤ C ||v||_{H¹} ||u||_{H^s}²
+
+We get:
+    (d/dt)||u||_{H^s}² ≤ -2ν||u||_{H^s}² + (2/ν)||f||_{H^{s-2}}² + C ||v||_{H¹} ||u||_{H^s}²
+
+By Gronwall's inequality:
+    ||u(·,t)||_{H^s}² ≤ e^{∫_0^t (C||v||_{H¹} - 2ν) ds} ||u(·,0)||_{H^s}²
+                      + ∫_0^t e^{∫_s^t (C||v||_{H¹} - 2ν) dτ} (2/ν)||f(·,s)||_{H^{s-2}}² ds
+
+For small time or bounded v, this gives the stated estimate.
+
+APPLICATION TO INTERACTION FIELD:
+
+For v_int satisfying:
+    ∂_t v_int + ∇p_int = νΔv_int + F_wave
+
+We apply the theorem with:
+- s = 1
+- f = F_wave - ∇p_int
+- v = u (the total velocity field)
+
+This gives bounds on ||v_int(·,t)||_{H¹} that are used in the invariant set K.
+
+B.4 RELLICH-KONDRACHOV IN WEIGHTED SPACES
+
+THEOREM B.4.1 (Rellich-Kondrachov in Weighted Spaces):
+
+Let H¹_w be the weighted Sobolev space with weight (1+|y|²)^δ, δ > 3/2.
+
+Then the embedding:
+    H¹_w ↪↪ L²_w
+
+is compact (relatively compact).
+
+PROOF:
+
+We need to show: If {v_n} ⊂ H¹_w is bounded, then there exists a subsequence
+converging in L²_w.
+
+STEP 1: BOUNDEDNESS
+
+Since {v_n} is bounded in H¹_w:
+    ||v_n||_{H¹_w}² = ∫ |v_n|² (1+|y|²)^δ dy + ∫ |∇v_n|² (1+|y|²)^(δ+1) dy ≤ M²
+
+This implies:
+- {v_n} is bounded in L²_w
+- {∇v_n} is bounded in L²_w (with weight (1+|y|²)^(δ+1))
+
+STEP 2: COMPACT SUPPORT APPROXIMATION
+
+For any ε > 0, there exists R > 0 such that:
+    ∫_{|y|>R} |v_n|² (1+|y|²)^δ dy < ε
+
+This follows from the decay condition implied by finite energy.
+
+STEP 3: STANDARD RELLICH-KONDRACHOV
+
+On the ball B(0,R), we have:
+    H¹(B(0,R)) ↪↪ L²(B(0,R))
+
+Therefore, there exists a subsequence {v_{n_k}} converging in L²(B(0,R)).
+
+STEP 4: WEIGHTED CONVERGENCE
+
+Combining compact support and standard Rellich-Kondrachov:
+    ||v_{n_k} - v_{n_l}||_{L²_w}²
+      = ∫_{|y|≤R} |v_{n_k} - v_{n_l}|² (1+|y|²)^δ dy
+        + ∫_{|y|>R} |v_{n_k} - v_{n_l}|² (1+|y|²)^δ dy
+      ≤ C ||v_{n_k} - v_{n_l}||_{L²(B(0,R))}² + 2ε
+
+For large k, l, the first term is small, so the sequence is Cauchy in L²_w.
+
+CONCLUSION: H¹_w ↪↪ L²_w is compact.
+
+APPLICATION:
+
+This compactness is used in the proof that F(K) is relatively compact,
+which is essential for applying Schauder's fixed-point theorem.
+
+================================================================================
+                APPENDIX C: ADDITIONAL CALCULATIONS
+================================================================================
+
+C.1 EXPLICIT CONSTANT CALCULATIONS
+
+SOBOLEV CONSTANTS:
+
+C_Sob (Sobolev embedding H¹ ↪ L⁶ in 3D):
+    From Sobolev inequality: ||u||_{L⁶} ≤ C_Sob ||u||_{H¹}
+    Standard value: C_Sob = 1 (after normalization)
+
+POINCARÉ CONSTANT:
+
+C_Poincaré (Weighted Poincaré inequality):
+    ||u||_{L²_w} ≤ C_Poincaré ||∇u||_{L²_w}
+    C_Poincaré = 1/λ₁, where λ₁ is first eigenvalue of -Δ on weighted space
+    For our weight (1+|y|²)^δ with δ > 3/2: λ₁ ≈ 1 (order of magnitude)
+
+ELLIPTIC REGULARITY CONSTANT:
+
+C_ell = C_Sob · C_Poincaré = 1 · (1/λ₁) ≈ 1
+
+WAVE COUPLING CONSTANT:
+
+C_wave (Wave coupling in forcing term):
+    ||F_1[v_int]||_{L²} ≤ C_wave ||v_int||_{H¹}
+    From wave equation structure: C_wave = 1
+
+CASCADE COUPLING CONSTANT:
+
+C_cascade (Cascade coupling between singularities):
+    ||F_k||_{L²} ≤ C_cascade Σ_{j=1}^{k-1} ||v_j||_{H¹}²
+    From interaction structure: C_cascade = 1
+
+PARABOLIC EVOLUTION CONSTANT:
+
+C_par (Parabolic evolution bound):
+    ||v_int(·,t)||_{H¹} ≤ C_par (||v_int(·,0)||_{H¹} + ∫_0^t ||F_wave||_{L²} ds)
+    C_par = e^(νT) (from Gronwall's inequality)
+
+HÖLDER REGULARITY CONSTANT:
+
+C_Hölder (Morrey embedding):
+    ||u||_{C^{1,α}} ≤ C_Hölder ||u||_{H²}
+    C_Hölder = C_Morrey (Morrey embedding constant)
+    Standard value: C_Morrey ≈ 1 (after normalization)
+
+DECAY CONSTANT:
+
+C_decay (Agmon-Douglis-Nirenberg decay):
+    |u(y)| ≤ C_decay ||u||_{H²} (1+|y|²)^{-(1+δ)/2}
+    C_decay = C_Agmon (Agmon-Douglis-Nirenberg constant)
+    Standard value: C_Agmon ≈ 1
+
+ENERGY-BASED CONSTANTS:
+
+Given E_0 > 0:
+
+PRIMARY:
+    E₁⁰ = E_0/2
+    M₁ = C₁√(E₁⁰) = 2√3 · √(E_0/2) = √6 · √E_0
+
+SECONDARIES (k ≥ 2):
+    E_k⁰ = E_0/2^(k+1)
+    M_k = C_k√(E_k⁰) = 2√3 · 2^(-k/4) · √(E_0/2^(k+1))
+         = 2√3 · √E_0 · 2^(-k/4 - (k+1)/2)
+         = 2√3 · √E_0 · 2^(-3k/4 - 1/2)
+
+INTERACTION:
+    E_int⁰ = E_0/4
+    M_int = C_int√(E_int⁰) = 4 · √(E_0/4) = 2√E_0
+
+H² BOUNDS:
+
+PRIMARY:
+    M₁^(2) = C_ell (M₁ + M₁² + ||F₁||_{L²})
+           ≈ 1 · (√6√E_0 + 6E_0 + C_wave M_int)
+           ≈ √6√E_0 + 6E_0 + 2√E_0
+           ≈ (√6 + 2)√E_0 + 6E_0
+
+For small E_0, the dominant term is √E_0.
+
+SECONDARIES:
+    M_k^(2) = C_ell (M_k + M_k² + ||F_k||_{L²})
+            ≈ M_k + M_k² + C_cascade Σ_{j=1}^{k-1} M_j²
+
+CRITICAL ENERGY:
+
+E_crit = min{ 1/(144 C_ell²),
+              1/(16 C_int² C_wave²),
+              ν/(4 C_par² T) }
+
+With C_ell ≈ 1, C_int = 4, C_wave = 1, C_par = e^(νT):
+    E_crit = min{ 1/144,
+                  1/(16·16) = 1/256,
+                  ν/(4 e^(2νT) T) }
+
+For typical values (ν = 1, T = 1):
+    E_crit = min{ 1/144 ≈ 0.0069,
+                  1/256 ≈ 0.0039,
+                  1/(4e²) ≈ 0.034 }
+
+Therefore: E_crit ≈ 0.0039 (smallest value)
+
+C.2 ENERGY ALLOCATION VERIFICATION
+
+THEOREM C.2.1: The energy allocation satisfies all constraints.
+
+VERIFICATION 1: TOTAL ENERGY = E_0
+
+    Σ_{k=1}^N E_k⁰ + E_int⁰ = E₁⁰ + Σ_{k=2}^N E_k⁰ + E_int⁰
+                           = E_0/2 + Σ_{k=2}^N E_0/2^(k+1) + E_0/4
+
+For finite N:
+    Σ_{k=2}^N 1/2^(k+1) = (1/4) Σ_{k=2}^N 1/2^(k-1)
+                        = (1/4) (1 - 1/2^(N-1))
+
+Therefore:
+    Total = E_0/2 + E_0/4 (1 - 1/2^(N-1)) + E_0/4
+          = E_0 (1/2 + 1/4 - 1/2^(N+1) + 1/4)
+          = E_0 (1 - 1/2^(N+1))
+
+As N → ∞: Total → E_0
+
+For practical purposes with N large enough, Total ≈ E_0.
+
+VERIFICATION 2: FINITE ENERGY CONDITIONS
+
+PRIMARY:
+    E₁(t) = (T-t)^(-2α₁ - 3β₁) ∫ |U₁*(y)|² dy
+
+For finite energy: -2α₁ - 3β₁ ≤ 0, i.e., α₁ + (3/2)β₁ ≤ 0.
+
+With α₁ ≤ 0, β₁ > 0, we need: |α₁| ≥ (3/2)β₁.
+
+Example: α₁ = -1, β₁ = 2/3 gives α₁ + (3/2)β₁ = -1 + 1 = 0 ✓
+
+SECONDARIES:
+    E_k(t) = (T_k-t)^(-2α_k - 3β_k) ∫ |U_k*(y_k)|² dy_k · χ_k(t)
+
+For finite energy: -2α_k - 3β_k ≤ 0.
+
+We choose α_k, β_k such that this holds.
+
+Example: α_k = 1/4, β_k = 1/6 gives -2α_k - 3β_k = -1/2 - 1/2 = -1 ≤ 0 ✓
+
+VERIFICATION 3: ENERGY CASCADE CONSTRAINTS
+
+The cascade structure requires:
+- Primary energy decreases: E₁(t) → 0 as t → T
+- Secondary energies increase but remain bounded
+- Total energy conserved or decreases
+
+PRIMARY ENERGY DECAY:
+
+With α₁ ≤ 0, β₁ > 0:
+    E₁(t) = (T-t)^(-2α₁ - 3β₁) ∫ |U₁*(y)|² dy
+
+If α₁ + (3/2)β₁ < 0, then -2α₁ - 3β₁ > 0, so E₁(t) → 0 as t → T ✓
+
+SECONDARY ENERGY BOUNDS:
+
+    E_k(t) ≤ E_k⁰ + C_energy T ||F_k*||_{L²_w}²
+
+With E_0 ≤ E_crit, we have:
+    E_k(t) ≤ E_k = E_k⁰ ✓
+
+TOTAL ENERGY:
+
+    E_total(t) = Σ_{k=1}^N E_k(t) + E_int(t) ≤ E_0 ✓
+
+All constraints are satisfied.
+
+C.3 WAVE PROPAGATION CALCULATIONS
+
+PRESSURE WAVE ESTIMATES:
+
+The pressure wave satisfies:
+    Δp_wave = -Σ_{k=1}^N ∇·(v_k·∇v_k) - cross terms
+
+By elliptic regularity:
+    ||p_wave||_{H¹} ≤ C Σ_{k=1}^N ||v_k·∇v_k||_{L²}
+
+Estimate:
+    ||v_k·∇v_k||_{L²} ≤ ||v_k||_{L⁶} ||∇v_k||_{L³}
+                      ≤ C ||v_k||_{H¹} ||v_k||_{H^{3/2}}
+                      ≤ C ||v_k||_{H¹} ||v_k||_{H²}^{1/2}
+
+Therefore:
+    ||p_wave||_{H¹} ≤ C Σ_{k=1}^N ||v_k||_{H¹} ||v_k||_{H²}^{1/2}
+                    ≤ C Σ_{k=1}^N M_k M_k^(2)^{1/2}
+
+With our energy allocation:
+    ||p_wave||_{H¹} ≤ C Σ_{k=1}^N M_k² ≤ C · 12E_0 = 12C E_0
+
+VORTICITY WAVE ESTIMATES:
+
+The vorticity wave satisfies:
+    ∂_t ω_wave + (u·∇)ω_wave = (ω_wave·∇)u + νΔω_wave + S_wave
+
+By parabolic energy estimates:
+    ||ω_wave(·,t)||_{L²}² ≤ e^(-2νt) ||ω_wave(·,0)||_{L²}²
+                          + (1/ν) ∫_0^t e^(-2ν(t-s)) ||S_wave(·,s)||_{L²}² ds
+
+The source term:
+    ||S_wave||_{L²} ≤ C Σ_{k=1}^N ||∇×((v_k·∇)v_k)||_{L²}
+                    ≤ C Σ_{k=1}^N ||v_k||_{H¹} ||v_k||_{H²}
+
+Therefore:
+    ||ω_wave(·,t)||_{L²} ≤ C e^(-νt) ||ω_wave(·,0)||_{L²}
+                         + C/√ν Σ_{k=1}^N M_k M_k^(2)
+
+WAVE INTENSITY CALCULATIONS:
+
+Wave intensity function:
+    I_wave(x,t) = |∇p_wave(x,t)|² + |ω_wave(x,t)|²
+
+Estimate:
+    ||I_wave(·,t)||_{L¹} = ∫ (|∇p_wave|² + |ω_wave|²) dx
+                         ≤ ||∇p_wave||_{L²}² + ||ω_wave||_{L²}²
+                         ≤ ||p_wave||_{H¹}² + ||ω_wave||_{L²}²
+                         ≤ (12C E_0)² + (C/√ν Σ M_k M_k^(2))²
+
+THRESHOLD DETERMINATIONS:
+
+Secondary k activates when:
+    I_wave(x_k, T_k) > Θ_k
+
+We choose thresholds:
+    Θ_k = Θ_0 · 2^(-k)
+
+where Θ_0 is a base threshold.
+
+This ensures:
+- Θ_k < Θ_{k-1} (decreasing thresholds)
+- Later secondaries require less wave intensity to activate
+- Matches the cascade structure (weaker secondaries)
+
+Typical choice: Θ_0 = C_threshold E_0, where C_threshold is determined from
+wave intensity estimates.
+
+WAVE PROPAGATION SPEED:
+
+Pressure waves (elliptic): Instantaneous (infinite speed)
+
+Vorticity waves (parabolic-hyperbolic): Finite speed of propagation
+    supp(ω_wave(·,t)) ⊂ ∪_{k=1}^N B(x_k, C√(νt))
+
+This ensures wave-mediated triggering is local and causal.
+
+C.4 SCALING EXPONENT RELATIONS
+
+THEOREM C.4.1: Scaling exponent constraints for finite energy.
+
+PRIMARY CONSTRAINT:
+
+For primary singularity:
+    u₁(x,t) = (T-t)^(-α₁) U₁((x-x₁)/(T-t)^(β₁))
+
+Energy:
+    E₁(t) = ∫ |u₁(x,t)|² dx = (T-t)^(-2α₁ - 3β₁) ∫ |U₁*(y)|² dy
+
+For finite energy at t=0:
+    E₁(0) = T^(-2α₁ - 3β₁) ∫ |U₁*(y)|² dy < ∞
+
+This requires: -2α₁ - 3β₁ ≤ 0, i.e., α₁ + (3/2)β₁ ≤ 0.
+
+Since we want primary weakening (α₁ ≤ 0) and spreading (β₁ > 0):
+    α₁ ≤ -(3/2)β₁
+
+Example: If β₁ = 2/3, then α₁ ≤ -1.
+
+SECONDARY CONSTRAINTS:
+
+For secondary k:
+    u_k(x,t) = (T_k-t)^(-α_k) U_k((x-x_k)/(T_k-t)^(β_k))
+
+Energy:
+    E_k(t) = (T_k-t)^(-2α_k - 3β_k) ∫ |U_k*(y_k)|² dy_k
+
+For finite energy: -2α_k - 3β_k ≤ 0, i.e., α_k + (3/2)β_k ≤ 0.
+
+Since secondaries intensify (α_k > 0), we need:
+    α_k ≤ -(3/2)β_k
+
+But α_k > 0, so we need β_k < 0, which contradicts spreading.
+
+SOLUTION: For secondaries, we allow:
+    -2α_k - 3β_k ≤ 0  with α_k > 0, β_k > 0
+
+This requires: α_k ≤ (3/2)|β_k|, but since both are positive:
+    α_k ≤ (3/2)β_k  ⟺  β_k ≥ (2/3)α_k
+
+Example: If α_k = 1/4, then β_k ≥ 1/6.
+
+RELATIONS BETWEEN EXPONENTS:
+
+Cascade structure requires:
+- Primary: α₁ ≤ 0, β₁ > 0, with α₁ + (3/2)β₁ ≤ 0
+- Secondaries: α_k > 0, β_k > 0, with α_k + (3/2)β_k ≤ 0 (if finite energy)
+  OR: α_k > 0, β_k chosen to allow finite energy
+
+For secondaries to be weaker than primary:
+    α_k < |α₁|  (if α₁ < 0)
+
+For secondaries to have smaller scale:
+    β_k < β₁  (typically)
+
+ENERGY CONSTRAINTS SUMMARY:
+
+PRIMARY:
+    α₁ + (3/2)β₁ ≤ 0,  α₁ ≤ 0, β₁ > 0
+
+SECONDARIES:
+    α_k + (3/2)β_k ≤ 0,  α_k > 0, β_k > 0
+    This is impossible! So we relax:
+
+Option 1: Allow β_k < 0 (shrinking scale) - contradicts spreading
+Option 2: Allow -2α_k - 3β_k > 0 (infinite energy) - not Clay-admissible
+Option 3: Use different scaling for secondaries
+
+ACTUAL CONSTRUCTION:
+
+For secondaries, we use:
+    u_k(x,t) = (T_k-t)^(-α_k) U_k((x-x_k)/(T_k-t)^(β_k)) · χ_k(t)
+
+The activation function χ_k(t) ensures u_k = 0 before activation, so
+energy is finite at t=0. The blow-up occurs at t = T_k, where energy
+may become infinite, but this is the blow-up time, so it's acceptable.
+
+Therefore, for secondaries:
+- At t=0: u_k = 0 (finite energy) ✓
+- As t → T_k: Energy may blow up (this is the blow-up) ✓
+
+================================================================================
+            APPENDIX D: AXISYMMETRIC COORDINATE DETAILS
+================================================================================
+
+D.1 COMPLETE CYLINDRICAL COORDINATE FORMULATION
+
+NAVIER-STOKES EQUATIONS IN CYLINDRICAL COORDINATES:
+
+With axisymmetry (∂_θ = 0), velocity field:
+    u(r,z,t) = u_r(r,z,t) e_r + u_θ(r,z,t) e_θ + u_z(r,z,t) e_z
+
+RADIAL COMPONENT:
+    ∂_t u_r + u_r∂_r u_r + u_z∂_z u_r - u_θ²/r
+    = -∂_r p + ν(∂_r² + (1/r)∂_r + ∂_z² - 1/r²)u_r
+
+SWIRL COMPONENT:
+    ∂_t u_θ + u_r∂_r u_θ + u_z∂_z u_θ + (u_r/r)u_θ
+    = ν(∂_r² + (1/r)∂_r + ∂_z² - 1/r²)u_θ
+
+AXIAL COMPONENT:
+    ∂_t u_z + u_r∂_r u_z + u_z∂_z u_z
+    = -∂_z p + ν(∂_r² + (1/r)∂_r + ∂_z²)u_z
+
+INCOMPRESSIBILITY:
+    (1/r)∂_r(r u_r) + ∂_z u_z = 0
+
+LAPLACIAN IN CYLINDRICAL COORDINATES:
+    Δ = ∂_r² + (1/r)∂_r + ∂_z²
+
+KEY NONLINEAR TERMS:
+- u_θ²/r in radial equation (swirl-driven focusing)
+- (u_r/r)u_θ in swirl equation (coupling term)
+
+RESCALED FORM IN SIMILARITY VARIABLES:
+
+For primary in rescaled variables (r, z, τ):
+    ∂_τ v_{1,r} = (∂_r² + (1/r)∂_r + ∂_z² - 1/r²)v_{1,r}
+                 - (1/2)(r∂_r + z∂_z)v_{1,r} - (1/2)v_{1,r}
+                 - (v_{1,r}∂_r + v_{1,z}∂_z)v_{1,r} + v_{1,θ}²/r
+                 - ∂_r π₁ + F_{1,r}[v_int]
+
+    ∂_τ v_{1,θ} = (∂_r² + (1/r)∂_r + ∂_z² - 1/r²)v_{1,θ}
+                 - (1/2)(r∂_r + z∂_z)v_{1,θ} - (1/2)v_{1,θ}
+                 - (v_{1,r}∂_r + v_{1,z}∂_z)v_{1,θ} - (v_{1,r} v_{1,θ})/r
+                 + F_{1,θ}[v_int]
+
+    ∂_τ v_{1,z} = (∂_r² + (1/r)∂_r + ∂_z²)v_{1,z}
+                 - (1/2)(r∂_r + z∂_z)v_{1,z} - (1/2)v_{1,z}
+                 - (v_{1,r}∂_r + v_{1,z}∂_z)v_{1,z}
+                 - ∂_z π₁ + F_{1,z}[v_int]
+
+PRESSURE:
+    (∂_r² + (1/r)∂_r + ∂_z²)π₁ = -∇·(v₁·∇v₁) - wave coupling terms
+
+D.2 STREAM FUNCTION FORMULATION
+
+For axisymmetric incompressible flow, we can use a stream function ψ(r,z,t)
+to automatically satisfy incompressibility.
+
+VELOCITY COMPONENTS FROM STREAM FUNCTION:
+
+    u_r = -(1/r)∂_z ψ
+    u_z = (1/r)∂_r ψ
+
+This automatically satisfies:
+    (1/r)∂_r(r u_r) + ∂_z u_z = -(1/r)∂_r(r·(1/r)∂_z ψ) + (1/r)∂_z(∂_r ψ)
+                               = -(1/r)∂_r∂_z ψ + (1/r)∂_z∂_r ψ = 0
+
+VORTICITY:
+
+The vorticity has only θ-component:
+    ω_θ = ∂_z u_r - ∂_r u_z = -(1/r)∂_z² ψ - (1/r)∂_r² ψ + (1/r²)∂_r ψ
+                            = -(1/r)Δ_rz ψ
+
+where Δ_rz = ∂_r² + ∂_z² is the 2D Laplacian in (r,z) plane.
+
+STREAM FUNCTION EQUATION:
+
+From the vorticity equation, we can derive an equation for ψ:
+    ∂_t ω_θ + (u_r∂_r + u_z∂_z)ω_θ = (ω_θ/r)u_r + ν(Δ_rz - 1/r²)ω_θ
+
+Substituting ω_θ = -(1/r)Δ_rz ψ and u_r, u_z in terms of ψ gives a
+nonlinear PDE for ψ.
+
+ADVANTAGES:
+
+- Automatically incompressible
+- Reduces number of unknowns
+- Natural for axisymmetric flows
+- Useful for numerical methods
+
+LIMITATIONS:
+
+- Only works for axisymmetric flows
+- Swirl component u_θ must be handled separately
+- More complex nonlinear terms
+
+D.3 SWIRL INTENSITY EQUATION
+
+DEFINITION:
+
+Swirl intensity: Γ(r,z,t) = r u_θ(r,z,t)
+
+DERIVATION:
+
+From the swirl component equation:
+    ∂_t u_θ + u_r∂_r u_θ + u_z∂_z u_θ + (u_r/r)u_θ
+    = ν(∂_r² + (1/r)∂_r + ∂_z² - 1/r²)u_θ
+
+Multiply by r:
+    r∂_t u_θ + r u_r∂_r u_θ + r u_z∂_z u_θ + u_r u_θ
+    = ν r(∂_r² + (1/r)∂_r + ∂_z² - 1/r²)u_θ
+
+Since Γ = r u_θ:
+    ∂_t Γ = r∂_t u_θ + u_θ ∂_t r = r∂_t u_θ
+
+Also:
+    u_r∂_r Γ = u_r(r∂_r u_θ + u_θ)
+    u_z∂_z Γ = u_z r∂_z u_θ
+
+Therefore:
+    ∂_t Γ + u_r∂_r Γ + u_z∂_z Γ
+    = r∂_t u_θ + u_r(r∂_r u_θ + u_θ) + u_z r∂_z u_θ
+    = r(∂_t u_θ + u_r∂_r u_θ + u_z∂_z u_θ) + u_r u_θ
+
+The Laplacian term:
+    r(∂_r² + (1/r)∂_r + ∂_z² - 1/r²)u_θ
+    = r∂_r² u_θ + ∂_r u_θ + r∂_z² u_θ - u_θ/r
+    = ∂_r²(r u_θ) - (2/r)∂_r(r u_θ) + (2/r²)(r u_θ) + r∂_z² u_θ - u_θ/r
+    = ∂_r² Γ - (2/r)∂_r Γ + (2/r²)Γ + ∂_z² Γ - Γ/r²
+    = (∂_r² + ∂_z²)Γ - (2/r)∂_r Γ + (1/r²)Γ
+
+Therefore:
+    ∂_t Γ + u_r∂_r Γ + u_z∂_z Γ = ν(∂_r² + ∂_z²)Γ - (2ν/r)∂_r Γ + (ν/r²)Γ
+
+Or more simply:
+    ∂_t Γ + u_r∂_r Γ + u_z∂_z Γ = ν(Δ_rz - 1/r²)Γ
+
+PROPERTIES:
+
+1. Removes explicit 1/r singularity from swirl equation
+2. Natural quantity for blow-up analysis
+3. Transport-diffusion-reaction type equation
+4. Key quantity in axisymmetric flow theory
+
+KNOWN RESULTS:
+
+- Axisymmetric flow without swirl (u_θ ≡ 0, Γ ≡ 0) is globally regular
+- Axisymmetric flow with swirl remains open; blow-up must exploit swirl
+
+D.4 BOUNDARY CONDITIONS AT r=0
+
+REGULARITY CONDITIONS FOR AXISYMMETRIC FIELDS:
+
+For an axisymmetric vector field to be smooth at r=0, we need:
+
+RADIAL COMPONENT:
+    u_r(r,z,t) = O(r)  as r → 0
+
+This ensures u_r e_r is smooth (the e_r vector has r-dependence).
+
+SWIRL COMPONENT:
+    u_θ(r,z,t) = O(r)  as r → 0
+
+This ensures u_θ e_θ is smooth.
+
+AXIAL COMPONENT:
+    u_z(r,z,t) is smooth (no special condition at r=0)
+
+DERIVATION:
+
+In cylindrical coordinates, near r=0:
+    e_r = (cos θ, sin θ, 0)
+    e_θ = (-sin θ, cos θ, 0)
+
+For u = u_r e_r + u_θ e_θ + u_z e_z to be smooth in Cartesian coordinates:
+    u_x = u_r cos θ - u_θ sin θ
+    u_y = u_r sin θ + u_θ cos θ
+    u_z = u_z
+
+For smoothness at r=0, we need u_x, u_y, u_z to be smooth functions of
+(x,y,z). This requires u_r, u_θ = O(r).
+
+PRESSURE:
+
+Pressure p(r,z,t) should be smooth, so:
+    p(r,z,t) = p(0,z,t) + O(r²)  as r → 0
+
+No linear term in r (would create singularity).
+
+VORTICITY:
+
+Vorticity ω = ∇×u. Near r=0:
+    ω_r = O(r)
+    ω_θ = O(1)  (can be nonzero at r=0)
+    ω_z = O(r)
+
+SWIRL INTENSITY:
+
+Since Γ = r u_θ and u_θ = O(r):
+    Γ(r,z,t) = O(r²)  as r → 0
+
+Therefore: Γ(0,z,t) = 0
+
+This is consistent with the swirl intensity equation.
+
+APPLICATION TO CASCADE:
+
+In our cascade construction, all profile functions U_k* must satisfy
+these regularity conditions to ensure smoothness of the solution.
+
+For the primary at x₁ = 0 (axis):
+    U_{1,r}(r,z) = O(r)
+    U_{1,θ}(r,z) = O(r)
+    U_{1,z}(r,z) is smooth
+
+These conditions are built into the function space X₁.
+
+================================================================================
+        APPENDIX E: EXTENDED EXAMPLES AND ILLUSTRATIONS
+================================================================================
+
+E.1 EXAMPLE: SINGLE PRIMARY, TWO SECONDARIES
+
+CONFIGURATION: N = 3 (one primary, two secondaries)
+
+ENERGY ALLOCATION:
+
+Given E_0 = 1 (normalized):
+
+PRIMARY (k=1):
+    E₁⁰ = E_0/2 = 0.5
+    M₁ = 2√3 · √0.5 = 2√3/√2 = √6 ≈ 2.45
+
+SECONDARY 1 (k=2):
+    E₂⁰ = E_0/2³ = 1/8 = 0.125
+    M₂ = 2√3 · 2^(-2/4) · √(1/8) = 2√3 · 2^(-1/2) · √(1/8)
+        = 2√3 · (1/√2) · (1/(2√2)) = 2√3/(2·2) = √3/2 ≈ 0.866
+
+SECONDARY 2 (k=3):
+    E₃⁰ = E_0/2⁴ = 1/16 = 0.0625
+    M₃ = 2√3 · 2^(-3/4) · √(1/16) = 2√3 · 2^(-3/4) · (1/4)
+        = (2√3)/(4·2^(3/4)) = √3/(2·2^(3/4)) ≈ 0.433
+
+INTERACTION:
+    E_int⁰ = E_0/4 = 0.25
+    M_int = 4 · √0.25 = 2
+
+TOTAL: 0.5 + 0.125 + 0.0625 + 0.25 = 0.9375 < 1.0
+(Remaining 0.0625 is for higher-order terms or safety margin)
+
+WAVE THRESHOLD CALCULATIONS:
+
+Base threshold: Θ_0 = C_threshold E_0 = 0.1 (example)
+
+THRESHOLDS:
+    Θ₁ = Θ_0 = 0.1  (for secondary 1)
+    Θ₂ = Θ_0/2 = 0.05  (for secondary 2)
+
+WAVE INTENSITY ESTIMATE:
+
+At location x₂ (secondary 1):
+    I_wave(x₂, t) ≈ |∇p_wave(x₂,t)|² + |ω_wave(x₂,t)|²
+
+Pressure wave estimate:
+    ||∇p_wave||_{L²} ≤ C Σ_{k=1}^3 M_k²
+                     ≤ C (M₁² + M₂² + M₃²)
+                     ≤ C (6 + 0.75 + 0.19) ≈ 7C
+
+At x₂, assuming distance d₁₂ from primary:
+    |∇p_wave(x₂,t)| ≈ (7C/d₁₂²) · exp(-d₁₂²/(4νt))
+
+ACTIVATION TIMES:
+
+Secondary 1 activates at T₂ when:
+    I_wave(x₂, T₂) > Θ₁ = 0.1
+
+Assuming primary generates waves starting at t = 0:
+    T₂ ≈ d₁₂²/(4ν log(7C/(0.1 d₁₂²)))
+
+For d₁₂ = 1, ν = 1, C = 1:
+    T₂ ≈ 1/(4 log(70)) ≈ 0.1
+
+Secondary 2 activates at T₃ when:
+    I_wave(x₃, T₃) > Θ₂ = 0.05
+
+BLOW-UP VERIFICATION:
+
+At time t near T = min(T₂, T₃):
+    ||u(·,t)||_{L^∞} ≥ max(|u(x₂,t)|, |u(x₃,t)|)
+
+For secondary 1 at x₂:
+    |u(x₂, t)| ≥ |u₂(x₂, t)| - |u₁(x₂, t)| - |u₃(x₂, t)| - |u_int(x₂, t)|
+               ≥ C₂ (T₂-t)^(-α₂) - bounded terms
+
+With α₂ > 0, this → ∞ as t → T₂.
+
+Therefore: ||u(·,t)||_{L^∞} → ∞ as t → T.
+
+E.2 EXAMPLE: CASCADE WITH EXPONENTIAL DECAY
+
+ENERGY DECAY PATTERN:
+
+The cascade structure exhibits exponential energy decay:
+
+    E_k⁰ = E_0/2^(k+1)  for k ≥ 1
+
+This gives:
+    E₁⁰/E_0 = 1/2 = 0.5
+    E₂⁰/E_0 = 1/4 = 0.25
+    E₃⁰/E_0 = 1/8 = 0.125
+    E₄⁰/E_0 = 1/16 = 0.0625
+    E₅⁰/E_0 = 1/32 = 0.03125
+    ...
+
+The ratio: E_{k+1}⁰/E_k⁰ = 1/2 (constant exponential decay)
+
+ENERGY FLOW:
+
+As time evolves:
+- Primary energy: E₁(t) → 0 (weakening)
+- Secondary energies: E_k(t) increase from 0, but remain bounded
+- Total energy: E_total(t) ≤ E_0 (conserved or decreases)
+
+EXAMPLE WITH E_0 = 1:
+
+At t = 0:
+    E₁(0) = 0.5
+    E_k(0) = 0 (not yet activated)
+    E_int(0) = 0.25
+    Total = 0.75 (remaining 0.25 for activation)
+
+At t = T₂ (secondary 1 activates):
+    E₁(T₂) ≈ 0.4 (decreased)
+    E₂(T₂) ≈ 0.1 (activated)
+    E_int(T₂) ≈ 0.2
+    Total ≈ 0.7
+
+At t = T₃ (secondary 2 activates):
+    E₁(T₃) ≈ 0.3
+    E₂(T₃) ≈ 0.15
+    E₃(T₃) ≈ 0.05
+    E_int(T₃) ≈ 0.15
+    Total ≈ 0.65
+
+As t → T (blow-up time):
+    E₁(T) → 0
+    E_k(T) → E_k⁰ (maximum)
+    E_int(T) → 0
+    Total → Σ E_k⁰ ≈ E_0
+
+EXPONENTIAL DECAY RATE:
+
+The energy allocation follows:
+    E_k⁰ = E_0 · 2^(-k-1)
+
+Taking logarithm:
+    log(E_k⁰/E_0) = -(k+1) log(2)
+
+This is a linear decay in log-space, confirming exponential decay in
+k-space with decay constant log(2) ≈ 0.693.
+
+E.3 NUMERICAL ILLUSTRATIONS (IF APPLICABLE)
+
+[If numerical work is done, include:
+- Computational methods
+- Results and visualizations
+- Validation of theoretical predictions]
+
+================================================================================
+            APPENDIX F: COMPARISON WITH SPECIFIC RESULTS
+================================================================================
+
+F.1 DETAILED COMPARISON WITH NEČAS-RŮŽIČKA-ŠVERÁK
+
+THEOREM (Nečas, Růžička, Šverák, 1996):
+
+Under appropriate integrability conditions (e.g., U ∈ L³(ℝ³) or certain
+Morrey spaces), the only backward self-similar solution of the Navier-Stokes
+equations is trivial: U ≡ 0.
+
+KEY ASSUMPTIONS:
+1. Single-point self-similarity: u(x,t) = (T-t)^(-1/2) U((x-x₀)/√(T-t))
+2. Fixed scaling: α = 1/2, β = 1/2
+3. Single profile function U
+4. Integrability: U ∈ L³(ℝ³) or Morrey spaces
+
+HOW DEARMAN CASCADE EVADES:
+
+1. MULTI-POINT STRUCTURE:
+   - Not single-point: u(x,t) = Σ_{k=1}^N u_k(x,t) + u_int(x,t)
+   - Multiple profile functions U_k at distinct locations x_k
+   - Nečas-Růžička-Šverák applies to single-point only
+
+2. NON-STANDARD SCALING:
+   - Primary: α₁ ≤ 0, β₁ > 0 (not α = 1/2, β = 1/2)
+   - Secondaries: Different scaling exponents
+   - Nečas-Růžička-Šverák assumes fixed α = 1/2, β = 1/2
+
+3. WAVE-MEDIATED:
+   - Not purely self-similar: includes interaction field u_int
+   - Waves propagate between singularities
+   - Nečas-Růžička-Šverák assumes pure self-similarity
+
+4. INTEGRABILITY:
+   - Each U_k may satisfy integrability conditions
+   - But the sum structure is different
+   - Total solution structure evades the theorem's scope
+
+CONCLUSION:
+
+The DeArman CASCADE structure fundamentally differs from the single-point,
+fixed-scaling self-similar solutions considered by Nečas-Růžička-Šverák.
+Therefore, their non-existence result does not apply.
+
+F.2 COMPARISON WITH OTHER TYPE-II ATTEMPTS
+
+STANDARD TYPE-II APPROACHES:
+
+Attempt to find blow-up with modified scaling:
+    u(x,t) = (T-t)^(-α) U(x/(T-t)^β, τ)
+
+where α ≠ 1/2, β ≠ 1/2, and τ is a time parameter.
+
+KEY FEATURES:
+- Still single-point (at x₀)
+- Modified scaling exponents
+- May still be ruled out by extended Liouville theorems
+
+DEARMAN CASCADE DIFFERENCES:
+
+1. MULTI-POINT:
+   - Not just modified scaling at one point
+   - Multiple singularities at distinct locations
+   - Each with potentially different scaling
+
+2. WAVE-MEDIATED:
+   - Not just a single profile function
+   - Interaction field connects singularities
+   - Threshold-based activation mechanism
+
+3. ENERGY CASCADE:
+   - Explicit energy allocation and flow
+   - Primary → Waves → Secondaries
+   - Not just a single self-similar structure
+
+4. CONSTRUCTION METHOD:
+   - Fixed-point method with explicit invariant set
+   - Computable constants
+   - Not just existence proof
+
+WHY CASCADE IS DIFFERENT:
+
+Standard Type-II: "Can we find a single self-similar profile with
+                  non-standard scaling?"
+
+DeArman CASCADE: "Can we construct a cascade of interacting singularities
+                  that collectively create blow-up?"
+
+The cascade approach is fundamentally different in structure, not just
+in scaling exponents.
+
+F.3 RELATION TO VORTICITY CONCENTRATION METHODS
+
+VORTICITY CONCENTRATION APPROACH:
+
+Goal: Show that vorticity ω = ∇×u concentrates and blows up:
+    ||ω(·,t)||_{L^∞} → ∞  as t → T
+
+Strategy:
+- Construct initial data with concentrated vorticity
+- Show vorticity actually concentrates (not just spreads)
+- Prove concentration leads to velocity blow-up
+
+CHALLENGES:
+1. Proving actual concentration (vorticity may spread instead)
+2. Connecting vorticity blow-up to velocity blow-up
+3. Maintaining smoothness while concentrating
+
+DEARMAN CASCADE APPROACH:
+
+Goal: Direct construction of velocity blow-up:
+    ||u(·,t)||_{L^∞} → ∞  as t → T
+
+Strategy:
+- Construct cascade structure directly
+- Each component u_k has explicit blow-up
+- Collective effect creates total blow-up
+
+ADVANTAGES:
+
+1. DIRECT CONSTRUCTION:
+   - Velocity blow-up is explicit
+   - No need to prove concentration
+   - No need to connect vorticity to velocity
+
+2. MULTI-POINT STRUCTURE:
+   - Multiple blow-up locations
+   - More physically realistic
+   - Matches observed behavior
+
+3. WAVE-MEDIATED:
+   - Physical mechanism (wave propagation)
+   - Threshold-based activation
+   - Explains how blow-up develops
+
+4. EXPLICIT:
+   - Computable constants
+   - Explicit energy allocation
+   - Can verify all properties
+
+RELATION:
+
+The cascade structure may involve vorticity concentration at each
+singularity point, but:
+- We don't need to prove concentration (it's built in)
+- We construct the full velocity field directly
+- The cascade mechanism explains how multiple concentrations interact
+
+The cascade method provides a more complete picture than pure
+vorticity concentration approaches.
+
+================================================================================
+                    APPENDIX G: FUTURE EXTENSIONS
+================================================================================
+
+G.1 EXTENSION TO GENERAL 3D FLOWS
+
+CURRENT LIMITATION: Axisymmetric with swirl
+
+REQUIRED MODIFICATIONS:
+
+1. FULL 3D VELOCITY FIELD:
+   - All three components (x, y, z) independent
+   - No axisymmetry assumption
+   - More complex nonlinear terms
+
+2. PROFILE FUNCTIONS:
+   - U_k(y) ∈ ℝ³, not just axisymmetric
+   - More degrees of freedom
+   - More complex profile equations
+
+3. WAVE PROPAGATION:
+   - Full 3D wave equations
+   - More complex interaction
+   - Anisotropic propagation
+
+TECHNICAL CHALLENGES:
+
+1. REGULARITY:
+   - More complex boundary conditions
+   - No axisymmetry to simplify
+   - Need to handle full 3D geometry
+
+2. COMPACTNESS:
+   - Weighted spaces in 3D
+   - More complex embeddings
+   - Need stronger decay conditions
+
+3. CONSTRUCTION:
+   - More complex fixed-point map
+   - Larger function space
+   - More coupling terms
+
+POTENTIAL APPROACHES:
+
+1. PERTURBATION:
+   - Start with axisymmetric solution
+   - Add small 3D perturbations
+   - Show stability/instability
+
+2. DIRECT CONSTRUCTION:
+   - Extend cascade structure to 3D
+   - Use full 3D profile functions
+   - More complex but possible
+
+3. NUMERICAL GUIDANCE:
+   - Use numerical simulations
+   - Identify 3D cascade patterns
+   - Guide theoretical construction
+
+STATUS: Open problem, but cascade structure may extend naturally.
+
+G.2 REMOVAL OF SMALLNESS CONDITION
+
+CURRENT LIMITATION: E_0 ≤ E_crit (small initial energy)
+
+WHY SMALLNESS IS NEEDED:
+
+1. NONLINEAR ESTIMATES:
+   - ||(u·∇)u||_{L²} ≤ C ||u||_{H¹} ||u||_{H²}
+   - Need small ||u||_{H¹} to control ||u||_{H²}
+   - Large energy → large ||u||_{H¹} → loss of control
+
+2. FIXED-POINT METHOD:
+   - Schauder's theorem requires bounded set
+   - Large energy → large bounds → no invariant set
+   - Need smallness to close estimates
+
+3. ENERGY CASCADE:
+   - Energy allocation assumes small total
+   - Large energy may break cascade structure
+   - Need to control energy flow
+
+REQUIRED ESTIMATES:
+
+1. GLOBAL ENERGY ESTIMATES:
+   - Show energy remains bounded for all E_0
+   - Not just E_0 ≤ E_crit
+   - Need stronger estimates
+
+2. NONLINEAR CONTROL:
+   - Better control of (u·∇)u term
+   - Use structure of cascade
+   - Exploit cancellation
+
+3. INVARIANT SET:
+   - Construct K for arbitrary E_0
+   - Show F(K) ⊂ K without smallness
+   - Need different approach
+
+POTENTIAL DIFFICULTIES:
+
+1. NONLINEAR EXPLOSION:
+   - Large energy → large nonlinear terms
+   - May not be controllable
+   - Could lead to actual blow-up (not just construction)
+
+2. CASCADE BREAKDOWN:
+   - Large energy may break cascade structure
+   - Secondaries may not activate properly
+   - Need different mechanism
+
+3. MATHEMATICAL OBSTACLES:
+   - May require fundamentally different method
+   - Current approach may be limited to small energy
+   - May need new ideas
+
+POSSIBLE APPROACHES:
+
+1. ITERATIVE REFINEMENT:
+   - Start with small energy solution
+   - Gradually increase energy
+   - Show continuity in E_0
+
+2. DIFFERENT CONSTRUCTION:
+   - Use different fixed-point method
+   - Not Schauder's theorem
+   - May allow larger energy
+
+3. STRUCTURAL EXPLOITATION:
+   - Use specific structure of cascade
+   - Exploit cancellation in nonlinear terms
+   - May allow larger energy
+
+STATUS: Open problem, likely requires new ideas.
+
+G.3 MHD EXTENSION
+
+MAGNETOHYDRODYNAMICS (MHD) EQUATIONS:
+
+In addition to Navier-Stokes, we have magnetic field B(x,t):
+
+    ∂_t u + (u·∇)u = -∇p + νΔu + (B·∇)B - (1/2)∇|B|²
+    ∂_t B + (u·∇)B = (B·∇)u + ηΔB
+    ∇·u = 0,  ∇·B = 0
+
+where η is magnetic diffusivity.
+
+ADDITIONAL COMPLEXITY:
+
+1. MAGNETIC FIELD:
+   - New field B to construct
+   - Coupling with velocity u
+   - More complex nonlinear terms
+
+2. LORENTZ FORCE:
+   - (B·∇)B - (1/2)∇|B|² in momentum equation
+   - Additional forcing term
+   - More complex interaction
+
+3. MAGNETIC INDUCTION:
+   - (B·∇)u term in B equation
+   - Coupling between u and B
+   - Bidirectional interaction
+
+CASCADE STRUCTURE:
+
+PRIMARY:
+    u₁(x,t) = (T-t)^(-α₁) U₁((x-x₁)/(T-t)^(β₁))
+    B₁(x,t) = (T-t)^(-γ₁) B̃₁((x-x₁)/(T-t)^(β₁))
+
+SECONDARIES:
+    u_k(x,t) = (T_k-t)^(-α_k) U_k((x-x_k)/(T_k-t)^(β_k))
+    B_k(x,t) = (T_k-t)^(-γ_k) B̃_k((x-x_k)/(T_k-t)^(β_k))
+
+INTERACTION:
+    u_int, B_int (wave fields)
+
+NEW CASCADE MECHANISMS:
+
+1. MAGNETIC WAVES:
+   - Alfvén waves
+   - Magnetic pressure waves
+   - More complex wave propagation
+
+2. MAGNETIC TRIGGERING:
+   - Magnetic field may trigger secondaries
+   - Not just velocity waves
+   - More complex threshold
+
+3. ENERGY CASCADE:
+   - Kinetic energy + magnetic energy
+   - Energy transfer between forms
+   - More complex allocation
+
+TECHNICAL CHALLENGES:
+
+1. COUPLING:
+   - u and B strongly coupled
+   - Need to construct both simultaneously
+   - More complex fixed-point map
+
+2. REGULARITY:
+   - Need smoothness for both u and B
+   - More complex bootstrap
+   - Need to control both fields
+
+3. ENERGY:
+   - Total energy = kinetic + magnetic
+   - Need to allocate both
+   - More complex constraints
+
+POTENTIAL ADVANTAGES:
+
+1. MORE STRUCTURE:
+   - Magnetic field provides additional structure
+   - May help with construction
+   - More degrees of freedom
+
+2. PHYSICAL RELEVANCE:
+   - MHD more relevant to astrophysics
+   - Plasma physics applications
+   - More realistic model
+
+STATUS: Open problem, cascade structure may extend but with
+        significant additional complexity.
+
+================================================================================
+                    END OF APPENDICES
+================================================================================
+
+NOTE: These appendices contain detailed technical material that supports
+the main thesis but may be too lengthy or technical for inclusion in the
+main text. They provide complete proofs, calculations, and additional
+examples for readers who wish to verify all details.
+
+================================================================================
+

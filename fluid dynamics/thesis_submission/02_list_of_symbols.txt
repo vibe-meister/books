@@ -1,0 +1,229 @@
+================================================================================
+                    LIST OF SYMBOLS AND NOTATION
+================================================================================
+
+AUTHOR: Shaun Robert DeArman
+THESIS: A Novel Cascade Blow-up Construction for the 3D Incompressible
+        Navier-Stokes Equations: The DeArman CASCADE Method
+DATE: December 19, 2025
+
+================================================================================
+                        VECTORS AND FIELDS
+================================================================================
+
+u(x,t)          Velocity field in original variables, u ∈ ℝ³
+v(y,τ)          Rescaled velocity field in similarity variables
+U_k(y_k)        Profile function for singularity k
+u_k(x,t)        Velocity field component for singularity k
+u_int(x,t)      Wave-mediated interaction field
+u₀(x)           Initial velocity field
+
+p(x,t)          Pressure field
+π(y,τ)          Rescaled pressure field
+P_k(y_k)        Profile pressure for singularity k
+p_wave(x,t)     Pressure wave component
+
+ω(x,t)          Vorticity field, ω = ∇×u
+ω_wave(x,t)     Vorticity wave component
+
+B(x,t)          Magnetic field (if MHD extension)
+E(x,t)          Electric field (if MHD extension)
+
+================================================================================
+                        SCALARS AND PARAMETERS
+================================================================================
+
+t               Time variable
+T               Blow-up time
+T_k             Blow-up time for singularity k
+τ               Rescaled time, τ = -log(T-t)
+τ_k             Rescaled time for singularity k
+
+x               Spatial variable, x ∈ ℝ³
+y               Rescaled spatial variable, y = x/√(T-t)
+y_k             Rescaled spatial variable for singularity k
+x_k             Location of singularity k
+
+r, θ, z         Cylindrical coordinates
+e_r, e_θ, e_z   Unit vectors in cylindrical coordinates
+
+α_k             Scaling exponent for intensity of singularity k
+β_k             Scaling exponent for spatial scale of singularity k
+α_max           Maximum scaling exponent among active singularities
+
+ν               Kinematic viscosity (scaled to 1)
+μ               Magnetic permeability (if MHD)
+η               Magnetic diffusivity (if MHD)
+ε₀              Electric permittivity (if MHD)
+
+================================================================================
+                        ENERGY AND NORMS
+================================================================================
+
+E_0             Total initial energy
+E_k(t)          Energy of singularity k at time t
+E_k⁰            Initial energy allocation for singularity k
+E_int(t)        Energy of interaction field at time t
+E_int⁰          Initial energy allocation for interaction field
+
+||·||_{L²}      L² norm
+||·||_{H^s}     Sobolev norm of order s
+||·||_{H²}      H² norm (second-order Sobolev)
+||·||_{L^∞}     L^∞ norm (supremum norm)
+||·||_{L²_w}    Weighted L² norm
+||·||_{X_k}     Norm on function space X_k
+
+M_k             Bound for ||v_k||_{H¹}
+M_k^(2)         Bound for ||v_k||_{H²}
+M_int            Bound for interaction field
+M_int^(1)       Bound for ||v_int||_{H¹}
+
+E_crit          Critical energy threshold for smallness condition
+
+================================================================================
+                        FUNCTION SPACES
+================================================================================
+
+X               Product space: X₁ × ∏_{k=2}^N X_k × X_int
+X₁              Function space for primary singularity
+X_k             Function space for secondary singularity k
+X_int            Function space for interaction field
+
+L²(ℝ³)          Square-integrable functions on ℝ³
+H^s(ℝ³)         Sobolev space of order s
+H^s_ax(ℝ³)      Axisymmetric Sobolev space
+L²_w            Weighted L² space with weight (1+|y|²)^δ
+C^∞(ℝ³)         Smooth (infinitely differentiable) functions
+C([0,T); H^s)   Continuous functions from [0,T) to H^s
+
+================================================================================
+                        OPERATORS
+================================================================================
+
+∇               Gradient operator
+∇·              Divergence operator
+∇×              Curl operator
+Δ               Laplacian operator, Δ = ∇²
+∂_t             Partial derivative with respect to time
+∂_r, ∂_z, ∂_θ   Partial derivatives in cylindrical coordinates
+
+L               Linearized operator: L = Δ - (1/2)y·∇ - (1/2)Id
+F               Fixed-point map: F: X → X
+P               Poincaré map
+S(τ)            Semigroup for rescaled NSE
+
+================================================================================
+                        CASCADE PARAMETERS
+================================================================================
+
+N               Number of singularities (primary + secondaries)
+k               Index for singularities, k = 1,2,...,N
+χ_k(t)          Activation function for secondary k
+
+I_wave(x,t)     Wave intensity function
+Θ_k             Wave intensity threshold for secondary k
+d               Minimum distance between singularities
+
+λ               Discrete self-similarity scaling factor
+T_λ             Period in rescaled time, T_λ = 2log(λ)
+
+δ               Weight exponent for weighted spaces, δ > 3/2
+α               Hölder exponent, α ∈ (0,1)
+ε               Small parameter, typically ε > 0
+
+================================================================================
+                        CONSTANTS
+================================================================================
+
+C               Generic constant (may vary by context)
+C_ell           Elliptic regularity constant
+C_Sob           Sobolev embedding constant
+C_Poincaré      Poincaré inequality constant
+C_wave          Wave coupling constant
+C_cascade       Cascade coupling constant
+C_par           Parabolic evolution constant
+C_Hölder        Hölder regularity constant
+C_decay         Decay estimate constant
+C_Agmon         Agmon-Douglis-Nirenberg constant
+C_Morrey        Morrey embedding constant
+
+C₁, C_k         Constants for primary and secondary k
+C_int           Constant for interaction field
+
+R_k             Support radius for singularity k
+
+================================================================================
+                        SPECIAL FUNCTIONS AND OBJECTS
+================================================================================
+
+K               Invariant set for fixed-point method
+({v_k*}, v_int*) Fixed point of the map F
+U_k*            Fixed-point profile function for singularity k
+
+B(x_k, r)       Ball of radius r centered at x_k
+supp(v_k)       Support of function v_k
+
+λ₁              First eigenvalue of -Δ on weighted space
+
+================================================================================
+                        PHYSICAL QUANTITIES
+================================================================================
+
+Re              Reynolds number, Re = UL/ν
+U               Characteristic velocity
+L               Characteristic length
+
+ρ               Fluid density (assumed constant, normalized to 1)
+J               Current density (if MHD)
+μ₀              Vacuum permeability (if MHD)
+
+================================================================================
+                        MATHEMATICAL RELATIONS
+================================================================================
+
+~               Asymptotically equivalent
+≲               Less than or equal to (up to constant)
+≈               Approximately equal
+→               Tends to, converges to
+∈               Element of
+⊂               Subset of
+×               Cartesian product
+Σ               Summation
+∏               Product
+∫               Integral
+∂               Partial derivative
+∇               Nabla operator
+
+================================================================================
+                        SUBSCRIPTS AND SUPERSCRIPTS
+================================================================================
+
+_k              Index for singularity k
+_1              Primary singularity
+_int            Interaction field
+_wave           Wave component
+_ax             Axisymmetric
+_w              Weighted space
+^(n)            Iteration n or power n
+^*              Fixed-point value
+⁰               Initial value
+^(2)            Second-order (for norms)
+
+================================================================================
+                        SPECIAL NOTATION
+================================================================================
+
+ℝ               Real numbers
+ℝ³              Three-dimensional Euclidean space
+𝕋³              Three-dimensional torus
+ℕ               Natural numbers
+ℕ₀              Natural numbers including zero
+
+Id              Identity operator
+O(·)            Big O notation
+o(·)            Little o notation
+
+================================================================================
+                        END OF SYMBOL LIST
+================================================================================
+

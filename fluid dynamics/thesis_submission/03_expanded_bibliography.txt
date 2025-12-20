@@ -1,0 +1,214 @@
+================================================================================
+                    EXPANDED BIBLIOGRAPHY
+================================================================================
+
+AUTHOR: Shaun Robert DeArman
+THESIS: A Novel Cascade Blow-up Construction for the 3D Incompressible
+        Navier-Stokes Equations: The DeArman CASCADE Method
+DATE: December 19, 2025
+
+================================================================================
+
+[1] Agmon, S., Douglis, A., & Nirenberg, L. (1959). Estimates near the boundary
+    for solutions of elliptic partial differential equations satisfying general
+    boundary conditions I. Communications on Pure and Applied Mathematics, 12,
+    623-727.
+
+[2] Caffarelli, L., Kohn, R., & Nirenberg, L. (1982). Partial regularity of
+    suitable weak solutions of the Navier-Stokes equations. Communications on
+    Pure and Applied Mathematics, 35(6), 771-831.
+
+[3] Clay Mathematics Institute. (2000). Millennium Prize Problems.
+    Retrieved from http://www.claymath.org/millennium-problems
+
+[4] Constantin, P., & Foias, C. (1988). Navier-Stokes Equations. Chicago:
+    University of Chicago Press.
+
+[5] Doering, C. R., & Gibbon, J. D. (1995). Applied Analysis of the Navier-Stokes
+    Equations. Cambridge: Cambridge University Press.
+
+[6] Escauriaza, L., Seregin, G., & Šverák, V. (2003). L_{3,∞}-solutions of
+    Navier-Stokes equations and backward uniqueness. Russian Mathematical
+    Surveys, 58(2), 211-250.
+
+[7] Fefferman, C. L. (2000). Existence and smoothness of the Navier-Stokes
+    equation. In J. Carlson, A. Jaffe, & A. Wiles (Eds.), The Millennium Prize
+    Problems (pp. 57-67). Providence, RI: American Mathematical Society.
+
+[8] Foias, C., Manley, O., Rosa, R., & Temam, R. (2001). Navier-Stokes Equations
+    and Turbulence. Cambridge: Cambridge University Press.
+
+[9] Galdi, G. P. (2011). An Introduction to the Mathematical Theory of the
+    Navier-Stokes Equations: Steady-State Problems (2nd ed.). New York: Springer.
+
+[10] Hopf, E. (1951). Über die Anfangswertaufgabe für die hydrodynamischen
+     Grundgleichungen. Mathematische Nachrichten, 4, 213-231.
+
+[11] Kato, T. (1984). Strong L^p-solutions of the Navier-Stokes equation in R^m,
+     with applications to weak solutions. Mathematische Zeitschrift, 187(4),
+     471-480.
+
+[12] Kolmogorov, A. N. (1941). The local structure of turbulence in
+     incompressible viscous fluid for very large Reynolds numbers. Doklady
+     Akademii Nauk SSSR, 30, 301-305. [English translation: Proceedings of the
+     Royal Society of London A, 434(1890), 9-13, 1991]
+
+[13] Ladyzhenskaya, O. A. (1969). The Mathematical Theory of Viscous
+     Incompressible Flow (2nd ed.). New York: Gordon and Breach.
+
+[14] Leray, J. (1934). Sur le mouvement d'un liquide visqueux emplissant
+     l'espace. Acta Mathematica, 63(1), 193-248.
+
+[15] Majda, A. J., & Bertozzi, A. L. (2002). Vorticity and Incompressible Flow.
+     Cambridge: Cambridge University Press.
+
+[16] Nečas, J., Růžička, M., & Šverák, V. (1996). On Leray's self-similar
+     solutions of the Navier-Stokes equations. Acta Mathematica, 176(2),
+     283-294.
+
+[17] Navier, C. L. M. H. (1822). Mémoire sur les lois du mouvement des fluides.
+     Mémoires de l'Académie Royale des Sciences de l'Institut de France, 6,
+     389-440.
+
+[18] Robinson, J. C., Rodrigo, J. L., & Sadowski, W. (2016). The Three-
+     Dimensional Navier-Stokes Equations: Classical Theory. Cambridge:
+     Cambridge University Press.
+
+[19] Seregin, G. (2014). Lecture Notes on Regularity Theory for the Navier-Stokes
+     Equations. Singapore: World Scientific.
+
+[20] Stokes, G. G. (1845). On the theories of the internal friction of fluids in
+     motion, and of the equilibrium and motion of elastic solids. Transactions
+     of the Cambridge Philosophical Society, 8, 287-319.
+
+[21] Temam, R. (2001). Navier-Stokes Equations: Theory and Numerical Analysis
+     (3rd ed.). Providence, RI: American Mathematical Society.
+
+[22] Tsai, T.-P. (1998). On Leray's self-similar solutions of the Navier-Stokes
+     equations satisfying local energy estimates. Archive for Rational Mechanics
+     and Analysis, 143(1), 29-51.
+
+[23] von Kármán, T. (1930). Mechanische Ähnlichkeit und Turbulenz. Nachrichten
+     von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-
+     Physikalische Klasse, 58-76.
+
+[24] Wiegner, M. (1987). Decay and stability in L^p for strong solutions of the
+     Cauchy problem for the Navier-Stokes equations. In H. Fujita (Ed.),
+     Nonlinear Partial Differential Equations and Their Applications (pp. 1-18).
+     Boston: Pitman.
+
+[25] Zeidler, E. (1995). Applied Functional Analysis: Applications to Mathematical
+     Physics. New York: Springer.
+
+================================================================================
+                    ADDITIONAL RELEVANT LITERATURE
+================================================================================
+
+[26] Beale, J. T., Kato, T., & Majda, A. (1984). Remarks on the breakdown of
+     smooth solutions for the 3-D Euler equations. Communications in Mathematical
+     Physics, 94(1), 61-66.
+
+[27] Bourgain, J., & Pavlović, N. (2008). Ill-posedness of the Navier-Stokes
+     equations in a critical space in 3D. Journal of Functional Analysis, 255(9),
+     2233-2247.
+
+[28] Buckmaster, T., & Vicol, V. (2019). Nonuniqueness of weak solutions to the
+     Navier-Stokes equation. Annals of Mathematics, 189(1), 101-144.
+
+[29] Caffarelli, L., & Vasseur, A. (2010). Drift diffusion equations with
+     fractional diffusion and the quasi-geostrophic equation. Annals of
+     Mathematics, 171(3), 1903-1930.
+
+[30] Chemin, J.-Y., & Gallagher, I. (2009). Wellposedness and stability results
+     for the Navier-Stokes equations in ℝ³. Annales de l'Institut Henri Poincaré
+     C, Analyse Non Linéaire, 26(2), 599-624.
+
+[31] Constantin, P. (2001). Some open problems and research directions in the
+     mathematical theory of fluids. In C. Fefferman, C. L. Fefferman, & S. Wainger
+     (Eds.), Selected Papers of Elias M. Stein (pp. 487-502). Princeton:
+     Princeton University Press.
+
+[32] Escauriaza, L., Seregin, G., & Šverák, V. (2006). Backward uniqueness for
+     parabolic equations. Archive for Rational Mechanics and Analysis, 169(2),
+     147-157.
+
+[33] Gallagher, I., Iftimie, D., & Planchon, F. (2003). Asymptotics and stability
+     for global solutions to the Navier-Stokes equations. Annales de l'Institut
+     Fourier, 53(5), 1387-1424.
+
+[34] Giga, Y. (1986). Solutions for semilinear parabolic equations in L^p and
+     regularity of weak solutions of the Navier-Stokes system. Journal of
+     Differential Equations, 62(2), 186-212.
+
+[35] Koch, H., & Tataru, D. (2001). Well-posedness for the Navier-Stokes
+     equations. Advances in Mathematics, 157(1), 22-35.
+
+[36] Lions, J.-L. (1996). Mathematical Topics in Fluid Mechanics: Volume 1:
+     Incompressible Models. Oxford: Clarendon Press.
+
+[37] Ponce, G., Racke, R., Sideris, T. C., & Titi, E. S. (1993). Global stability
+     of large solutions to the 3D Navier-Stokes equations. Communications in
+     Mathematical Physics, 159(2), 329-341.
+
+[38] Prodi, G. (1959). Un teorema di unicità per le equazioni di Navier-Stokes.
+     Annali di Matematica Pura ed Applicata, 48(1), 173-182.
+
+[39] Serrin, J. (1963). The initial value problem for the Navier-Stokes
+     equations. In R. E. Langer (Ed.), Nonlinear Problems (pp. 69-98). Madison:
+     University of Wisconsin Press.
+
+[40] Šverák, V. (2011). On Landau's solutions of the Navier-Stokes equations.
+     Journal of Mathematical Sciences, 179(1), 208-228.
+
+================================================================================
+                    MATHEMATICAL METHODS REFERENCES
+================================================================================
+
+[41] Adams, R. A., & Fournier, J. J. F. (2003). Sobolev Spaces (2nd ed.).
+     Amsterdam: Academic Press.
+
+[42] Brezis, H. (2011). Functional Analysis, Sobolev Spaces and Partial
+     Differential Equations. New York: Springer.
+
+[43] Evans, L. C. (2010). Partial Differential Equations (2nd ed.). Providence,
+     RI: American Mathematical Society.
+
+[44] Gilbarg, D., & Trudinger, N. S. (2001). Elliptic Partial Differential
+     Equations of Second Order (2nd ed.). Berlin: Springer.
+
+[45] Lions, J.-L., & Magenes, E. (1972). Non-Homogeneous Boundary Value Problems
+     and Applications (Vol. 1). Berlin: Springer.
+
+[46] Renardy, M., & Rogers, R. C. (2004). An Introduction to Partial
+     Differential Equations (2nd ed.). New York: Springer.
+
+[47] Taylor, M. E. (2011). Partial Differential Equations I: Basic Theory (2nd
+     ed.). New York: Springer.
+
+[48] Zeidler, E. (1986). Nonlinear Functional Analysis and Its Applications I:
+     Fixed-Point Theorems. New York: Springer.
+
+================================================================================
+                    FIXED-POINT AND DYNAMICAL SYSTEMS
+================================================================================
+
+[49] Crandall, M. G., & Rabinowitz, P. H. (1971). Bifurcation from simple
+     eigenvalues. Journal of Functional Analysis, 8(2), 321-340.
+
+[50] Krasnosel'skii, M. A. (1964). Topological Methods in the Theory of
+     Nonlinear Integral Equations. Oxford: Pergamon Press.
+
+[51] Schauder, J. (1930). Der Fixpunktsatz in Funktionalräumen. Studia
+     Mathematica, 2, 171-180.
+
+================================================================================
+                    END OF BIBLIOGRAPHY
+================================================================================
+
+NOTE: This bibliography includes foundational works on Navier-Stokes equations,
+self-similar blow-up theory, fixed-point methods, Sobolev spaces, and related
+mathematical tools. Additional references may be added as the work is published
+and peer-reviewed.
+
+================================================================================
+

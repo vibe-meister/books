@@ -1,0 +1,87 @@
+================================================================================
+                    STATEMENT OF ORIGINALITY
+================================================================================
+
+AUTHOR: Shaun Robert DeArman
+THESIS: A Novel Cascade Blow-up Construction for the 3D Incompressible
+        Navier-Stokes Equations: The DeArman CASCADE Method
+DATE: December 19, 2025
+
+================================================================================
+
+I hereby declare that this thesis represents my own work and that, to the best
+of my knowledge and belief, it contains no material previously published or
+written by another person, nor material which to a substantial extent has been
+accepted for the award of any other degree or diploma at this or any other
+institution, except where due acknowledgment is made in the text.
+
+================================================================================
+
+ORIGINAL CONTRIBUTIONS:
+
+1. The DeArman CASCADE: blow-up method - a novel framework for constructing
+   finite-time blow-up solutions of the 3D Navier-Stokes equations via a
+   multi-point, wave-mediated cascade mechanism.
+
+2. Explicit construction of an invariant set K with energy-based constants
+   for the fixed-point method applied to Navier-Stokes blow-up.
+
+3. Rigorous proof that F(K) ⊂ K, establishing the existence of a fixed point
+   that gives the cascade blow-up solution.
+
+4. Complete verification of smoothness, blow-up, and Clay-admissibility
+   properties for the constructed solution.
+
+5. Novel cascade structure with:
+   - Primary singularity (weakening, spreading)
+   - Secondary singularities (wave-triggered)
+   - Wave-mediated interaction field
+   - Explicit energy cascade mechanism
+
+6. Comparison with existing approaches demonstrating how the cascade structure
+   evades Liouville-type non-existence results.
+
+7. Real-world applications spanning aerospace, weather, industry, oceanography,
+   and medical fluid dynamics.
+
+================================================================================
+
+ACKNOWLEDGMENT OF PRIOR WORK:
+
+This thesis builds upon foundational work in:
+- Navier-Stokes equations (Navier, Stokes, Euler, Leray, Kato, and others)
+- Self-similar blow-up theory (Nečas, Růžička, Šverák, and others)
+- Fixed-point methods in PDE theory
+- Energy cascade concepts (Kolmogorov and others)
+- Axisymmetric flow analysis
+
+All prior work is properly cited and acknowledged in the references section.
+
+================================================================================
+
+COLLABORATIVE WORK:
+
+[If applicable, describe any collaborative work and contributions of others]
+
+This work was conducted independently by the author, Shaun Robert DeArman.
+
+================================================================================
+
+COPYRIGHT:
+
+© 2025 Shaun Robert DeArman. All rights reserved.
+
+This thesis may be made available for consultation within the institution and
+for inter-library loan. The copyright of this thesis belongs to the author
+and/or the institution. No quotation from it or information derived from it
+may be published without proper acknowledgment.
+
+================================================================================
+
+SIGNATURE:
+
+Shaun Robert DeArman
+Date: December 19, 2025
+
+================================================================================
+

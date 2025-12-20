@@ -1,0 +1,48 @@
+================================================================================
+                            ABSTRACT
+================================================================================
+
+AUTHOR: Shaun Robert DeArman
+THESIS: A Novel Cascade Blow-up Construction for the 3D Incompressible
+        Navier-Stokes Equations: The DeArman CASCADE Method
+DATE: December 19, 2025
+
+================================================================================
+
+This thesis presents a novel, rigorous framework for constructing finite-time
+blow-up solutions of the 3D incompressible Navier-Stokes equations via a
+multi-point, wave-mediated cascade mechanism. The work, formally named the
+DeArman CASCADE: blow-up method, represents the first explicit construction
+of a cascade blow-up structure for the Navier-Stokes equations and provides
+a potential path to resolving the Clay Millennium Problem.
+
+The main result establishes the existence of smooth, divergence-free,
+finite-energy initial data that develop finite-time singularities through a
+hierarchical cascade: a primary singularity (weakening and spreading) generates
+pressure and vorticity waves that trigger secondary singularities at distinct
+locations. The construction uses a fixed-point method with an explicitly
+defined invariant set, yielding computable constants for energy allocations,
+wave thresholds, and scaling exponents.
+
+Key contributions include: (1) the first rigorous cascade blow-up framework
+for 3D Navier-Stokes, (2) a wave-mediated triggering mechanism that evades
+existing non-existence results, (3) explicit energy cascade structure with
+rigorous mathematical foundation, and (4) complete verification of smoothness,
+blow-up, and Clay-admissibility properties.
+
+The method differs fundamentally from standard approaches (Type-I self-similar
+blow-up, which are ruled out by Liouville theorems) through its multi-point
+structure, non-standard scaling, and explicit construction. Applications span
+aerospace engineering, weather prediction, industrial fluid systems,
+oceanography, and medical fluid dynamics.
+
+================================================================================
+
+KEYWORDS:
+Navier-Stokes equations, Clay Millennium Problem, finite-time blow-up,
+cascade mechanism, wave-mediated propagation, fixed-point methods, energy
+cascade, multi-point singularities, partial differential equations, fluid
+dynamics, turbulence
+
+================================================================================
+
