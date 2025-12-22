@@ -1,0 +1,15 @@
+SECTION 4: BRAIN MAGNETIC FIELDS (MAGNETOENCEPHALOGRAPHY)
+
+What if I told you that every thought, every perception, every moment of consciousness produces a magnetic field that can be measured outside your head? You have probably never heard that Magnetoencephalography (MEG)—the measurement of the brain's magnetic fields—can detect neural activity with millisecond precision, providing a window into the workings of the mind that complements and sometimes surpasses other brain imaging methods.
+
+Imagine that your brain's magnetic field, while incredibly weak (about a billion times weaker than the heart's field), contains exquisitely detailed information about neural activity. Unlike fMRI, which shows where activity occurs with poor temporal resolution, MEG shows when activity occurs with millisecond precision. Unlike EEG, which is distorted by the skull, MEG provides clearer signals of brain activity.
+
+This section explores the magnetic fields produced by the human brain: how they were discovered, what they reveal about neural activity and consciousness, how they're measured with MEG, and what this tells us about the mind. You'll discover that the brain is not just a collection of neurons—it's a complex electromagnetic system, and its magnetic fields provide unique insights into consciousness, perception, and cognition.
+
+The brain's magnetic field represents one of the most challenging aspects of biomagnetism to measure, requiring the most sensitive instruments and carefully shielded environments. Yet the information it provides is unparalleled. MEG research has revealed details about brain function, consciousness states, and neural communication that other methods cannot detect.
+
+In this section, you'll encounter the science of brain magnetic fields: the measurements, the discoveries about neural activity, the insights into consciousness, and the applications in research and medicine. You'll also see how ancient observations about the "mind field," consciousness, and mental energy may correspond to measurable magnetic phenomena.
+
+How to use this section:
+The entries in this section are organized alphabetically by topic, measurement type, or application. Each entry explores different aspects of brain magnetic fields, from basic measurements to consciousness research to clinical applications. Read these entries to understand both what MEG reveals about the brain and what it tells us about the magnetic nature of mind and consciousness.
+

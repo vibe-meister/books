@@ -1,0 +1,202 @@
+**MEG: MEASURING BRAIN MAGNETIC FIELDS**
+
+Modern definition:
+Magnetoencephalography (MEG) is a non-invasive neuroimaging technique that measures the magnetic fields produced by neural activity in the brain. Using SQUID sensors, MEG can detect magnetic fields as weak as 10^-15 tesla (femtotesla), providing millisecond temporal resolution of brain activity with millimeter spatial resolution.
+
+Historical roots:
+The first measurement of brain magnetic fields was made by David Cohen at MIT in 1968, just after SQUID technology became available. Early MEG systems had single sensors; modern systems use hundreds of SQUID sensors arranged in helmet-like arrays. MEG technology has advanced significantly since the 1970s, with improvements in sensor arrays, signal processing, and source localization. The field has grown from basic research to clinical applications in epilepsy, brain mapping, and cognitive neuroscience.
+
+Ancient names & spellings:
+- Modern term: MEG, Magnetoencephalography
+- Related ancient concepts:
+  - Sanskrit: मनस (manas) - mind, relates to mental fields
+  - Chinese: 神 (shén) - spirit, consciousness, relates to mental energy
+
+How it was lost:
+Brain magnetic fields weren't "lost" but rather couldn't be measured until the 1960s. However: (1) Ancient observations about "mental energy," "mind fields," and consciousness were dismissed because they couldn't be measured, (2) The detailed understanding of mental fields in various traditions was lost when these observations were considered unscientific, (3) The relationship between mental fields and consciousness, perception, and cognition couldn't be studied scientifically until measurement was possible, and (4) Much knowledge about working with mental fields was lost during centuries when they were considered "mystical."
+
+Ties to the book:
+MEG measurement demonstrates that what ancient traditions called "mental energy" or "consciousness fields" may correspond to real, measurable magnetic phenomena. The ability to measure brain magnetic fields validates ancient observations while revealing new understanding of the magnetic nature of mind and consciousness.
+
+---
+
+THE TECHNOLOGY
+
+How MEG works:
+
+SQUID SENSORS:
+- Extremely sensitive magnetometers
+- Detect femtotesla fields
+- Array of sensors
+- Helmet-like configuration
+
+MEASUREMENT:
+- Magnetic fields from neural currents
+- Non-invasive
+- No radiation
+- Safe for repeated use
+
+TEMPORAL RESOLUTION:
+- Millisecond precision
+- Real-time brain activity
+- Excellent timing
+- Unique capability
+
+SPATIAL RESOLUTION:
+- Millimeter accuracy
+- Source localization
+- Brain mapping
+- Detailed imaging
+
+ADVANTAGES
+
+What makes MEG valuable:
+
+TEMPORAL PRECISION:
+- Millisecond resolution
+- Better than fMRI
+- Real-time activity
+- Unique capability
+
+NON-INVASIVE:
+- No radiation
+- No injections
+- Safe procedure
+- Can repeat
+
+DIRECT MEASUREMENT:
+- Measures neural activity directly
+- Not dependent on blood flow
+- More direct than fMRI
+- Clearer signals
+
+CLINICAL APPLICATIONS:
+- Epilepsy localization
+- Brain mapping
+- Surgical planning
+- Research tool
+
+LIMITATIONS
+
+Challenges with MEG:
+
+COST:
+- Extremely expensive
+- Limited facilities
+- High maintenance
+- Marginalizes field
+
+FACILITIES:
+- Requires magnetically shielded rooms
+- Specialized infrastructure
+- Limited availability
+- Access barriers
+
+COMPLEXITY:
+- Difficult to operate
+- Requires expertise
+- Technical challenges
+- Learning curve
+
+SIGNAL STRENGTH:
+- Very weak signals
+- Susceptible to noise
+- Requires shielding
+- Technical demands
+
+APPLICATIONS
+
+How MEG is used:
+
+EPILEPSY:
+- Localizing seizure sources
+- Surgical planning
+- Treatment guidance
+- Clinical value
+
+BRAIN MAPPING:
+- Functional localization
+- Research applications
+- Understanding function
+- Scientific tool
+
+COGNITIVE NEUROSCIENCE:
+- Studying cognition
+- Perception research
+- Consciousness studies
+- Research applications
+
+CLINICAL RESEARCH:
+- Understanding disorders
+- Treatment development
+- Research tool
+- Growing applications
+
+CONSCIOUSNESS RESEARCH
+
+MEG and understanding consciousness:
+
+NEURAL CORRELATES:
+- Measuring consciousness states
+- Awareness research
+- Understanding mind
+- Scientific exploration
+
+MEDITATION STUDIES:
+- Consciousness transformation
+- Altered states
+- Research applications
+- Validating practices
+
+PERCEPTION:
+- How we perceive
+- Sensory processing
+- Understanding experience
+- Research insights
+
+LOST KNOWLEDGE
+
+Ancient understanding that was lost:
+
+MENTAL FIELD OBSERVATIONS:
+- Descriptions of mind energy
+- Consciousness fields
+- Mental energy concepts
+- Lost when dismissed
+
+CONSCIOUSNESS RELATIONSHIPS:
+- Field and consciousness connections
+- Mental energy work
+- Consciousness practices
+- Lost knowledge
+
+WORKING WITH FIELDS:
+- Techniques for mental field work
+- Consciousness practices
+- Mental energy methods
+- Lost techniques
+
+MODERN RESEARCH
+
+Current understanding and directions:
+
+MEASUREMENT ADVANCES:
+- Improving technology
+- Better sensors
+- Enhanced resolution
+- Ongoing development
+
+CONSCIOUSNESS STUDIES:
+- Understanding mind
+- Awareness research
+- State studies
+- Ongoing exploration
+
+CLINICAL GROWTH:
+- More applications
+- Better understanding
+- Growing use
+- Future potential
+
+MEG represents a powerful tool for understanding the magnetic nature of brain activity and consciousness. The ability to measure brain magnetic fields with millisecond precision provides unique insights into neural activity, perception, and mind that complement other imaging methods. Ancient observations about "mental energy" and consciousness fields are being validated by modern MEG research, showing that what was called "mystical" corresponds to real, measurable magnetic phenomena underlying thought, perception, and awareness.
+
